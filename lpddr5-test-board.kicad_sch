@@ -2831,10 +2831,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061827943)
-    (property "Sheet name" "DDR4" (id 0) (at 119.38 175.4501 0)
+    (property "Sheet name" "DDR5 SODIMM" (id 0) (at 119.38 175.4501 0)
       (effects (font (size 2.0066 2.0066)) (justify left bottom))
     )
-    (property "Sheet file" "DDR4.kicad_sch" (id 1) (at 119.38 197.7292 0)
+    (property "Sheet file" "ddr5-sodimm.kicad_sch" (id 1) (at 119.38 197.7292 0)
       (effects (font (size 2.0066 2.0066)) (justify left top))
     )
   )
@@ -2879,10 +2879,10 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid fea793c3-bc28-42ef-95e7-45c2f3eee090)
-    (property "Sheet name" "PCIe" (id 0) (at 312.42 175.4534 0)
+    (property "Sheet name" "PCIe connector" (id 0) (at 312.42 175.4534 0)
       (effects (font (size 2 2)) (justify left bottom))
     )
-    (property "Sheet file" "fmc_hpc.kicad_sch" (id 1) (at 312.42 197.4346 0)
+    (property "Sheet file" "pcie-connector.kicad_sch" (id 1) (at 312.42 197.4346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -2990,9 +2990,6 @@
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006261a291"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2f4"
-      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060003077"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
@@ -3025,24 +3022,6 @@
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060ddb818"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2fa"
-      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd300"
-      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd306"
-      (reference "#PWR052") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd30c"
-      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd312"
-      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd318"
-      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000641da80c"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -3103,9 +3082,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00006230d58f"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/e21c348b-17cf-4b65-a59a-d961af2fa4f7"
-      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605b9f28"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
@@ -3545,84 +3521,6 @@
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006279f27c"
       (reference "#PWR0267") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd95"
-      (reference "#PWR0268") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd9b"
-      (reference "#PWR0269") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cda1"
-      (reference "#PWR0270") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cda7"
-      (reference "#PWR0271") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdad"
-      (reference "#PWR0272") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdb3"
-      (reference "#PWR0273") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdb9"
-      (reference "#PWR0274") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdfb"
-      (reference "#PWR0275") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce01"
-      (reference "#PWR0276") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce07"
-      (reference "#PWR0277") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce0d"
-      (reference "#PWR0278") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce13"
-      (reference "#PWR0279") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce19"
-      (reference "#PWR0280") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce5b"
-      (reference "#PWR0281") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce61"
-      (reference "#PWR0282") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce67"
-      (reference "#PWR0283") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce6d"
-      (reference "#PWR0284") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce73"
-      (reference "#PWR0285") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce79"
-      (reference "#PWR0286") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ceac"
-      (reference "#PWR0287") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ceb2"
-      (reference "#PWR0288") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ceb8"
-      (reference "#PWR0289") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cebe"
-      (reference "#PWR0290") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cec4"
-      (reference "#PWR0291") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cedc"
-      (reference "#PWR0292") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cee2"
-      (reference "#PWR0293") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062d9168f"
       (reference "#PWR0294") (unit 1) (value "GND") (footprint "")
     )
@@ -3691,9 +3589,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/0db962b8-ec55-43ef-8e19-2b6a581a291b"
       (reference "#PWR0316") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/61314eb4-d500-44e1-8478-55b54b033c70"
-      (reference "#PWR0317") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f982999/8a171f8d-8b2b-4a87-ae74-8d62c0354ea5"
       (reference "#PWR0318") (unit 1) (value "GNDD") (footprint "")
@@ -4421,12 +4316,6 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000634e3cb3"
       (reference "C152") (unit 1) (value "C_22u_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd6d"
-      (reference "C153") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd76"
-      (reference "C154") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000634e3ca1"
       (reference "C155") (unit 1) (value "C_22u_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
@@ -4442,47 +4331,8 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000612ec84f"
       (reference "C159") (unit 1) (value "C_22u_0603") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd7f"
-      (reference "C160") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd88"
-      (reference "C161") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd52"
-      (reference "C162") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd5b"
-      (reference "C163") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cd64"
-      (reference "C164") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdd4"
-      (reference "C165") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cddd"
-      (reference "C166") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cde6"
-      (reference "C167") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdef"
-      (reference "C168") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdc2"
-      (reference "C169") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cdcb"
-      (reference "C170") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce34"
-      (reference "C171") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603a0e92"
       (reference "C172") (unit 1) (value "C_4n7_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce3d"
-      (reference "C173") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c21"
       (reference "C174") (unit 1) (value "C_10n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
@@ -4490,23 +4340,11 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006039fe7b"
       (reference "C175") (unit 1) (value "C_47p_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce46"
-      (reference "C176") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce4f"
-      (reference "C177") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c09"
       (reference "C178") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce22"
-      (reference "C179") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603492a6"
       (reference "C180") (unit 1) (value "C_47u_0603") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce2b"
-      (reference "C181") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c14"
       (reference "C182") (unit 1) (value "C_47u_0603") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0603_1608Metric")
@@ -4559,53 +4397,11 @@
     (path "/e98c799f-d02e-47b6-ad5c-871bd722b830/512b5a81-d0e1-41cd-b88f-36dcbad2aff5"
       (reference "C198") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce8b"
-      (reference "C199") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce94"
-      (reference "C200") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce9d"
-      (reference "C201") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cea6"
-      (reference "C202") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce82"
-      (reference "C203") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265cecd"
-      (reference "C204") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ced6"
-      (reference "C205") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-0000625beb31"
       (reference "C206") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006261a29a"
       (reference "C207") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2cc"
-      (reference "C208") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2d5"
-      (reference "C209") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2de"
-      (reference "C210") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2e7"
-      (reference "C211") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2b1"
-      (reference "C212") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2ba"
-      (reference "C213") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000628cd2c3"
-      (reference "C214") (unit 1) (value "C_100n_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000630b1509"
       (reference "C215") (unit 1) (value "C_22u_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:C_0402_1005Metric")
@@ -5648,12 +5444,6 @@
     (path "/00000000-0000-0000-0000-00005f982999/f9ca75b3-97a4-4554-80cf-6527f4e8d49a"
       (reference "R156") (unit 1) (value "R_1k3_0603") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000061827943/d875da58-fe10-4bc7-b20c-e9aff2b9aed4"
-      (reference "R157") (unit 1) (value "R_0R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/78e7bcf3-19cc-4b2e-895e-3057ac3466a6"
-      (reference "R158") (unit 1) (value "R_0R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/174aa46a-3bca-447e-a533-bcc3f2bff1ef"
       (reference "R159") (unit 1) (value "R_49k9_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
     )
@@ -5728,12 +5518,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/d2044360-3297-4d59-999b-e77fd5aaa73d"
       (reference "R184") (unit 1) (value "R_1k_0603") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/1cca189a-95f7-48fd-9950-000ae1dc5688"
-      (reference "R185") (unit 1) (value "R_0R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/b7030bd2-e4ef-4e58-8332-6e405f4c200f"
-      (reference "R186") (unit 1) (value "R_100k_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/4b384b2d-ccb5-43df-a285-a476832f6bf1"
       (reference "R187") (unit 1) (value "R_330R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
@@ -5873,9 +5657,6 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006c3554ed"
       (reference "TP9") (unit 1) (value "TP_1mm_SMD") (footprint "data-center-rdimm-ddr4-tester-footprints:Testpoint_smd_1mm")
     )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000618505e7"
-      (reference "TP10") (unit 1) (value "TP_1mm_SMD") (footprint "data-center-rdimm-ddr4-tester-footprints:Testpoint_smd_1mm")
-    )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000625955fc"
       (reference "TP11") (unit 1) (value "TP_1mm_SMD") (footprint "data-center-rdimm-ddr4-tester-footprints:Testpoint_smd_1mm")
     )
@@ -5926,12 +5707,6 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/4c521272-d5d5-4cfc-b470-ab2af15608fd"
       (reference "U13") (unit 1) (value "TPS2372-3RGWR") (footprint "data-center-rdimm-ddr4-tester-footprints:VQFN-20_5x5x1mm_P0.65mm")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-000061972cda"
-      (reference "U14") (unit 1) (value "Bus_DDR4_2199155-1") (footprint "data-center-rdimm-ddr4-tester-footprints:Bus_DDR4_Socket_DIMM_2199155-1")
-    )
-    (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-000061972ce0"
-      (reference "U14") (unit 2) (value "Bus_DDR4_2199155-1") (footprint "data-center-rdimm-ddr4-tester-footprints:Bus_DDR4_Socket_DIMM_2199155-1")
     )
     (path "/00000000-0000-0000-0000-000061af7ff2/00000000-0000-0000-0000-000061b056ba"
       (reference "U15") (unit 1) (value "XC7K160T-FFG676") (footprint "data-center-rdimm-ddr4-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
