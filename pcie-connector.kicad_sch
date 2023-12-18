@@ -2130,7 +2130,7 @@
   (symbol (lib_id "antmicroPciConnectors:PCIe_x4_Conn_Edge") (at 173.355 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 03677037-7bb6-41ad-a547-02ff23264f1a)
-    (property "Reference" "J?" (id 0) (at 189.865 78.105 0)
+    (property "Reference" "J10" (id 0) (at 189.865 78.105 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "PCIe_x4_Conn_Edge" (id 1) (at 189.865 80.645 0)
