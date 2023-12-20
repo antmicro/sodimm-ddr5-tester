@@ -9590,8 +9590,8 @@
     (pin "5" (uuid 3f7f725f-4470-4917-84ce-1a9dc94c9ba9))
     (pin "6" (uuid 5c23b6f9-d052-48bc-8e6e-29931e1f4a8c))
     (pin "7" (uuid 90b6b79c-8f5b-4b62-8f4f-fce49f5a159e))
-    (pin "8" (uuid c616162a-d98a-44bf-bbac-a3b5ee1ce031))
-    (pin "8" (uuid c616162a-d98a-44bf-bbac-a3b5ee1ce031))
+    (pin "8" (uuid c616162a-d98a-44bf-bbac-a3b5ee1ce033))
+    (pin "8" (uuid c616162a-d98a-44bf-bbac-a3b5ee1ce033))
     (pin "9" (uuid 76b80ab2-c48c-4d9f-9923-7f8b2f74ab0a))
   )
 

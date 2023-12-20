@@ -82,7 +82,7 @@
 )
 
 (rule "DDR_50OHM_SE_BGA_L5" 
-	(constraint track_width (opt 0.09mm))
+	(constraint track_width (opt 0.1mm))
 	(constraint clearance (opt 0.1mm))
 	(condition "(A.NetClass == '40Ohm-se_DQ') && A.insideCourtyard('U15')")
 	(layer "In5.Cu")
@@ -116,7 +116,7 @@
 (rule "DDR_50OHM_SE_BGA_L2" 
 	(constraint track_width (opt 0.1mm))
 	(constraint clearance (opt 0.1mm))
-	(condition "(A.NetClass == '40Ohm-se_DQ') && A.insideCourtyard('U15')")
+	(condition "(A.NetClass == '40Ohm-se_DQ') && A.insideCourtyard('U3002')")
 	(layer "In2.Cu")
 )
 
