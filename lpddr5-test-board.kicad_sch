@@ -193,7 +193,6 @@
   )
 
 
-
   (image (at 38.1 271.6022) (scale 0.4)
     (uuid 9208dd25-2d26-4e14-8640-85c492ee3edf)
     (data
@@ -5081,9 +5080,6 @@
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061b03123"
       (reference "R9005") (unit 1) (value "R_4k7_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006157f999"
-      (reference "R9006") (unit 1) (value "R_10k_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-0000621fef1f"
       (reference "R9007") (unit 1) (value "R_0R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
