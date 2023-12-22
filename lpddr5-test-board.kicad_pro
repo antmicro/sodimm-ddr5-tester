@@ -545,17 +545,7 @@
           "DQS4_A_C",
           "DQS4_A_t",
           "DQS8_N",
-          "DQS8_P",
-          "DQS_0_B_C",
-          "DQS_0_B_t",
-          "DQS_1_B_C",
-          "DQS_1_B_t",
-          "DQS_2_B_C",
-          "DQS_2_B_t",
-          "DQS_3_B_C",
-          "DQS_3_B_t",
-          "DQS_4_B_C",
-          "DQS_4_B_t"
+          "DQS8_P"
         ],
         "pcb_color": "rgb(0, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -1937,7 +1927,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 20000,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
