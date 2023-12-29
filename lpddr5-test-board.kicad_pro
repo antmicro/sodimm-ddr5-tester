@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.12
         }
       },
@@ -766,8 +766,7 @@
           "/Supply/5V_local",
           "1V2_SYS",
           "1V8_FT",
-          "3V3_SYS",
-          "5V0_SYS"
+          "3V3_SYS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
