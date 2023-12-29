@@ -1,4 +1,4 @@
-# SODIMM DDR5 Tester
+# SO-DIMM DDR5 Tester
 
 Copyright (c) 2023 [Antmicro](https://antmicro.com)
 
@@ -6,7 +6,7 @@ Copyright (c) 2023 [Antmicro](https://antmicro.com)
 
 ## Overview
 
-This project contains open hardware KiCad design files for an experimental platform built around the Xilinx Kintex-7 FPGA which can be used to interface with SODIMM DDR5 RAM modules.
+This project contains open hardware KiCad design files for an experimental platform built around the Xilinx Kintex-7 FPGA, which can be used to interface with SO-DIMM DDR5 RAM modules.
 
 ## Project structure
 
@@ -16,12 +16,12 @@ The remaining files are stored in the following directories:
 * `lib` - contains the component libraries
 * `img` - contains graphics for this README
 
-## Key Features
+## Key features
 
 * Kintex-7 FPGA (XC7K160T-FFG676)
-* SODIMM DDR5 slot
+* SO-DIMM DDR5 slot
 * HDMI output connector
-* Ethernet RJ45 connector with 1GbE transciever
+* Ethernet RJ45 connector with 1GbE transceiver
 * USB-C debug connector with FT4232HQ FTDI USB controller
 * JTAG
 * microSD card slot
