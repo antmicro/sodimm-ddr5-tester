@@ -1,0 +1,2159 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.19999999999999998,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.049999999999999996,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.09999999999999999,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.09999999999999999,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 0.64,
+          "width": 0.59
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.12
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|111317500|109013500|ae8aa472-78e5-4a5b-9dac-674301bf2ab9|d0f3c8bd-1f91-4a5a-9f1d-c049da8cabce",
+        "clearance|112361500|90607500|f573b167-5fe0-489d-a608-dd800fab969c|c6951c5d-4231-40ad-a359-41e2442ebe14",
+        "clearance|112513500|92392500|728a6450-0593-491b-841d-adfca608b01c|7b0003e2-3708-4f3e-bd0a-4d970641e763",
+        "clearance|113182500|108886500|6930fcf6-62a8-489f-b09b-6bd339cf053a|ae9bfd7d-f14f-4062-939c-c3db70dd5bc6",
+        "clearance|119586500|82570500|8c5a30b3-2933-4267-932d-6c773a746361|20005eee-4a60-42e6-8d7e-f700b3558dd1",
+        "clearance|119738500|84429500|fee376df-3694-4ad2-991b-f12d0412f398|8d9c4b2f-835d-48c5-be1c-11c342d9f70d",
+        "clearance|123136500|87467500|76d2eed0-b067-4002-99e3-2f3d1fe67aac|bd74c5a7-bc10-424c-ab7b-c5822055acf1",
+        "clearance|123263500|89329500|9a31eb14-b9c8-4cab-be57-87444c2f36a0|72b94d78-b855-41dc-8a7c-4bb89857735d",
+        "clearance|130636500|82467500|e706c64f-54f6-43dc-844c-a32abb168edf|bdca6bd6-5a36-42b9-9535-a76c5fe0314a",
+        "clearance|130763500|84296500|cb59ad8d-ce7d-40d2-8239-8081988e7b8a|c25b7e76-7163-4db6-8e87-3204959fcbd3",
+        "clearance|131536500|98570500|b0518d18-b4ad-4f13-8f26-fe7510e363b0|986991f7-cfe5-48e5-8ca3-7c8dbbbd66dc",
+        "clearance|131663500|100429500|9a86352d-b9af-4323-affa-c29e8dff50e8|ba32d989-7ed4-4c20-9b06-45090e92b907",
+        "clearance|142967500|83763500|6736df62-059c-4643-a72f-f8a11b14dc47|11eba559-6d36-4a2d-a28a-f77643f0354f",
+        "clearance|144832500|83636500|770b6fa3-af60-4f9f-8114-3fda21300c2a|4c3dde3e-e497-4e08-ba3c-af7fb3d62420",
+        "clearance|151367500|121763500|646b1d49-a60a-4c81-b15e-66baf2d35ead|7868b5ef-b4f9-4643-aee0-1f2cb955ee46",
+        "clearance|153232500|121636500|6f12339e-b2e4-44b9-8469-361c986a0c8d|af90fc90-c79e-4400-ab0d-1acffd90d8f4",
+        "courtyards_overlap|237934150|122870001|41bac343-bc3f-4da2-b7bd-53e8e391d40c|ca6771c0-2600-4e60-bbcb-beb1870a80c5",
+        "courtyards_overlap|238769999|122830001|83dd7695-6fc2-4f67-a408-70055843b18a|ca6771c0-2600-4e60-bbcb-beb1870a80c5",
+        "courtyards_overlap|238769999|122870001|41bac343-bc3f-4da2-b7bd-53e8e391d40c|83dd7695-6fc2-4f67-a408-70055843b18a",
+        "courtyards_overlap|252237346|132800660|38f82805-441a-410b-a7af-e36242d1fc7e|7e318648-386f-4899-bd7b-5334f44e1937",
+        "hole_clearance|243150000|125210000|a9c33dc6-5013-4344-9579-6fad447ab9a3|492d2128-a16a-4ed3-9b7c-cdbf1ad07fd4"
+      ],
+      "meta": {
+        "filename": "board_design_settings.json",
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "copper_edge_clearance": "error",
+        "courtyards_overlap": "ignore",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "invalid_outline": "error",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "error",
+        "zone_has_empty_net": "error",
+        "zones_intersect": "error"
+      },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.09999999999999999,
+        "min_copper_edge_clearance": 0.39999999999999997,
+        "min_hole_clearance": 0.19999999999999998,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
+        "min_silk_clearance": 0.0,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.09999999999999999,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
+        "use_height_for_length_calcs": true
+      },
+      "track_widths": [
+        0.0,
+        0.1,
+        0.107,
+        0.114,
+        0.15,
+        0.177,
+        0.182,
+        0.198,
+        0.201,
+        0.256,
+        0.4,
+        2.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "ignore",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "ignore",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "sodimm-ddr5-tester.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff",
+        "nets": [
+          "/Ethernet/ETH1_N",
+          "/Ethernet/ETH1_P",
+          "/Ethernet/ETH2_N",
+          "/Ethernet/ETH2_P",
+          "/Ethernet/ETH3_N",
+          "/Ethernet/ETH3_P",
+          "/Ethernet/ETH4_N",
+          "/Ethernet/ETH4_P",
+          "C_TMDS_CLK_N",
+          "C_TMDS_CLK_P",
+          "C_TMDS_D0_N",
+          "C_TMDS_D0_P",
+          "C_TMDS_D1_N",
+          "C_TMDS_D1_P",
+          "C_TMDS_D2_N",
+          "C_TMDS_D2_P",
+          "TMDS_CLK_N",
+          "TMDS_CLK_P",
+          "TMDS_D0_N",
+          "TMDS_D0_P",
+          "TMDS_D1_N",
+          "TMDS_D1_P",
+          "TMDS_D2_N",
+          "TMDS_D2_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "40Ohm-se_DQ",
+        "nets": [
+          "DM0_A_n",
+          "DM0_B_n",
+          "DM1_A_n",
+          "DM1_B_n",
+          "DM2_A_n",
+          "DM2_B_n",
+          "DM3_A_n",
+          "DM3_B_n",
+          "DQ0_A",
+          "DQ0_B",
+          "DQ10_A",
+          "DQ10_B",
+          "DQ11_A",
+          "DQ11_B",
+          "DQ12_A",
+          "DQ12_B",
+          "DQ13_A",
+          "DQ13_B",
+          "DQ14_A",
+          "DQ14_B",
+          "DQ15_A",
+          "DQ15_B",
+          "DQ16_A",
+          "DQ16_B",
+          "DQ17_A",
+          "DQ17_B",
+          "DQ18_A",
+          "DQ18_B",
+          "DQ19_A",
+          "DQ19_B",
+          "DQ1_A",
+          "DQ1_B",
+          "DQ20_A",
+          "DQ20_B",
+          "DQ21_A",
+          "DQ21_B",
+          "DQ22_A",
+          "DQ22_B",
+          "DQ23_A",
+          "DQ23_B",
+          "DQ24_A",
+          "DQ24_B",
+          "DQ25_A",
+          "DQ25_B",
+          "DQ26_A",
+          "DQ26_B",
+          "DQ27_A",
+          "DQ27_B",
+          "DQ28_A",
+          "DQ28_B",
+          "DQ29_A",
+          "DQ29_B",
+          "DQ2_A",
+          "DQ2_B",
+          "DQ30_A",
+          "DQ30_B",
+          "DQ31_A",
+          "DQ31_B",
+          "DQ3_A",
+          "DQ3_B",
+          "DQ4_A",
+          "DQ4_B",
+          "DQ5_A",
+          "DQ5_B",
+          "DQ6_A",
+          "DQ6_B",
+          "DQ7_A",
+          "DQ7_B",
+          "DQ8_A",
+          "DQ8_B",
+          "DQ9_A",
+          "DQ9_B"
+        ],
+        "pcb_color": "rgb(255, 0, 214)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-se",
+        "nets": [
+          "ETH_INT_N",
+          "ETH_MDC",
+          "ETH_MDIO",
+          "ETH_REF_CLK",
+          "ETH_RSTN",
+          "ETH_RXD0",
+          "ETH_RXD1",
+          "ETH_RXD2",
+          "ETH_RXD3",
+          "ETH_RX_CLK",
+          "ETH_RX_DV",
+          "ETH_SEL",
+          "ETH_TXD0",
+          "ETH_TXD1",
+          "ETH_TXD2",
+          "ETH_TXD3",
+          "ETH_TX_CLK",
+          "ETH_TX_EN",
+          "HR_CKN",
+          "HR_CKP",
+          "HR_CS",
+          "HR_DQ0",
+          "HR_DQ1",
+          "HR_DQ2",
+          "HR_DQ3",
+          "HR_DQ4",
+          "HR_DQ5",
+          "HR_DQ6",
+          "HR_DQ7",
+          "HR_RST",
+          "HR_RW",
+          "QSPI_DQ0",
+          "QSPI_DQ1",
+          "QSPI_DQ2",
+          "QSPI_DQ3",
+          "SD_CD",
+          "SD_CLK",
+          "SD_CMD",
+          "SD_DAT0",
+          "SD_DAT1",
+          "SD_DAT2",
+          "SD_DAT3"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "80Ohm-diff_DQS",
+        "nets": [
+          "DQS0_A_N",
+          "DQS0_A_P",
+          "DQS1_A_N",
+          "DQS1_A_P",
+          "DQS2_A_N",
+          "DQS2_A_P",
+          "DQS3_A_N",
+          "DQS3_A_P",
+          "DQS_0_B_N",
+          "DQS_0_B_P",
+          "DQS_1_B_N",
+          "DQS_1_B_P",
+          "DQS_2_B_N",
+          "DQS_2_B_P",
+          "DQS_3_B_N",
+          "DQS_3_B_P",
+          "DQS_4_B_N",
+          "DQS_4_B_P"
+        ],
+        "pcb_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "85Ohm-diff_PCIe",
+        "nets": [
+          "/FPGA banks 115-116/GTR_REFCLK0_N",
+          "/FPGA banks 115-116/GTR_REFCLK0_P",
+          "/FPGA banks 115-116/GTR_REFCLK1_N",
+          "/FPGA banks 115-116/GTR_REFCLK1_P",
+          "/FPGA banks 115-116/GTR_REFCLK2_N",
+          "/FPGA banks 115-116/GTR_REFCLK2_P",
+          "/FPGA banks 115-116/GTR_REFCLK3_N",
+          "/FPGA banks 115-116/GTR_REFCLK3_P",
+          "GTR_REFCLK0_C_N",
+          "GTR_REFCLK0_C_P",
+          "GTX_RX0_N",
+          "GTX_RX0_P",
+          "GTX_RX1_N",
+          "GTX_RX1_P",
+          "GTX_RX2_N",
+          "GTX_RX2_P",
+          "GTX_RX3_N",
+          "GTX_RX3_P",
+          "GTX_RX4_N",
+          "GTX_RX4_P",
+          "GTX_RX5_N",
+          "GTX_RX5_P",
+          "GTX_RX6_N",
+          "GTX_RX6_P",
+          "GTX_RX7_N",
+          "GTX_RX7_P",
+          "GTX_TX0_N",
+          "GTX_TX0_P",
+          "GTX_TX1_N",
+          "GTX_TX1_P",
+          "GTX_TX2_N",
+          "GTX_TX2_P",
+          "GTX_TX3_N",
+          "GTX_TX3_P",
+          "GTX_TX4_N",
+          "GTX_TX4_P",
+          "GTX_TX5_N",
+          "GTX_TX5_P",
+          "GTX_TX6_N",
+          "GTX_TX6_P",
+          "GTX_TX7_N",
+          "GTX_TX7_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply",
+        "nets": [
+          "+1V0",
+          "+1V0_MGTAVCC",
+          "+1V2",
+          "+1V2_MGTAVTT",
+          "+1V8",
+          "+3V3",
+          "+5V",
+          "/Supply/1V0_BS",
+          "/Supply/1V0_FB",
+          "/Supply/1V0_REG",
+          "/Supply/1V0_SS",
+          "/Supply/1V0_SW",
+          "/Supply/1V0_VCC",
+          "/Supply/1V1_SEN_+",
+          "/Supply/1V1_SEN_-",
+          "/Supply/1V1_local",
+          "/Supply/1V2_SEN_+",
+          "/Supply/1V2_SEN_-",
+          "/Supply/1V2_local",
+          "/Supply/1V35_local",
+          "/Supply/1V7",
+          "/Supply/1V7_SEN_+",
+          "/Supply/1V7_SEN_-",
+          "/Supply/1V7_local",
+          "/Supply/1V8_SEN_+",
+          "/Supply/1V8_SEN_-",
+          "/Supply/1V8_local",
+          "/Supply/3V3_SEN_+",
+          "/Supply/3V3_SEN_-",
+          "/Supply/3V3_local",
+          "/Supply/3V3_local_2",
+          "/Supply/5V_SEN_+",
+          "/Supply/5V_SEN_-",
+          "/Supply/5V_local",
+          "1V2_SYS",
+          "1V8_FT",
+          "3V3_SYS"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH3_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH3_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH4_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH4_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH3_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH3_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH4_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/INT_ETH4_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_CLK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_CLK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_D0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_D0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_D1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_D1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_D2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "C_TMDS_D2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH3_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH3_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH4_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "EXT_ETH4_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_0"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_10_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_10_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_11_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_11_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_12_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_12_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_13_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_13_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_14_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_14_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_15_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_15_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_16_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_16_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_17_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_17_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_18_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_18_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_19_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_19_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_20_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_20_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_21_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_21_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_22_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_22_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_23_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_23_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_24_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_24_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_25"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_3_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_3_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_4_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_4_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_5_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_5_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_6_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_6_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_7_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_7_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_8_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_8_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_9_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "FMC_IO_9_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "HR_CKN"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "HR_CKP"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_CLK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_CLK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_D0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_D0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_D1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_D1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_D2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "TMDS_D2_P"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A1"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A10\\AP"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A11"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A12\\~{BC}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A13"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A17"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A2"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A3"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A4"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A5"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A6"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A7"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A8"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "A9"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "BA0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "BA1"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "BG0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "BG1"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB1"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB2"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB3"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB4"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB5"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB6"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CB7"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CKE0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "CKE1\\NC"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ1"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ10"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ11"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ12"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ13"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ14"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ15"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ16"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ17"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ18"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ19"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ2"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ20"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ21"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ22"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ23"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ24"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ25"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ26"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ27"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ28"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ29"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ3"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ30"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ31"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ32"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ33"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ34"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ35"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ36"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ37"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ38"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ39"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ4"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ40"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ41"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ42"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ43"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ44"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ45"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ46"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ47"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ48"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ49"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ5"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ50"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ51"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ52"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ53"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ54"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ55"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ56"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ57"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ58"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ59"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ6"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ60"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ61"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ62"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ63"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ7"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ8"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "DQ9"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_CS"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ1"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ2"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ3"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ4"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ5"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ6"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_DQ7"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_RST"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "HR_RW"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "NC\\C2"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "Net-(R163-Pad1)"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "ODT0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "ODT1\\NC"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "PARITY"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{ACT}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{ALERT}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{CAS}\\A15"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{CS0}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{CS1}\\NC"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{CS2}\\C0"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{CS3}\\C1,NC"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{EVENT}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{RAS}\\A16"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{RESET}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{SAVE}"
+      },
+      {
+        "netclass": "50Ohm-se_DQ",
+        "pattern": "~{WE}\\A14"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "CK0_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "CK0_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "CK1_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "CK1_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS0_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS0_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS10_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS10_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS11_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS11_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS12_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS12_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS13_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS13_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS14_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS14_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS15_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS15_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS16_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS16_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS17_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS17_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS1_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS1_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS2_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS2_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS3_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS3_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS4_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS4_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS5_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS5_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS6_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS6_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS7_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS7_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS8_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS8_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS9_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "DQS9_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTR_REFCLK0_R_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTR_REFCLK0_R_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX0_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX0_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX1_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX1_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX2_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX2_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX3_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX3_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX4_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX4_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX5_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX5_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX6_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX6_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX7_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC HPC/GTX_TX7_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA banks 115-116/GTR_REFCLK0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA banks 115-116/GTR_REFCLK0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTR_REFCLK0_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTR_REFCLK0_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX4_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX4_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX5_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX5_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX6_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX6_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX7_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_RX7_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX4_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX4_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX5_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX5_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX6_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX6_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX7_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "GTX_TX7_P"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "DBG_USB_N"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "DBG_USB_P"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/PAIR_12"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/PAIR_36"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/PAIR_78"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/PAIR_910"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/VDD"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/VDD_RAW"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/VSS"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/Ethernet/VSS_RAW"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "GNDD"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": "data-center-rdimm-ddr4-tester.wrl"
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 20000,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "Pcbnew",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "./doc",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "1faa6543-e26a-4449-8bac-ee14b9f19e5f",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005fea2994",
+      "HyperRAM"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fd53c7d",
+      "Config SPI flash"
+    ],
+    [
+      "00000000-0000-0000-0000-000061827943",
+      "DDR5 SODIMM"
+    ],
+    [
+      "00000000-0000-0000-0000-0000600295c1",
+      "FPGA power"
+    ],
+    [
+      "00000000-0000-0000-0000-0000600e76d8",
+      "Interfaces"
+    ],
+    [
+      "00000000-0000-0000-0000-000061af7ff2",
+      "FPGA banks 12-15"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f982999",
+      "Ethernet"
+    ],
+    [
+      "00000000-0000-0000-0000-000061b4860c",
+      "FPGA banks 16-34"
+    ],
+    [
+      "00000000-0000-0000-0000-000060225b0c",
+      "Supply"
+    ],
+    [
+      "e98c799f-d02e-47b6-ad5c-871bd722b830",
+      "FPGA banks 115-116"
+    ],
+    [
+      "fea793c3-bc28-42ef-95e7-45c2f3eee090",
+      "PCIe connector"
+    ]
+  ],
+  "text_variables": {}
+}
