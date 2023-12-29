@@ -2311,6 +2311,10 @@
     )
   )
 
+  (text "TODO: Add 960-27-12-D-AB-0" (at 166.37 290.195 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1ccdee9e-6801-4211-853d-fc6b8e68c022)
+  )
   (text "LPDDR5 test board" (at 172.085 35.56 0)
     (effects (font (size 3.9878 3.9878) (thickness 0.7976) bold) (justify left bottom))
     (uuid f82ea12b-8c64-4a5b-ac57-b419a8621567)
@@ -3815,6 +3819,12 @@
     (path "/fea793c3-bc28-42ef-95e7-45c2f3eee090/12aa1715-23f0-4d9b-9e7f-a652d10313c8"
       (reference "#PWR012005") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/47b13192-a107-4ce6-bb5d-5fd0a47ca217"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/8f9f0c69-0047-4e64-9cde-6c72079a626d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c36"
       (reference "1V0") (unit 1) (value "TP_1mm_SMD") (footprint "data-center-rdimm-ddr4-tester-footprints:Testpoint_smd_1mm")
     )
@@ -4697,6 +4707,9 @@
     (path "/00000000-0000-0000-0000-000060225b0c/cee4125e-0c56-4201-bb45-6ebb13e3fa58"
       (reference "Q10002") (unit 1) (value "SI7613DN-T1-GE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/62668937-d3d7-4941-aeaf-e20d26397f5b"
+      (reference "Q?") (unit 1) (value "BSS138PW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/229e8553-1652-4aab-b2d9-f6a357671f9c"
       (reference "R1001") (unit 1) (value "R_0R_22.4A_0603") (footprint "antmicro-footprints:R_0603_1608Metric")
     )
@@ -5125,6 +5138,9 @@
     )
     (path "/fea793c3-bc28-42ef-95e7-45c2f3eee090/851a193c-9f5b-4a41-9bde-7a7d389159fa"
       (reference "R12003") (unit 1) (value "R_33R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/635da235-874b-4788-b708-fed3d4b3b816"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/72b980fd-e4cb-4c6a-ac1f-b04708ae2ac5"
       (reference "SW1001") (unit 1) (value "SW_CVS-02B") (footprint "antmicro-footprints:SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm")
