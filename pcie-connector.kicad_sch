@@ -2226,7 +2226,7 @@
   (symbol (lib_id "sodimm-ddr5-tester:GND") (at 132.715 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8b872bed-7da7-44df-bbf6-f7d9f37ee9fe)
-    (property "Reference" "#PWR?" (id 0) (at 132.715 142.24 0)
+    (property "Reference" "#PWR0152" (id 0) (at 132.715 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 130.81 139.7 0)
