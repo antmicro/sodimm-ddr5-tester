@@ -1,6 +1,6 @@
 # SO-DIMM DDR5 Tester
 
-Copyright (c) 2023 [Antmicro](https://antmicro.com)
+Copyright (c) 2023-2024 [Antmicro](https://antmicro.com)
 
 ![](img/sodimm-ddr5-tester-vis.png)
 
