@@ -9177,6 +9177,10 @@
     )
   )
 
+  (hierarchical_label "DDR{I^{2}C}" (shape bidirectional) (at 358.14 105.41 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 19fa8d10-32ee-4aa1-8b21-68d10b150f62)
+  )
   (hierarchical_label "B{DDR5}" (shape input) (at 219.075 67.945 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 74a6b22e-e8cb-45ac-ae3c-c6fe8a98c213)

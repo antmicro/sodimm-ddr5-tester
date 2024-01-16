@@ -56,25 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|187768000|162065500|b618308b-26b1-4d16-b087-6e9dff6f6b79|42707358-20a6-452a-a7d8-b8c13785ca74",
-        "clearance|187787500|171764500|3953d505-09bc-4d06-b495-2fe637ebf2c5|e9be6145-fccc-4d63-924f-c4d0e9850a30",
-        "clearance|187787500|179563500|bc5a3191-a2cd-4141-a315-4f381b32e935|77932e11-917f-402c-8981-5c63924c97c8",
-        "clearance|187812500|189164500|b34ce4dd-2078-44cb-8ae9-0458ecf24e71|e5b38b44-5d95-42ba-9757-eea42a88a30a",
-        "clearance|189543000|161938500|bbd6bb3c-3e1f-401d-87b9-2c482d55c4f4|c97cc9d3-a738-4d5c-8406-27a222e3cf20",
-        "clearance|189562500|171637500|d683b160-3a5e-454e-8023-2ffe85206125|062173b1-ea30-408a-8292-702e2b023ac4",
-        "clearance|189562500|179436500|3558da4b-7d03-4e9c-99d1-9c64dc7d9fa9|3458451c-8f2e-4a10-b21d-a28feceea4cc",
-        "clearance|189587500|189037500|421d3686-1a4c-4a4b-972c-d457c4fde123|bbfa2522-b796-4bbc-8ff7-4b68e0271259",
-        "clearance|198112500|191389500|5de65903-0c8a-4477-acea-ae9408748e54|f0393adc-18b0-4c88-a161-41dd8f15b9cf",
-        "clearance|198164001|159763500|61fcc273-dde9-4bda-ba8f-edabc3909e44|f3ce16c5-ec21-4d0d-94d6-327c11e95250",
-        "clearance|198612500|177237500|0a3e9f86-8dc3-4d1d-a063-efe2ceb05a85|4bae871c-c380-46bf-b01a-71de4e9514dd",
-        "clearance|198637500|174038498|2b5c5142-7b59-4626-83fc-18c414dc9408|14c337c0-45b8-43bd-9663-8d42fb1367b8",
-        "clearance|199887500|191262500|b260a8cb-62ec-4ab9-8892-734307ae6a90|ea3d1d6f-811a-4eee-8db8-896ee7c9da22",
-        "clearance|199939001|159635500|edf939de-236d-4b63-8114-39063c05b07b|35649d96-1a16-4728-9e48-1b61f74067b5",
-        "clearance|200336500|173911498|672df094-cad7-4908-9e8b-776eed37f669|b2d202f7-1147-45d8-9fb4-71b5b579caca",
-        "clearance|200387500|177110500|2b81688c-53fb-4cf4-8c77-cfe857d762d1|4777fc89-4a9a-4213-8fa5-754de00f6c15",
-        "hole_clearance|79574000|126276000|c123db3b-34ae-4225-8cb7-127cf0ade24b|cc527d14-707c-4a41-b089-9ff47ebb8dd6"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -2047,11 +2029,11 @@
     ],
     [
       "00000000-0000-0000-0000-00005fea2994",
-      "HyperRAM"
+      "HyperRAM + QSPI Flash"
     ],
     [
       "00000000-0000-0000-0000-00005fd53c7d",
-      "Config SPI flash"
+      "FPGA Config"
     ],
     [
       "00000000-0000-0000-0000-000061827943",
@@ -2063,11 +2045,7 @@
     ],
     [
       "00000000-0000-0000-0000-0000600e76d8",
-      "Interfaces"
-    ],
-    [
-      "00000000-0000-0000-0000-000061af7ff2",
-      "FPGA banks 12-15"
+      "Debug FTDI"
     ],
     [
       "00000000-0000-0000-0000-00005f982999",
@@ -2075,7 +2053,7 @@
     ],
     [
       "00000000-0000-0000-0000-000061b4860c",
-      "FPGA banks 16-34"
+      "FPGA banks HP"
     ],
     [
       "00000000-0000-0000-0000-000060225b0c",
@@ -2083,11 +2061,35 @@
     ],
     [
       "e98c799f-d02e-47b6-ad5c-871bd722b830",
-      "FPGA banks 115-116"
+      "FPGA MGT Interface"
     ],
     [
       "fea793c3-bc28-42ef-95e7-45c2f3eee090",
       "PCIe connector"
+    ],
+    [
+      "38c9b230-412f-4879-8fc8-e1b4a3d643e0",
+      "FPGA bank 12"
+    ],
+    [
+      "e240eeea-be8a-4736-b415-db6627c3e732",
+      "FPGA banks unused"
+    ],
+    [
+      "34ebf93d-6b28-4c40-a799-aace59d6d135",
+      "FPGA bank 14"
+    ],
+    [
+      "c1ddaa09-f59e-4e22-abc1-585fde8776d6",
+      "FPGA bank 16"
+    ],
+    [
+      "3f0d6799-172b-44a7-b59e-98d6f5f3049b",
+      "I^{2}C"
+    ],
+    [
+      "59a8849d-b77a-4f79-b7ae-cd57b3cb4d28",
+      "HDMI + SD Card"
     ]
   ],
   "text_variables": {}
