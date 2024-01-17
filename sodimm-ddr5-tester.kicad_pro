@@ -73,7 +73,7 @@
         "clearance|199939001|159635500|edf939de-236d-4b63-8114-39063c05b07b|35649d96-1a16-4728-9e48-1b61f74067b5",
         "clearance|200336500|173911498|672df094-cad7-4908-9e8b-776eed37f669|b2d202f7-1147-45d8-9fb4-71b5b579caca",
         "clearance|200387500|177110500|2b81688c-53fb-4cf4-8c77-cfe857d762d1|4777fc89-4a9a-4213-8fa5-754de00f6c15",
-        "hole_clearance|79574000|126276000|c123db3b-34ae-4225-8cb7-127cf0ade24b|cc527d14-707c-4a41-b089-9ff47ebb8dd6"
+        "hole_clearance|79574000|126276000|c6086820-b2a3-4960-913a-5dfd0b68baa7|cc527d14-707c-4a41-b089-9ff47ebb8dd6"
       ],
       "meta": {
         "filename": "board_design_settings.json",
