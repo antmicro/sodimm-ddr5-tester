@@ -3,11 +3,11 @@
   (tedit 0)
   (descr "27mm x 27mm Heat Sink, BGA, Black Anodized Aluminum, Top Mount, Push Pin")
   (attr exclude_from_pos_files)
-  (fp_text reference "REF**" (at -18.642 13.304 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -21.8 unlocked) (layer "F.SilkS")
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 5c8b5dbc-e06b-4d55-ae9c-ee176782db2f)
   )
-  (fp_text value "Heatsink_960-27-12-D-AB-0" (at 9.228 -15.985 unlocked) (layer "F.Fab")
+  (fp_text value "Heatsink_960-27-12-D-AB-0" (at 0 22.6 unlocked) (layer "F.Fab")
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 31da6d51-e7af-4de4-81a7-898d26164fa7)
   )
@@ -879,7 +879,7 @@
       fe87da3c-42c7-44a9-a028-729b99f39390
     )
   )
-  (model "${KIPRJMOD}/lib/3d-models/960-27-12-D-AB-0.step"
+  (model "${KIPRJMOD}/lib/3d-models/Heatsink_960-27-12-D-AB-0.step"
     (offset (xyz 0.003 -0 2.85))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
