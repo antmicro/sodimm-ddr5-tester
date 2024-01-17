@@ -5049,14 +5049,14 @@
     (path "/00000000-0000-0000-0000-00005fd53c7d/51c01594-5605-49dd-bb68-807ce3e5c08a"
       (reference "J1") (unit 1) (value "PinHeader_2x7_P2mm_SMD_Shrouded_no-locator") (footprint "sodimm-ddr5-tester-footprints:PinHeader_2x7_P2mm_SMD_Shrouded_no-locator")
     )
-    (path "/00000000-0000-0000-0000-000061827943/2bf51c7f-6cd1-4ceb-87fe-4ce9322e89b0"
-      (reference "J2") (unit 1) (value "Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_2xDetectPin") (footprint "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF")
+    (path "/00000000-0000-0000-0000-000061827943/cc387871-0a34-404e-871e-68092e16f01f"
+      (reference "J2") (unit 1) (value "Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_CUSTOM_2xDetectPin") (footprint "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF")
     )
-    (path "/00000000-0000-0000-0000-000061827943/dc0ec0b4-d10b-43f1-9072-15ace28f35c2"
-      (reference "J2") (unit 2) (value "Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_2xDetectPin") (footprint "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF")
+    (path "/00000000-0000-0000-0000-000061827943/69843441-c88a-4df3-8108-f371d9a2ebbb"
+      (reference "J2") (unit 2) (value "Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_CUSTOM_2xDetectPin") (footprint "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF")
     )
-    (path "/00000000-0000-0000-0000-000061827943/bfba037f-b285-4758-9b7b-9a91989a8f70"
-      (reference "J2") (unit 3) (value "Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_2xDetectPin") (footprint "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF")
+    (path "/00000000-0000-0000-0000-000061827943/c813f99b-cdf4-4022-a11f-c419af74ddff"
+      (reference "J2") (unit 3) (value "Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_CUSTOM_2xDetectPin") (footprint "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/7b40bc8a-e69e-4d13-bfe9-68b0b4e303be"
       (reference "J3") (unit 1) (value "USB-C_USB4105-GF-A") (footprint "sodimm-ddr5-tester-footprints:USB-C_GCT_USB4105-GF-A")
@@ -5857,37 +5857,37 @@
       (reference "U3") (unit 1) (value "S25FL128SAGNFI000") (footprint "sodimm-ddr5-tester-footprints:WSON-8_6x8x0.5mm_P1.27mm")
     )
     (path "/38c9b230-412f-4879-8fc8-e1b4a3d643e0/d23ed296-9670-45df-8701-39fa5224b7e0"
-      (reference "U4") (unit 1) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 1) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/e240eeea-be8a-4736-b415-db6627c3e732/afe83e67-ee4e-4a23-a96a-4b2c12ede8cf"
-      (reference "U4") (unit 2) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 2) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/34ebf93d-6b28-4c40-a799-aace59d6d135/524203df-f3d6-4247-97e5-d06774771699"
-      (reference "U4") (unit 3) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 3) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/e240eeea-be8a-4736-b415-db6627c3e732/5c0163a7-aefa-4cff-b9f8-1703fd2c73ec"
-      (reference "U4") (unit 4) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 4) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/c1ddaa09-f59e-4e22-abc1-585fde8776d6/a5605734-4109-4e39-b311-0be34bed36cf"
-      (reference "U4") (unit 5) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 5) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061b4f8cf"
-      (reference "U4") (unit 6) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 6) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/2bedf1f7-b362-4ada-8e30-6213e332a6d7"
-      (reference "U4") (unit 7) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 7) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/95b31709-f441-4e87-bf15-80acfeeff660"
-      (reference "U4") (unit 8) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 8) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/e98c799f-d02e-47b6-ad5c-871bd722b830/a04f8c01-14b0-4b82-b9e7-6508e34802c7"
-      (reference "U4") (unit 9) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 9) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000610ca79c"
-      (reference "U4") (unit 10) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 10) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000617a1fb1"
-      (reference "U4") (unit 11) (value "XC7K160T-FFG676") (footprint "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
+      (reference "U4") (unit 11) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/6906f6d2-3146-49ec-9444-c96c2738addb"
       (reference "U5") (unit 1) (value "NCP718BSN330T1G") (footprint "sodimm-ddr5-tester-footprints:SOT-23-5")
