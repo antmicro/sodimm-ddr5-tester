@@ -15769,7 +15769,7 @@
   (symbol (lib_id "sodimm-ddr5-tester:+1V0") (at 88.265 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 59de1abb-5793-4659-8c68-bc0b86e2eac9)
-    (property "Reference" "#PWR?" (id 0) (at 88.265 29.21 0)
+    (property "Reference" "#PWR0190" (id 0) (at 88.265 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V0" (id 1) (at 88.265 19.685 0))

@@ -3567,7 +3567,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 559937a7-632e-40b2-99b0-ce4b0b017036)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.8658 97.2344 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
   )
 

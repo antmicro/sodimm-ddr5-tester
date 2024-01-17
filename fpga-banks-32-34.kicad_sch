@@ -8059,7 +8059,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1a9e8c05-3832-4abf-bda7-e46c9600ebb1)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 322.4934 230.5844 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
   )
 
