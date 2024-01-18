@@ -931,7 +931,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Heatsink_960-27-12-D-AB-0" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Heatsink_960-27-12-D-AB-0" 
             (id 2) 
             (at 17.78 -10.16 0) 
             (effects 
@@ -1046,7 +1046,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:Mech_Lightpipe_Mentor_1296.2013" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Mech_Lightpipe_Mentor_1296.2013" 
             (id 2) 
             (at 20.32 -7.62 0) 
             (effects 
@@ -1155,7 +1155,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -1249,7 +1249,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:QFN-48-1EP_7x7x0.9mm_P0.5mm_EP3.5x3.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:QFN-48-1EP_7x7x0.9mm_P0.5mm_EP3.5x3.5mm" 
             (id 2) 
             (at 76.2 -10.16 0) 
             (effects 
@@ -1890,7 +1890,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -2055,7 +2055,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -2155,7 +2155,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -2255,7 +2255,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -2355,7 +2355,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -2448,7 +2448,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -2541,7 +2541,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -2730,7 +2730,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:FB_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:FB_0603_1608Metric" 
             (id 2) 
             (at 15.24 -7.62 0) 
             (effects 
@@ -2815,7 +2815,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -3015,7 +3015,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -3239,7 +3239,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm" 
             (id 2) 
             (at 15.24 -15.24 0) 
             (effects 
@@ -3325,7 +3325,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -3419,7 +3419,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:RJ45_5-2337992-8_Horizontal" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:RJ45_5-2337992-8_Horizontal" 
             (id 2) 
             (at 35.56 -7.62 0) 
             (effects 
@@ -3860,7 +3860,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -3955,7 +3955,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:LED_0603_1608Metric_G" 
             (id 2) 
             (at 22.86 -10.16 0) 
             (effects 
@@ -4109,7 +4109,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SC70-3" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SC70-3" 
             (id 2) 
             (at 22.86 -11.43 0) 
             (effects 
@@ -4397,7 +4397,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -4499,7 +4499,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:BGA-676_27x27mm_Layout26x26_P1X1mm" 
             (id 2) 
             (at 68.58 -2.54 0) 
             (effects 
@@ -12317,7 +12317,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm" 
             (id 2) 
             (at 26.67 -7.62 0) 
             (effects 
@@ -12639,7 +12639,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:PinHeader_2x7_P2mm_SMD_Shrouded_no-locator" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:PinHeader_2x7_P2mm_SMD_Shrouded_no-locator" 
             (id 2) 
             (at 25.4 -7.62 0) 
             (effects 
@@ -13008,7 +13008,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:USON-10_2.5x1mm_P0.5mm" 
             (id 2) 
             (at 24.13 -5.08 0) 
             (effects 
@@ -13446,7 +13446,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SW_KMR211NGLFS_SMD" 
             (id 2) 
             (at 25.4 -10.16 0) 
             (effects 
@@ -13597,7 +13597,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0603_1608Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -13697,7 +13697,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -13790,7 +13790,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -13884,7 +13884,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:WSON-8_6x8x0.5mm_P1.27mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:WSON-8_6x8x0.5mm_P1.27mm" 
             (id 2) 
             (at 45.72 -7.62 0) 
             (effects 
@@ -14072,7 +14072,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:FBGA-25-24_6x8mm_Layout5x5_P1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:FBGA-25-24_6x8mm_Layout5x5_P1mm" 
             (id 2) 
             (at 45.72 -12.7 0) 
             (effects 
@@ -14424,6 +14424,394 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "+1V8" 
+        (power) 
+        (pin_numbers hide) 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 15.24 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Value" "+1V8" 
+            (id 1) 
+            (at 15.24 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 4) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 5) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "+1V8_1_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) 
+                (name "+1V8" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V0" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V0" 
+            (id 1) 
+            (at 0 3.556 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V0_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V0_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V0" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V0_MGTAVCC" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR?" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V0_MGTAVCC" 
+            (id 1) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V0_MGTAVCC_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V0_MGTAVCC_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V0_MGTAVCC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V1" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V1" 
+            (id 1) 
+            (at 0 3.556 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V1_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V1_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V2_MGTAVTT" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR?" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V2_MGTAVTT" 
+            (id 1) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V2_MGTAVTT_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V2_MGTAVTT_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V2_MGTAVTT" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "C_Pol_1m_2.5V_KEMET-T520-D" 
         (extends "C_template_name_pol") 
         (property "Reference" "C" 
@@ -14728,7 +15116,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -14821,7 +15209,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:TP_SMD_1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:TP_SMD_1mm" 
             (id 2) 
             (at 15.24 -10.16 0) 
             (effects 
@@ -14895,7 +15283,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -14988,7 +15376,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0603_1608Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -15089,7 +15477,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:DHVQFN-14-1EP_2.5x3mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:DHVQFN-14-1EP_2.5x3mm" 
             (id 2) 
             (at 31.75 -5.08 0) 
             (effects 
@@ -15506,7 +15894,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOD-523" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SOD-523" 
             (id 2) 
             (at 21.59 -10.16 0) 
             (effects 
@@ -15653,7 +16041,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm" 
             (id 2) 
             (at 15.24 -15.24 0) 
             (effects 
@@ -15739,7 +16127,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -15839,7 +16227,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -15933,7 +16321,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-23-5" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SOT-23-5" 
             (id 2) 
             (at 35.56 -8.89 0) 
             (effects 
@@ -16077,7 +16465,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:USB-C_Receptacle_GCT_USB4105-GF-A" 
             (id 2) 
             (at 38.1 -7.62 0) 
             (effects 
@@ -16519,7 +16907,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:FB_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:FB_0603_1608Metric" 
             (id 2) 
             (at 15.24 -7.62 0) 
             (effects 
@@ -16605,7 +16993,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:X1QFN-16-1EP_2.5x2.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:X1QFN-16-1EP_2.5x2.5mm" 
             (id 2) 
             (at 35.56 -10.16 0) 
             (effects 
@@ -16875,7 +17263,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:QFN-56-1EP_8x8mm_P0.5mm" 
             (id 2) 
             (at 55.88 -7.62 0) 
             (effects 
@@ -17590,7 +17978,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -17684,7 +18072,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm" 
             (id 2) 
             (at 38.1 -7.62 0) 
             (effects 
@@ -17947,79 +18335,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "+1V2_MGTAVTT" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR?" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V2_MGTAVTT" 
-            (id 1) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V2_MGTAVTT_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V2_MGTAVTT_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V2_MGTAVTT" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "VDC" 
         (power) 
         (pin_names 
@@ -18111,7 +18426,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0603_1608Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -18211,7 +18526,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0805_2012Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0805_2012Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -18311,7 +18626,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_1206_3216Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_1206_3216Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -18405,7 +18720,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-23-6" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SOT-23-6" 
             (id 2) 
             (at 25.4 -10.16 0) 
             (effects 
@@ -18566,7 +18881,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:LGA-33_7x7mm_P0.65mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:LGA-33_7x7mm_P0.65mm" 
             (id 2) 
             (at 46.99 -7.62 0) 
             (effects 
@@ -19062,175 +19377,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "+1V0_MGTAVCC" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR?" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V0_MGTAVCC" 
-            (id 1) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V0_MGTAVCC_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V0_MGTAVCC_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V0_MGTAVCC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V8" 
-        (power) 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 15.24 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Value" "+1V8" 
-            (id 1) 
-            (at 15.24 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 4) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 5) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (symbol "+1V8_1_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) 
-                (name "+1V8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "Net-Tie_2" 
         (pin_numbers hide) 
         (pin_names hide) 
@@ -19367,7 +19513,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:TP_1206_SMD_RCW-0C" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:TP_1206_SMD_RCW-0C" 
             (id 2) 
             (at 17.78 -10.16 0) 
             (effects 
@@ -19445,7 +19591,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -19527,152 +19673,6 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
-    (symbol "+1V1" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V1" 
-            (id 1) 
-            (at 0 3.556 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V1_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V1_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V0" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V0" 
-            (id 1) 
-            (at 0 3.556 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V0_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V0_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V0" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "C_1u_0402" 
         (extends "C_template_name_0402") 
         (property "Reference" "C" 
@@ -19691,7 +19691,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -19773,102 +19773,6 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
-    (symbol "+5V" 
-        (power) 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 15.24 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Value" "+5V" 
-            (id 1) 
-            (at 15.24 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 4) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 5) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (symbol "+5V_1_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) 
-                (name "+5V" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "PTC_4.5A_1206" 
         (pin_numbers hide) 
         (pin_names hide) 
@@ -19890,7 +19794,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:F_1206_3216Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:F_1206_3216Metric" 
             (id 2) 
             (at 13.97 -5.08 0) 
             (effects 
@@ -19993,6 +19897,102 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "+5V" 
+        (power) 
+        (pin_numbers hide) 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 15.24 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Value" "+5V" 
+            (id 1) 
+            (at 15.24 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 4) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 5) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "+5V_1_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) 
+                (name "+5V" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "+12V" 
         (power) 
         (pin_names 
@@ -20085,7 +20085,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:MPS_QFN-14_MP8869S" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:MPS_QFN-14_MP8869S" 
             (id 2) 
             (at 25.4 -11.43 0) 
             (effects 
@@ -20333,7 +20333,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0603_1608Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -20436,7 +20436,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Vishay_PowerPAK_1212-8_Single" 
             (id 2) 
             (at 15.24 1.27 0) 
             (effects 
@@ -20748,7 +20748,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN" 
             (id 2) 
             (at 20.32 -10.16 0) 
             (effects 
@@ -20937,7 +20937,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-23-6" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SOT-23-6" 
             (id 2) 
             (at 31.75 -8.89 0) 
             (effects 
@@ -21166,7 +21166,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" 
             (id 2) 
             (at 33.02 -10.16 0) 
             (effects 
@@ -21339,7 +21339,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:ESDA25P35-1U1M" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:ESDA25P35-1U1M" 
             (id 2) 
             (at 24.13 -10.16 0) 
             (effects 
@@ -21495,7 +21495,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:R_0603_1608Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0603_1608Metric" 
             (id 2) 
             (at 15.24 -10.16 0) 
             (effects 
@@ -21589,7 +21589,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -21684,7 +21684,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:BarrelJack_3167288_Horizontal" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:BarrelJack_3167288_Horizontal" 
             (id 2) 
             (at 17.78 -10.16 0) 
             (effects 
@@ -21908,7 +21908,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-143-4" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SOT-143-4" 
             (id 2) 
             (at 30.48 -7.62 0) 
             (effects 
@@ -22042,7 +22042,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SW_DIP_SPSTx08_Slide_Copal_CVS-08xB_W5.9mm_P1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SW_DIP_SPSTx08_Slide_Copal_CVS-08xB_W5.9mm_P1mm" 
             (id 2) 
             (at 26.67 -7.62 0) 
             (effects 
@@ -22715,7 +22715,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-23-6" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SOT-23-6" 
             (id 2) 
             (at 31.75 -7.62 0) 
             (effects 
@@ -22866,7 +22866,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:L_Bourns-SRP6050CA" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:L_Bourns-SRP6050CA" 
             (id 2) 
             (at 13.97 -7.62 0) 
             (effects 
@@ -22975,7 +22975,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:C_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_0402_1005Metric" 
             (id 2) 
             (at 20.32 -12.7 0) 
             (effects 
@@ -23076,7 +23076,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:Torex_USP-6C" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Torex_USP-6C" 
             (id 2) 
             (at 30.48 -7.62 0) 
             (effects 
@@ -23242,7 +23242,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF" 
             (id 2) 
             (at 50.8 -10.16 0) 
             (effects 
@@ -26368,7 +26368,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:LED_RGY_1.6x1.6mm_APTF1616" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:LED_RGY_1.6x1.6mm_APTF1616" 
             (id 2) 
             (at 33.02 -8.89 0) 
             (effects 
@@ -26815,7 +26815,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:VSSOP-8_2.3x2mm_P0.5mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:VSSOP-8_2.3x2mm_P0.5mm" 
             (id 2) 
             (at 41.91 -7.62 0) 
             (effects 
@@ -27192,7 +27192,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:TSSOP-8_3x3mm_P0.65mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:TSSOP-8_3x3mm_P0.65mm" 
             (id 2) 
             (at 33.02 -7.62 0) 
             (effects 
@@ -27368,7 +27368,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:R_0402_1005Metric" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -27462,7 +27462,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:HDMI-A_Receptacle_WE_685119134923" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:HDMI-A_Receptacle_WE_685119134923" 
             (id 2) 
             (at 35.56 -7.62 0) 
             (effects 
@@ -27868,7 +27868,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:MicroSD_Wurth_693071020811" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:MicroSD_Wurth_693071020811" 
             (id 2) 
             (at 55.88 -7.62 0) 
             (effects 
@@ -28162,7 +28162,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Oscillator_SMD_Abracon_ASFL1-4Pin_5.0x3.2mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Oscillator_SMD_Abracon_ASFL1-4Pin_5.0x3.2mm" 
             (id 2) 
             (at 26.035 -14.605 0) 
             (effects 
@@ -28249,7 +28249,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm" 
             (id 2) 
             (at 26.67 -7.62 0) 
             (effects 
@@ -28495,7 +28495,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "antmicro-footprints:Edge_Conn_Bus_PCIexpress_x4" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:Edge_Conn_Bus_PCIexpress_x4" 
             (id 2) 
             (at 48.26 -10.16 0) 
             (effects 

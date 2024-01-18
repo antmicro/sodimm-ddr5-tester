@@ -15467,6 +15467,394 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "+1V8" 
+        (power) 
+        (pin_numbers hide) 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 15.24 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Value" "+1V8" 
+            (id 1) 
+            (at 15.24 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 4) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 5) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "+1V8_1_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) 
+                (name "+1V8" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V0" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V0" 
+            (id 1) 
+            (at 0 3.556 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V0_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V0_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V0" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V0_MGTAVCC" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR?" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V0_MGTAVCC" 
+            (id 1) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V0_MGTAVCC_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V0_MGTAVCC_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V0_MGTAVCC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V1" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V1" 
+            (id 1) 
+            (at 0 3.556 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V1_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V1_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V2_MGTAVTT" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR?" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V2_MGTAVTT" 
+            (id 1) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V2_MGTAVTT_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V2_MGTAVTT_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V2_MGTAVTT" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "C_Pol_1m_2.5V_KEMET-T520-D" 
         (extends "C_template_name_pol") 
         (property "Reference" "C" 
@@ -18990,79 +19378,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "+1V2_MGTAVTT" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR?" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V2_MGTAVTT" 
-            (id 1) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V2_MGTAVTT_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V2_MGTAVTT_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V2_MGTAVTT" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "VDC" 
         (power) 
         (pin_names 
@@ -20105,175 +20420,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "+1V0_MGTAVCC" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR?" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V0_MGTAVCC" 
-            (id 1) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V0_MGTAVCC_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V0_MGTAVCC_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V0_MGTAVCC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V8" 
-        (power) 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 15.24 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Value" "+1V8" 
-            (id 1) 
-            (at 15.24 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 4) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 5) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (symbol "+1V8_1_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) 
-                (name "+1V8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "Net-Tie_2" 
         (pin_numbers hide) 
         (pin_names hide) 
@@ -20570,152 +20716,6 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
-    (symbol "+1V1" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V1" 
-            (id 1) 
-            (at 0 3.556 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V1_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V1_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V0" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V0" 
-            (id 1) 
-            (at 0 3.556 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V0_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V0_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V0" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "C_1u_0402" 
         (extends "C_template_name_0402") 
         (property "Reference" "C" 
@@ -20816,102 +20816,6 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
-    (symbol "+5V" 
-        (power) 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 15.24 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Value" "+5V" 
-            (id 1) 
-            (at 15.24 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 4) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 5) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (symbol "+5V_1_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) 
-                (name "+5V" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "PTC_4.5A_1206" 
         (pin_numbers hide) 
         (pin_names hide) 
@@ -21033,6 +20937,102 @@
                         (font 
                             (size 1.27 1.27)))) 
                 (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+5V" 
+        (power) 
+        (pin_numbers hide) 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 15.24 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Value" "+5V" 
+            (id 1) 
+            (at 15.24 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 4) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 5) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "+5V_1_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) 
+                (name "+5V" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
