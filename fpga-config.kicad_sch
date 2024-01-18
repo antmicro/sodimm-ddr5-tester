@@ -5,784 +5,12 @@
     (paper "A3") 
     (title_block 
         (title "SO-DIMM DDR5 Tester") 
-        (date "2024-01-10") 
-        (rev "1.1.0") 
+        (date "2024-01-18") 
+        (rev "1.1.1") 
         (company "Antmicro Ltd.") 
         (comment 1 "www.antmicro.com") 
         (comment 2 "Antmicro Ltd")) 
     (lib_symbols 
-        (symbol "sodimm-ddr5-tester:+3.3V" 
-            (power) 
-            (pin_names 
-                (offset 0)) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "#PWR" 
-                (id 0) 
-                (at 0 -3.81 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Value" "+3.3V" 
-                (id 1) 
-                (at 0 3.556 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Footprint" "" 
-                (id 2) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "+3.3V_0_1" 
-                (polyline 
-                    (pts 
-                        (xy -0.762 1.27) 
-                        (xy 0 2.54)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 0 0) 
-                        (xy 0 2.54)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 0 2.54) 
-                        (xy 0.762 1.27)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "+3.3V_1_1" 
-                (pin power_in line 
-                    (at 0 0 90) 
-                    (length 0) hide 
-                    (name "+3V3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:+3V3" 
-            (power) 
-            (pin_names 
-                (offset 0)) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "#PWR" 
-                (id 0) 
-                (at 0 -3.81 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Value" "+3V3" 
-                (id 1) 
-                (at 0 3.556 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Footprint" "" 
-                (id 2) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_keywords" "power-flag" 
-                (id 4) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" 
-                (id 5) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "+3V3_0_1" 
-                (polyline 
-                    (pts 
-                        (xy -0.762 1.27) 
-                        (xy 0 2.54)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 0 0) 
-                        (xy 0 2.54)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 0 2.54) 
-                        (xy 0.762 1.27)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "+3V3_1_1" 
-                (pin power_in line 
-                    (at 0 0 90) 
-                    (length 0) hide 
-                    (name "+3V3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:BSS138PW" 
-            (pin_names 
-                (offset 0)) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "Q" 
-                (id 0) 
-                (at 3.81 -6.35 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "BSS138PW" 
-                (id 1) 
-                (at 22.86 -8.89 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:SC70-3" 
-                (id 2) 
-                (at 22.86 -11.43 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf" 
-                (id 3) 
-                (at 22.86 -13.97 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "BSS138PW" 
-                (id 4) 
-                (at 22.86 -16.51 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Nexperia" 
-                (id 5) 
-                (at 22.86 -19.05 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 6) 
-                (at 22.86 -21.59 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 7) 
-                (at 22.86 -24.13 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "n-channel enhancement mosfet sc70 sc-70 sot-323 sot323" 
-                (id 8) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package" 
-                (id 9) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "BSS138PW_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 5.08 1.143) 
-                        (xy 5.08 0.635)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 1.143) 
-                        (xy 5.08 1.651)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 2.54) 
-                        (xy 5.08 2.032)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 2.54) 
-                        (xy 5.08 3.048)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 4.445) 
-                        (xy 5.08 3.429)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 7.62 1.143) 
-                        (xy 5.08 1.143)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 9.144 3.048) 
-                        (xy 8.128 3.048)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 2.54 0) 
-                        (xy 4.572 0) 
-                        (xy 4.572 3.937)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 7.62 -1.27) 
-                        (xy 7.62 2.54) 
-                        (xy 5.08 2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 7.62 6.35) 
-                        (xy 7.62 3.937) 
-                        (xy 5.08 3.937)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 2.54) 
-                        (xy 5.842 3.048) 
-                        (xy 5.842 2.032) 
-                        (xy 5.08 2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type outline))) 
-                (polyline 
-                    (pts 
-                        (xy 8.636 3.048) 
-                        (xy 8.128 2.286) 
-                        (xy 9.144 2.286) 
-                        (xy 8.636 3.048)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type outline))) 
-                (polyline 
-                    (pts 
-                        (xy 7.493 0.635) 
-                        (xy 8.636 0.635) 
-                        (xy 8.636 3.937) 
-                        (xy 8.636 4.445) 
-                        (xy 7.493 4.445)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 6.35 2.54) 
-                    (radius 3.302) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 0.635) 
-                    (radius 0.127) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 1.143) 
-                    (radius 0.127) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 4.445) 
-                    (radius 0.127) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (pin bidirectional line 
-                    (at 0 0 0) 
-                    (length 2.54) 
-                    (name "G" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin bidirectional line 
-                    (at 7.62 -3.81 90) 
-                    (length 2.54) 
-                    (name "S" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin bidirectional line 
-                    (at 7.62 8.89 270) 
-                    (length 2.54) 
-                    (name "D" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:CVS-03B" 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "SW" 
-                (id 0) 
-                (at 26.67 -2.54 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "CVS-03B" 
-                (id 1) 
-                (at 26.67 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm" 
-                (id 2) 
-                (at 26.67 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.mouser.com/datasheet/2/972/cvs-1827291.pdf" 
-                (id 3) 
-                (at 26.67 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "CVS-03B" 
-                (id 4) 
-                (at 26.67 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Nidec Components" 
-                (id 5) 
-                (at 26.67 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 6) 
-                (at 26.67 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 7) 
-                (at 26.67 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "HORIZONTAL, SMT, SWITCH, MECHANICAL" 
-                (id 8) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "Slide switch" 
-                (id 9) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_fp_filters" "SW?DIP?x2*" 
-                (id 10) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "CVS-03B_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 3.81 -2.54) 
-                        (xy 2.54 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 3.81 0) 
-                        (xy 2.54 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 3.827 -5.0976) 
-                        (xy 2.557 -5.0976)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 -4.953) 
-                        (xy 8.7122 -3.9116)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 -2.413) 
-                        (xy 8.7122 -1.3716)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 0.127) 
-                        (xy 8.7122 1.1684)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 10.16 -5.08) 
-                        (xy 8.89 -5.08)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 10.16 -2.54) 
-                        (xy 8.89 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 10.16 0) 
-                        (xy 8.89 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (rectangle 
-                    (start 2.54 2.54) 
-                    (end 10.16 -8.89) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 4.318 -5.08) 
-                    (radius 0.508) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 4.318 -2.54) 
-                    (radius 0.508) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 4.318 0) 
-                    (radius 0.508) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 8.382 -5.08) 
-                    (radius 0.508) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 8.382 -2.54) 
-                    (radius 0.508) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 8.382 0) 
-                    (radius 0.508) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (text "SH" 
-                    (at 8.255 -7.62 0) 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27) 
-                            (thickness 0.15)))) 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 2.54) 
-                    (name "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -2.54 0) 
-                    (length 2.54) 
-                    (name "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -5.08 0) 
-                    (length 2.54) 
-                    (name "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 12.7 -5.08 180) 
-                    (length 2.54) 
-                    (name "4" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "4" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 12.7 -2.54 180) 
-                    (length 2.54) 
-                    (name "5" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "5" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 12.7 0 180) 
-                    (length 2.54) 
-                    (name "6" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "6" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin power_in line 
-                    (at 12.7 -7.62 180) 
-                    (length 2.54) 
-                    (name "7" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "7" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
         (symbol "sodimm-ddr5-tester:GND" 
             (power) 
             (pin_numbers hide) 
@@ -860,147 +88,6 @@
                             (font 
                                 (size 1.27 1.27)))) 
                     (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:LED_G_0603_KP-1608CGCK" 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "D" 
-                (id 0) 
-                (at 22.86 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "LED_G_0603_KP-1608CGCK" 
-                (id 1) 
-                (at 22.86 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:LED_0603_1608Metric_G" 
-                (id 2) 
-                (at 22.86 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "http://www.farnell.com/datasheets/2045956.pdf" 
-                (id 3) 
-                (at 22.86 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "KP-1608CGCK" 
-                (id 4) 
-                (at 22.86 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Kingbright" 
-                (id 5) 
-                (at 22.86 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 6) 
-                (at 22.86 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 7) 
-                (at 22.86 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (symbol "LED_G_0603_KP-1608CGCK_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 5.08 1.27) 
-                        (xy 5.08 -1.27)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 2.54 1.27) 
-                        (xy 2.54 -1.27) 
-                        (xy 5.08 0) 
-                        (xy 2.54 1.27)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type outline))) 
-                (polyline 
-                    (pts 
-                        (xy 3.683 2.286) 
-                        (xy 3.683 1.778) 
-                        (xy 3.683 2.286) 
-                        (xy 3.175 2.286) 
-                        (xy 3.683 2.286) 
-                        (xy 2.794 1.397)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 4.699 2.032) 
-                        (xy 4.699 1.524) 
-                        (xy 4.699 2.032) 
-                        (xy 4.191 2.032) 
-                        (xy 4.699 2.032) 
-                        (xy 3.683 1.016)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 2.54) 
-                    (name "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 7.62 0 180) 
-                    (length 2.54) 
-                    (name "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
                         (effects 
                             (font 
                                 (size 1.27 1.27))))))) 
@@ -1361,690 +448,53 @@
                         (effects 
                             (font 
                                 (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_0R_0402" 
-            (pin_numbers hide) 
+        (symbol "sodimm-ddr5-tester:LED_G_0603_KP-1608CGCK" 
             (pin_names hide) 
             (in_bom yes) 
             (on_board yes) 
-            (property "Reference" "R" 
+            (property "Reference" "D" 
                 (id 0) 
-                (at 20.32 -5.08 0) 
+                (at 22.86 -5.08 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
                         (thickness 0.15)) 
                     (justify left bottom))) 
-            (property "Value" "R_0R_0402" 
+            (property "Value" "LED_G_0603_KP-1608CGCK" 
                 (id 1) 
-                (at 20.32 -12.7 0) 
+                (at 22.86 -7.62 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
                         (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                    (justify left bottom))) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:LED_0603_1608Metric_G" 
                 (id 2) 
-                (at 20.32 -15.24 0) 
+                (at 22.86 -10.16 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
                         (thickness 0.15)) 
                     (justify left bottom) hide)) 
-            (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 
+            (property "Datasheet" "http://www.farnell.com/datasheets/2045956.pdf" 
                 (id 3) 
-                (at 20.32 -17.78 0) 
+                (at 22.86 -12.7 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
                         (thickness 0.15)) 
                     (justify left bottom) hide)) 
-            (property "MPN" "ERJ2GE0R00X" 
+            (property "MPN" "KP-1608CGCK" 
                 (id 4) 
-                (at 20.32 -20.32 0) 
+                (at 22.86 -15.24 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
                         (thickness 0.15)) 
                     (justify left bottom) hide)) 
-            (property "Manufacturer" "Panasonic" 
+            (property "Manufacturer" "Kingbright" 
                 (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "0R" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "~" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "Current" "1A" 
-                (id 10) 
-                (at 20.32 -30.48 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_description" "0R resistor in 0402 package with unspecified tolerance" 
-                (id 11) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_0R_0402_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_0R_0402_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_0R_0402_10" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_0R_0402_10" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "ERJ2GE0R00X" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Panasonic" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "0R" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "~" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "Current" "1A" 
-                (id 10) 
-                (at 20.32 -30.48 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_description" "0R resistor in 0402 package with unspecified tolerance" 
-                (id 11) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_0R_0402_10_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_0R_0402_10_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_10k_0402" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_10k_0402" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "CR0402-FX-1002GLF" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Bourns" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "10k" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "1%" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
-                (id 10) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
-                (id 11) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_10k_0402_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_10k_0402_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_330R_0402" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_330R_0402" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "CR0402-FX-3300GLF" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Bourns" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "330R" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "1%" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "ki_description" "330R resistor in 0402 package with 1% tolerance" 
-                (id 10) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_330R_0402_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_330R_0402_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_4k7_0402" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_4k7_0402" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "CR0402-FX-4701GLF" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Bourns" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "4k7" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "1%" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "ki_description" "4k7 resistor in 0402 package with 1% tolerance" 
-                (id 10) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_4k7_0402_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_4k7_0402_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:SW_KMR211NGLFS_SMD" 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "SW" 
-                (id 0) 
-                (at 25.4 -2.54 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "SW_KMR211NGLFS_SMD" 
-                (id 1) 
-                (at 25.4 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:SW_KMR211NGLFS_SMD" 
-                (id 2) 
-                (at 25.4 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf" 
-                (id 3) 
-                (at 25.4 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "KMR211NGLFS" 
-                (id 4) 
-                (at 25.4 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Manufacturer" "C&K" 
-                (id 5) 
-                (at 25.4 -15.24 0) 
+                (at 22.86 -17.78 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
@@ -2052,7 +502,7 @@
                     (justify left bottom) hide)) 
             (property "Author" "Antmicro" 
                 (id 6) 
-                (at 25.4 -17.78 0) 
+                (at 22.86 -20.32 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
@@ -2060,79 +510,17 @@
                     (justify left bottom) hide)) 
             (property "License" "Apache-2.0" 
                 (id 7) 
-                (at 25.4 -20.32 0) 
+                (at 22.86 -22.86 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27) 
                         (thickness 0.15)) 
                     (justify left bottom) hide)) 
-            (property "ki_keywords" "VERTICAL, SMT, SWITCH, MECHANICAL, TACTILE" 
-                (id 8) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC" 
-                (id 9) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "SW_KMR211NGLFS_SMD_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 2.54 -2.54) 
-                        (xy 3.302 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 2.54 0) 
-                        (xy 3.302 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 3.302 1.27) 
-                        (xy 6.858 1.27)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 3.556 -0.3048) 
-                        (xy 3.556 -2.1844)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 4.064 2.794) 
-                        (xy 6.096 2.794)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
+            (symbol "LED_G_0603_KP-1608CGCK_1_1" 
                 (polyline 
                     (pts 
                         (xy 5.08 1.27) 
-                        (xy 5.08 2.794)) 
+                        (xy 5.08 -1.27)) 
                     (stroke 
                         (width 0.254) 
                         (type default) 
@@ -2141,8 +529,24 @@
                         (type none))) 
                 (polyline 
                     (pts 
-                        (xy 6.604 -0.254) 
-                        (xy 6.604 -2.1844)) 
+                        (xy 2.54 1.27) 
+                        (xy 2.54 -1.27) 
+                        (xy 5.08 0) 
+                        (xy 2.54 1.27)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type outline))) 
+                (polyline 
+                    (pts 
+                        (xy 3.683 2.286) 
+                        (xy 3.683 1.778) 
+                        (xy 3.683 2.286) 
+                        (xy 3.175 2.286) 
+                        (xy 3.683 2.286) 
+                        (xy 2.794 1.397)) 
                     (stroke 
                         (width 0.254) 
                         (type default) 
@@ -2151,54 +555,12 @@
                         (type none))) 
                 (polyline 
                     (pts 
-                        (xy 7.62 -2.54) 
-                        (xy 6.858 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 7.62 0) 
-                        (xy 6.858 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 3.556 -2.54) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 3.556 0) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 6.604 -2.54) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 6.604 0) 
-                    (radius 0.254) 
+                        (xy 4.699 2.032) 
+                        (xy 4.699 1.524) 
+                        (xy 4.699 2.032) 
+                        (xy 4.191 2.032) 
+                        (xy 4.699 2.032) 
+                        (xy 3.683 1.016)) 
                     (stroke 
                         (width 0.254) 
                         (type default) 
@@ -2217,474 +579,13 @@
                             (font 
                                 (size 1.27 1.27))))) 
                 (pin passive line 
-                    (at 0 -2.54 0) 
+                    (at 7.62 0 180) 
                     (length 2.54) 
                     (name "2" 
                         (effects 
                             (font 
                                 (size 1.27 1.27)))) 
                     (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 10.16 0 180) 
-                    (length 2.54) 
-                    (name "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 10.16 -2.54 180) 
-                    (length 2.54) 
-                    (name "4" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "4" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:TPD4E05U06QDQARQ1" 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "U" 
-                (id 0) 
-                (at 24.13 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "TPD4E05U06QDQARQ1" 
-                (id 1) 
-                (at 24.13 -2.54 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:USON-10_2.5x1mm_P0.5mm" 
-                (id 2) 
-                (at 24.13 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F" 
-                (id 3) 
-                (at 24.13 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Texas Instruments" 
-                (id 4) 
-                (at 24.13 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "TPD4E05U06QDQARQ1" 
-                (id 5) 
-                (at 24.13 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 6) 
-                (at 24.13 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 7) 
-                (at 24.13 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "SMT, DIODE, IC, TVS, ESD" 
-                (id 8) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "ESD protection" 
-                (id 9) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "TPD4E05U06QDQARQ1_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 2.54 -7.62) 
-                        (xy 7.62 -7.62)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 2.54 -5.08) 
-                        (xy 7.62 -5.08)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 2.54 -2.54) 
-                        (xy 7.62 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 2.54 0) 
-                        (xy 7.62 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 7.62 -10.16) 
-                        (xy 2.54 -10.16)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 7.62 0) 
-                        (xy 7.62 -10.16)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 -8.255) 
-                        (xy 5.08 -8.001) 
-                        (xy 5.08 -7.239) 
-                        (xy 5.334 -6.985)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 -5.715) 
-                        (xy 5.08 -5.461) 
-                        (xy 5.08 -4.699) 
-                        (xy 5.334 -4.445)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 -3.175) 
-                        (xy 5.08 -2.921) 
-                        (xy 5.08 -2.159) 
-                        (xy 5.334 -1.905)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 4.826 -0.635) 
-                        (xy 5.08 -0.381) 
-                        (xy 5.08 0.381) 
-                        (xy 5.334 0.635)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 -7.62) 
-                        (xy 3.81 -8.255) 
-                        (xy 3.81 -6.985) 
-                        (xy 5.08 -7.62)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 -5.08) 
-                        (xy 3.81 -5.715) 
-                        (xy 3.81 -4.445) 
-                        (xy 5.08 -5.08)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 -5.08) 
-                        (xy 6.35 -4.445) 
-                        (xy 6.35 -5.715) 
-                        (xy 5.08 -5.08)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 -2.54) 
-                        (xy 3.81 -3.175) 
-                        (xy 3.81 -1.905) 
-                        (xy 5.08 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 -2.54) 
-                        (xy 6.35 -3.175) 
-                        (xy 6.35 -1.905) 
-                        (xy 5.08 -2.54)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 0) 
-                        (xy 3.81 -0.635) 
-                        (xy 3.81 0.635) 
-                        (xy 5.08 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 5.08 0) 
-                        (xy 6.35 -0.635) 
-                        (xy 6.35 0.635) 
-                        (xy 5.08 0)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (polyline 
-                    (pts 
-                        (xy 6.35 -6.985) 
-                        (xy 6.35 -8.255) 
-                        (xy 5.08 -7.62) 
-                        (xy 6.35 -6.985)) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (rectangle 
-                    (start 2.54 2.54) 
-                    (end 8.89 -11.43) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 -7.62) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 -5.08) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 -5.08) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (circle 
-                    (center 7.62 -2.54) 
-                    (radius 0.254) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type background))) 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 2.54) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 2.54) hide 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "10" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -2.54 0) 
-                    (length 2.54) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin power_in line 
-                    (at 0 -10.16 0) 
-                    (length 2.54) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -5.08 0) 
-                    (length 2.54) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "4" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -7.62 0) 
-                    (length 2.54) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "5" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -7.62 0) 
-                    (length 2.54) hide 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "6" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -5.08 0) 
-                    (length 2.54) hide 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "7" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -10.16 0) 
-                    (length 2.54) hide 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "8" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 0 -2.54 0) 
-                    (length 2.54) hide 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "9" 
                         (effects 
                             (font 
                                 (size 1.27 1.27))))))) 
@@ -10504,9 +8405,2106 @@
                     (number "T6" 
                         (effects 
                             (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:SW_KMR211NGLFS_SMD" 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "SW" 
+                (id 0) 
+                (at 25.4 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "SW_KMR211NGLFS_SMD" 
+                (id 1) 
+                (at 25.4 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:SW_KMR211NGLFS_SMD" 
+                (id 2) 
+                (at 25.4 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf" 
+                (id 3) 
+                (at 25.4 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "KMR211NGLFS" 
+                (id 4) 
+                (at 25.4 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Manufacturer" "C&K" 
+                (id 5) 
+                (at 25.4 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 6) 
+                (at 25.4 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 7) 
+                (at 25.4 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "VERTICAL, SMT, SWITCH, MECHANICAL, TACTILE" 
+                (id 8) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC" 
+                (id 9) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "SW_KMR211NGLFS_SMD_1_1" 
+                (polyline 
+                    (pts 
+                        (xy 2.54 -2.54) 
+                        (xy 3.302 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 2.54 0) 
+                        (xy 3.302 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 3.302 1.27) 
+                        (xy 6.858 1.27)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 3.556 -0.3048) 
+                        (xy 3.556 -2.1844)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 4.064 2.794) 
+                        (xy 6.096 2.794)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 1.27) 
+                        (xy 5.08 2.794)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 6.604 -0.254) 
+                        (xy 6.604 -2.1844)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 -2.54) 
+                        (xy 6.858 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 0) 
+                        (xy 6.858 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 3.556 -2.54) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 3.556 0) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 6.604 -2.54) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 6.604 0) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 2.54) 
+                    (name "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -2.54 0) 
+                    (length 2.54) 
+                    (name "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 0 180) 
+                    (length 2.54) 
+                    (name "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 -2.54 180) 
+                    (length 2.54) 
+                    (name "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_0R_0402" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_0R_0402" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "ERJ2GE0R00X" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Panasonic" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "0R" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "~" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "Current" "1A" 
+                (id 10) 
+                (at 20.32 -30.48 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_description" "0R resistor in 0402 package with unspecified tolerance" 
+                (id 11) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_0R_0402_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_0R_0402_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_10k_0402" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_10k_0402" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "CR0402-FX-1002GLF" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Bourns" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "10k" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "1%" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
+                (id 10) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+                (id 11) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_10k_0402_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_10k_0402_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_330R_0402" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_330R_0402" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "CR0402-FX-3300GLF" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Bourns" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "330R" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "1%" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "ki_description" "330R resistor in 0402 package with 1% tolerance" 
+                (id 10) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_330R_0402_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_330R_0402_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_4k7_0402" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_4k7_0402" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "CR0402-FX-4701GLF" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Bourns" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "4k7" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "1%" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "ki_description" "4k7 resistor in 0402 package with 1% tolerance" 
+                (id 10) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_4k7_0402_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_4k7_0402_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:CVS-03B" 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "SW" 
+                (id 0) 
+                (at 26.67 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "CVS-03B" 
+                (id 1) 
+                (at 26.67 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm" 
+                (id 2) 
+                (at 26.67 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.mouser.com/datasheet/2/972/cvs-1827291.pdf" 
+                (id 3) 
+                (at 26.67 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "CVS-03B" 
+                (id 4) 
+                (at 26.67 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Nidec Components" 
+                (id 5) 
+                (at 26.67 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 6) 
+                (at 26.67 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 7) 
+                (at 26.67 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "HORIZONTAL, SMT, SWITCH, MECHANICAL" 
+                (id 8) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "Slide switch" 
+                (id 9) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_fp_filters" "SW?DIP?x2*" 
+                (id 10) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "CVS-03B_1_1" 
+                (polyline 
+                    (pts 
+                        (xy 3.81 -2.54) 
+                        (xy 2.54 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 3.81 0) 
+                        (xy 2.54 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 3.827 -5.0976) 
+                        (xy 2.557 -5.0976)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 -4.953) 
+                        (xy 8.7122 -3.9116)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 -2.413) 
+                        (xy 8.7122 -1.3716)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 0.127) 
+                        (xy 8.7122 1.1684)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 10.16 -5.08) 
+                        (xy 8.89 -5.08)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 10.16 -2.54) 
+                        (xy 8.89 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 10.16 0) 
+                        (xy 8.89 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (rectangle 
+                    (start 2.54 2.54) 
+                    (end 10.16 -8.89) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 4.318 -5.08) 
+                    (radius 0.508) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 4.318 -2.54) 
+                    (radius 0.508) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 4.318 0) 
+                    (radius 0.508) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 8.382 -5.08) 
+                    (radius 0.508) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 8.382 -2.54) 
+                    (radius 0.508) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (circle 
+                    (center 8.382 0) 
+                    (radius 0.508) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (text "SH" 
+                    (at 8.255 -7.62 0) 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27) 
+                            (thickness 0.15)))) 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 2.54) 
+                    (name "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -2.54 0) 
+                    (length 2.54) 
+                    (name "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -5.08 0) 
+                    (length 2.54) 
+                    (name "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 12.7 -5.08 180) 
+                    (length 2.54) 
+                    (name "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 12.7 -2.54 180) 
+                    (length 2.54) 
+                    (name "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 12.7 0 180) 
+                    (length 2.54) 
+                    (name "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin power_in line 
+                    (at 12.7 -7.62 180) 
+                    (length 2.54) 
+                    (name "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:TPD4E05U06QDQARQ1" 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "U" 
+                (id 0) 
+                (at 24.13 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "TPD4E05U06QDQARQ1" 
+                (id 1) 
+                (at 24.13 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:USON-10_2.5x1mm_P0.5mm" 
+                (id 2) 
+                (at 24.13 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F" 
+                (id 3) 
+                (at 24.13 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Texas Instruments" 
+                (id 4) 
+                (at 24.13 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "TPD4E05U06QDQARQ1" 
+                (id 5) 
+                (at 24.13 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 6) 
+                (at 24.13 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 7) 
+                (at 24.13 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "SMT, DIODE, IC, TVS, ESD" 
+                (id 8) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "ESD protection" 
+                (id 9) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "TPD4E05U06QDQARQ1_1_1" 
+                (polyline 
+                    (pts 
+                        (xy 2.54 -7.62) 
+                        (xy 7.62 -7.62)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 2.54 -5.08) 
+                        (xy 7.62 -5.08)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 2.54 -2.54) 
+                        (xy 7.62 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 2.54 0) 
+                        (xy 7.62 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 -10.16) 
+                        (xy 2.54 -10.16)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 0) 
+                        (xy 7.62 -10.16)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 -8.255) 
+                        (xy 5.08 -8.001) 
+                        (xy 5.08 -7.239) 
+                        (xy 5.334 -6.985)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 -5.715) 
+                        (xy 5.08 -5.461) 
+                        (xy 5.08 -4.699) 
+                        (xy 5.334 -4.445)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 -3.175) 
+                        (xy 5.08 -2.921) 
+                        (xy 5.08 -2.159) 
+                        (xy 5.334 -1.905)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 4.826 -0.635) 
+                        (xy 5.08 -0.381) 
+                        (xy 5.08 0.381) 
+                        (xy 5.334 0.635)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 -7.62) 
+                        (xy 3.81 -8.255) 
+                        (xy 3.81 -6.985) 
+                        (xy 5.08 -7.62)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 -5.08) 
+                        (xy 3.81 -5.715) 
+                        (xy 3.81 -4.445) 
+                        (xy 5.08 -5.08)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 -5.08) 
+                        (xy 6.35 -4.445) 
+                        (xy 6.35 -5.715) 
+                        (xy 5.08 -5.08)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 -2.54) 
+                        (xy 3.81 -3.175) 
+                        (xy 3.81 -1.905) 
+                        (xy 5.08 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 -2.54) 
+                        (xy 6.35 -3.175) 
+                        (xy 6.35 -1.905) 
+                        (xy 5.08 -2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 0) 
+                        (xy 3.81 -0.635) 
+                        (xy 3.81 0.635) 
+                        (xy 5.08 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 0) 
+                        (xy 6.35 -0.635) 
+                        (xy 6.35 0.635) 
+                        (xy 5.08 0)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 6.35 -6.985) 
+                        (xy 6.35 -8.255) 
+                        (xy 5.08 -7.62) 
+                        (xy 6.35 -6.985)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (rectangle 
+                    (start 2.54 2.54) 
+                    (end 8.89 -11.43) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 -7.62) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 -5.08) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 -5.08) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 -2.54) 
+                    (radius 0.254) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 2.54) hide 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "10" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -2.54 0) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin power_in line 
+                    (at 0 -10.16 0) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -5.08 0) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -7.62 0) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -7.62 0) 
+                    (length 2.54) hide 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -5.08 0) 
+                    (length 2.54) hide 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -10.16 0) 
+                    (length 2.54) hide 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 0 -2.54 0) 
+                    (length 2.54) hide 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "9" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:BSS138PW" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "Q" 
+                (id 0) 
+                (at 3.81 -6.35 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "BSS138PW" 
+                (id 1) 
+                (at 22.86 -8.89 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:SC70-3" 
+                (id 2) 
+                (at 22.86 -11.43 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf" 
+                (id 3) 
+                (at 22.86 -13.97 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "BSS138PW" 
+                (id 4) 
+                (at 22.86 -16.51 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Nexperia" 
+                (id 5) 
+                (at 22.86 -19.05 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 6) 
+                (at 22.86 -21.59 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 7) 
+                (at 22.86 -24.13 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "n-channel enhancement mosfet sc70 sc-70 sot-323 sot323" 
+                (id 8) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package" 
+                (id 9) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "BSS138PW_1_1" 
+                (polyline 
+                    (pts 
+                        (xy 5.08 1.143) 
+                        (xy 5.08 0.635)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 1.143) 
+                        (xy 5.08 1.651)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 2.54) 
+                        (xy 5.08 2.032)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 2.54) 
+                        (xy 5.08 3.048)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 4.445) 
+                        (xy 5.08 3.429)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 1.143) 
+                        (xy 5.08 1.143)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 9.144 3.048) 
+                        (xy 8.128 3.048)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 2.54 0) 
+                        (xy 4.572 0) 
+                        (xy 4.572 3.937)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 -1.27) 
+                        (xy 7.62 2.54) 
+                        (xy 5.08 2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 7.62 6.35) 
+                        (xy 7.62 3.937) 
+                        (xy 5.08 3.937)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (polyline 
+                    (pts 
+                        (xy 5.08 2.54) 
+                        (xy 5.842 3.048) 
+                        (xy 5.842 2.032) 
+                        (xy 5.08 2.54)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type outline))) 
+                (polyline 
+                    (pts 
+                        (xy 8.636 3.048) 
+                        (xy 8.128 2.286) 
+                        (xy 9.144 2.286) 
+                        (xy 8.636 3.048)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type outline))) 
+                (polyline 
+                    (pts 
+                        (xy 7.493 0.635) 
+                        (xy 8.636 0.635) 
+                        (xy 8.636 3.937) 
+                        (xy 8.636 4.445) 
+                        (xy 7.493 4.445)) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 6.35 2.54) 
+                    (radius 3.302) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 0.635) 
+                    (radius 0.127) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 1.143) 
+                    (radius 0.127) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (circle 
+                    (center 7.62 4.445) 
+                    (radius 0.127) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (pin bidirectional line 
+                    (at 0 0 0) 
+                    (length 2.54) 
+                    (name "G" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin bidirectional line 
+                    (at 7.62 -3.81 90) 
+                    (length 2.54) 
+                    (name "S" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin bidirectional line 
+                    (at 7.62 8.89 270) 
+                    (length 2.54) 
+                    (name "D" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:+3.3V" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "+3.3V" 
+                (id 1) 
+                (at 0 3.556 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "+3.3V_0_1" 
+                (polyline 
+                    (pts 
+                        (xy -0.762 1.27) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 2.54) 
+                        (xy 0.762 1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "+3.3V_1_1" 
+                (pin power_in line 
+                    (at 0 0 90) 
+                    (length 0) hide 
+                    (name "+3V3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:+3V3" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "+3V3" 
+                (id 1) 
+                (at 0 3.556 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_keywords" "power-flag" 
+                (id 4) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" 
+                (id 5) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "+3V3_0_1" 
+                (polyline 
+                    (pts 
+                        (xy -0.762 1.27) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 2.54) 
+                        (xy 0.762 1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "+3V3_1_1" 
+                (pin power_in line 
+                    (at 0 0 90) 
+                    (length 0) hide 
+                    (name "+3V3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_0R_0402_10" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_0R_0402_10" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "ERJ2GE0R00X" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Panasonic" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "0R" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "~" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "Current" "1A" 
+                (id 10) 
+                (at 20.32 -30.48 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_description" "0R resistor in 0402 package with unspecified tolerance" 
+                (id 11) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_0R_0402_10_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_0R_0402_10_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
                                 (size 1.27 1.27)))))))) 
-    (bus_alias "QSPI" 
-        (members "IO[0..3]" "~{CS}" "SCK")) 
     (junction 
         (at 252.73 140.335) 
         (diameter 0) 

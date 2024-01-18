@@ -5,8 +5,8 @@
     (paper "A3") 
     (title_block 
         (title "SO-DIMM DDR5 Tester") 
-        (date "2024-01-10") 
-        (rev "1.1.0") 
+        (date "2024-01-18") 
+        (rev "1.1.1") 
         (comment 1 "www.antmicro.com") 
         (comment 2 "Antmicro Ltd")) 
     (lib_symbols 
@@ -7968,8 +7968,6 @@
                         (effects 
                             (font 
                                 (size 1.27 1.27)))))))) 
-    (bus_alias "PCIe_x4" 
-        (members "TXD0_P" "TXD0_N" "TXD1_P" "TXD1_N" "TXD2_P" "TXD2_N" "TXD3_P" "TXD3_N" "RXD0_P" "RXD0_N" "RXD1_P" "RXD1_N" "RXD2_P" "RXD2_N" "RXD3_P" "RXD3_N" "CLK_P" "CLK_N")) 
     (no_connect 
         (at 226.695 104.14) 
         (uuid 00002da6-fb0b-4345-bb1d-a7feda7b15ba)) 

@@ -1968,15 +1968,15 @@
                 (justify left bottom))) 
         (property "Value" "Heatsink_960-27-12-D-AB-0" 
             (id 1) 
-            (at 17.78 -5.08 0) 
+            (at 17.78 -7.62 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
-                (justify left bottom))) 
+                (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:Heatsink_960-27-12-D-AB-0" 
             (id 2) 
-            (at 17.78 -7.62 0) 
+            (at 17.78 -10.16 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -1984,7 +1984,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wakefield%20Thermal%20PDFs/960_Series.pdf" 
             (id 3) 
-            (at 17.78 -10.16 0) 
+            (at 17.78 -12.7 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -1992,12 +1992,12 @@
                 (justify left bottom) hide)) 
         (property "MPN" "960-27-12-D-AB-0" 
             (id 4) 
-            (at 17.78 -12.7 0) 
+            (at 17.78 -5.08 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
-                (justify left bottom) hide)) 
+                (justify left bottom))) 
         (property "Manufacturer" "Wakefield-Vette" 
             (id 5) 
             (at 17.78 -15.24 0) 
@@ -2261,8 +2261,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "1M8 resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -2302,7 +2308,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Manufacturer" "Microchip" 
+        (property "Manufacturer" "Microchip Technology" 
             (id 4) 
             (at 76.2 -15.24 0) 
             (effects 
@@ -2334,13 +2340,13 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_keywords" "Gigabit Ethernet" 
+        (property "ki_keywords" "SMT, TRANSCEIVER, IC, ETHERNET, PHY" 
             (id 8) 
             (at 0 0 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "ki_description" "KSZ9031RNXCA" 
+        (property "ki_description" "Ethernet Controller, 1000 Mbps, IEEE 802.3, 1.14 V, 3.465 V, QFN, 48 Pins" 
             (id 9) 
             (at 0 0 0) 
             (effects 
@@ -2415,7 +2421,7 @@
                         (font 
                             (size 1.27 1.27))))) 
             (pin no_connect line 
-                (at 28.575 -62.23 90) 
+                (at 25.4 -62.23 90) 
                 (length 2.54) hide 
                 (name "NC" 
                     (effects 
@@ -2990,89 +2996,87 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "12k1 resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
             (at 0 0 0) 
             (effects 
                 (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 12.1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
                     (size 1.27 1.27)) hide))) 
-    (symbol "sodimm-ddr5-tester:GND" 
+    (symbol "GND" 
         (power) 
-        (pin_numbers hide) 
-        (pin_names hide) 
         (in_bom yes) 
         (on_board yes) 
         (property "Reference" "#PWR" 
             (id 0) 
-            (at 8.89 -2.54 0) 
+            (at 0 0 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
+                    (size 1.27 1.27)))) 
         (property "Value" "GND" 
             (id 1) 
-            (at 8.89 -5.08 0) 
+            (at 0 3.81 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
+                    (size 1.27 1.27)))) 
         (property "Footprint" "" 
             (id 2) 
-            (at 8.89 -7.62 0) 
+            (at 0 0 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
+                    (size 1.27 1.27)) hide)) 
         (property "Datasheet" "" 
             (id 3) 
-            (at 8.89 -12.7 0) 
+            (at 0 0 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_keywords" "power-flag" 
             (id 4) 
-            (at 8.89 -7.62 0) 
+            (at 0 0 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Power symbol creates a global label with name 'GND'" 
             (id 5) 
-            (at 8.89 -10.16 0) 
+            (at 0 0 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (symbol "GND_1_1" 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "GND_0_0" 
+            (polyline 
+                (pts 
+                    (xy -1.27 -2.54) 
+                    (xy 1.27 -2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
             (polyline 
                 (pts 
                     (xy 0 0) 
-                    (xy 0 -1.27) 
-                    (xy 1.27 -1.27) 
-                    (xy 0 -2.54) 
-                    (xy -1.27 -1.27) 
-                    (xy 0 -1.27)) 
+                    (xy 0 -2.54)) 
                 (stroke 
-                    (width 0) 
+                    (width 0.254) 
                     (type default) 
                     (color 0 0 0 0)) 
                 (fill 
                     (type none))) 
             (pin power_in line 
-                (at 0 0 270) 
-                (length 0) 
+                (at 0 0 0) 
+                (length 0) hide 
                 (name "GND" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
-                (number "1" 
+                (number "" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -3102,7 +3106,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" " " 
+        (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" 
             (id 3) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -3164,8 +3168,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" " " 
+        (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE" 
             (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 10 V, 0402 [1005 Metric], ± 20%, X5R, GRM Series" 
+            (id 12) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -3196,7 +3206,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" " " 
+        (property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB" 
             (id 3) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -3258,8 +3268,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" " " 
+        (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC" 
             (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C" 
+            (id 12) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -3290,7 +3306,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H103KA88-01.pdf" 
+        (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R71H103KA88%23" 
             (id 3) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -3352,8 +3368,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" " " 
+        (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE" 
             (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series" 
+            (id 12) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -3439,8 +3461,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "220R resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -3619,8 +3647,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "2k2 resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -4476,20 +4510,27 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_keywords" "RJ45 PoE Ethernet te connectivity magnetics gigabit power" 
+        (property "VSD_Class" "Ethernet" 
             (id 8) 
-            (at 0 0 0) 
+            (at 35.56 -22.86 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "ki_description" "RJ45 Gigabit Ethernet Jack w/ Magnetics and PoE, Single Port, 802.3at Power over Ethernet" 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_keywords" "RJ45, HORIZONTAL, THT, ETHERNET, CONNECTOR, FEMALE" 
             (id 9) 
             (at 0 0 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "ki_fp_filters" "CONN18_5-2337992-8_TEC" 
+        (property "ki_description" "Modular Connector, RJ45 Jack, 1 x 1 (Port), 8P8C, Cat5e, Through Hole Mount" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_fp_filters" "CONN18_5-2337992-8_TEC" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -5005,6 +5046,18 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
+        (property "ki_keywords" "0603, SMT, LED, SEMICONDUCTOR" 
+            (id 8) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "LED, Low Power, Green, SMT, 0603, 20 mA, 2.1 V, 570 nm" 
+            (id 9) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
         (symbol "LED_G_0603_KP-1608CGCK_1_1" 
             (polyline 
                 (pts 
@@ -5147,13 +5200,13 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_keywords" "n-channel enhancement mosfet sc70 sc-70 sot-323 sot323" 
+        (property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, MOSFET, NMOS" 
             (id 8) 
             (at 0 0 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "ki_description" "60 V, 320 mA N-channel enhancement mode Trench MOSFET, SC-70-3 aka SOT-323 package" 
+        (property "ki_description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount" 
             (id 9) 
             (at 0 0 0) 
             (effects 
@@ -5336,7 +5389,7 @@
                     (color 0 0 0 0)) 
                 (fill 
                     (type background))) 
-            (pin bidirectional line 
+            (pin passive line 
                 (at 0 0 0) 
                 (length 2.54) 
                 (name "G" 
@@ -5347,7 +5400,7 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))) 
-            (pin bidirectional line 
+            (pin passive line 
                 (at 7.62 -3.81 90) 
                 (length 2.54) 
                 (name "S" 
@@ -5358,7 +5411,7 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))) 
-            (pin bidirectional line 
+            (pin passive line 
                 (at 7.62 8.89 270) 
                 (length 2.54) 
                 (name "D" 
@@ -13677,6 +13730,18 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
+        (property "ki_keywords" "PINSTRIP, HEADER " 
+            (id 8) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Pin Header, Signal, Wire-to-Board, 2 mm, 2 Rows, 14 Contacts, Surface Mount Straight" 
+            (id 9) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
         (symbol "PinHeader_2x7_P2mm_SMD_Shrouded_no-locator_1_1" 
             (rectangle 
                 (start 2.54 1.27) 
@@ -14583,7 +14648,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" " " 
+        (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R60J476ME15%23" 
             (id 3) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -14645,8 +14710,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" " " 
+        (property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC" 
             (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 47 µF, 6.3 V, 0603 [1608 Metric], ± 20%, X5R, GRM Series" 
+            (id 12) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -14732,8 +14803,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "22R resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 22 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -14819,8 +14896,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "100R resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 100 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -14892,13 +14975,13 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_keywords" "28 Mbit (16 Mbyte)/256 Mbit (32 Mbyte), 3.0V SPI Flash Memory" 
+        (property "ki_keywords" "SMT, MEMORY, IC, FLASH, SPI" 
             (id 8) 
             (at 0 0 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "ki_description" "28 Mbit (16 Mbyte)/256 Mbit (32 Mbyte), 3.0V SPI Flash Memory" 
+        (property "ki_description" "Flash Memory, MirrorBit Eclipse Architecture, Serial NOR, 128 Mbit, 16M x 8bit, SPI, WSON, 8 Pins" 
             (id 9) 
             (at 0 0 0) 
             (effects 
@@ -15026,7 +15109,7 @@
                 (justify left bottom))) 
         (property "Value" "IS66WVH16M8DBLL-100B1LI" 
             (id 1) 
-            (at 45.72 -7.62 0) 
+            (at 45.72 -10.16 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -15034,7 +15117,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:FBGA-25-24_6x8mm_Layout5x5_P1mm" 
             (id 2) 
-            (at 45.72 -10.16 0) 
+            (at 45.72 -12.7 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -15042,7 +15125,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://eu.mouser.com/datasheet/2/198/issi_s_a0011529618_1-2271553.pdf" 
             (id 3) 
-            (at 45.72 -12.7 0) 
+            (at 45.72 -15.24 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -15050,7 +15133,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "ISSI" 
             (id 4) 
-            (at 45.72 -15.24 0) 
+            (at 45.72 -17.78 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -15058,7 +15141,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "IS66WVH16M8DBLL-100B1LI" 
             (id 5) 
-            (at 45.72 -17.78 0) 
+            (at 45.72 -7.62 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -15121,7 +15204,7 @@
                 (fill 
                     (type background))) 
             (pin no_connect line 
-                (at 27.94 -30.48 180) 
+                (at 27.94 -29.21 180) 
                 (length 2.54) hide 
                 (name "NC" 
                     (effects 
@@ -15154,7 +15237,7 @@
                         (font 
                             (size 1.27 1.27))))) 
             (pin no_connect line 
-                (at 27.94 -30.48 180) 
+                (at 27.94 -27.94 180) 
                 (length 2.54) hide 
                 (name "NC" 
                     (effects 
@@ -15209,7 +15292,7 @@
                         (font 
                             (size 1.27 1.27))))) 
             (pin no_connect line 
-                (at 27.94 -30.48 180) 
+                (at 27.94 -26.67 180) 
                 (length 2.54) hide 
                 (name "NC" 
                     (effects 
@@ -15231,7 +15314,7 @@
                         (font 
                             (size 1.27 1.27))))) 
             (pin no_connect line 
-                (at 27.94 -30.48 180) 
+                (at 27.94 -31.75 180) 
                 (length 2.54) hide 
                 (name "NC" 
                     (effects 
@@ -15477,487 +15560,6 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
-    (symbol "+1V8" 
-        (power) 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 15.24 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Value" "+1V8" 
-            (id 1) 
-            (at 15.24 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 4) 
-            (at 15.24 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 5) 
-            (at 15.24 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (symbol "+1V8_1_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) 
-                (name "+1V8" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "C_Pol_330u_6.3V_KEMET-T520-B" 
-        (extends "C_template_name_pol") 
-        (property "Reference" "C" 
-            (id 0) 
-            (at 13.97 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Value" "C_Pol_330u_6.3V_KEMET-T520-B" 
-            (id 1) 
-            (at 13.97 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Footprint" "sodimm-ddr5-tester-footprints:C_Pol_EIA-B" 
-            (id 2) 
-            (at 13.97 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" 
-            (id 3) 
-            (at 13.97 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Val" "330u/6.3V" 
-            (id 4) 
-            (at 13.97 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "MPN" "T520B337M006ATE040" 
-            (id 5) 
-            (at 13.97 -12.7 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Manufacturer" "KEMET" 
-            (id 6) 
-            (at 13.97 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 7) 
-            (at 13.97 -17.78 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 8) 
-            (at 13.97 -20.32 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Voltage" "6.3V" 
-            (id 9) 
-            (at 13.97 -22.86 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "ki_keywords" "SMT, CAPACITOR, PASSIVE, POLARIZED, TANTALUM" 
-            (id 10) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "ki_description" "Tantalum Polymer Capacitor, KO-CAP®, 330 µF, ± 20%, 6.3 V, B, 0.04 ohm, 1411 [3528 Metric]" 
-            (id 11) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide))) 
-    (symbol "sodimm-ddr5-tester:+1V1" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V1" 
-            (id 1) 
-            (at 0 3.556 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V1_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V1_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V2_MGTAVTT" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR?" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V2_MGTAVTT" 
-            (id 1) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V2_MGTAVTT_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V2_MGTAVTT_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V2_MGTAVTT" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V0_MGTAVCC" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR?" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V0_MGTAVCC" 
-            (id 1) 
-            (at 0 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V0_MGTAVCC_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V0_MGTAVCC_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V0_MGTAVCC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "+1V0" 
-        (power) 
-        (pin_names 
-            (offset 0)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "#PWR" 
-            (id 0) 
-            (at 0 -3.81 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Value" "+1V0" 
-            (id 1) 
-            (at 0 3.556 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "Footprint" "" 
-            (id 2) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "+1V0_0_1" 
-            (polyline 
-                (pts 
-                    (xy -0.762 1.27) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 0) 
-                    (xy 0 2.54)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none))) 
-            (polyline 
-                (pts 
-                    (xy 0 2.54) 
-                    (xy 0.762 1.27)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "+1V0_1_1" 
-            (pin power_in line 
-                (at 0 0 90) 
-                (length 0) hide 
-                (name "+1V0" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "C_100u_0805" 
         (extends "C_template_name_misc") 
         (property "Reference" "C" 
@@ -16058,6 +15660,99 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
+    (symbol "C_Pol_330u_6.3V_KEMET-T520-B" 
+        (extends "C_template_name_pol") 
+        (property "Reference" "C" 
+            (id 0) 
+            (at 13.97 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "C_Pol_330u_6.3V_KEMET-T520-B" 
+            (id 1) 
+            (at 13.97 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:C_Pol_EIA-B" 
+            (id 2) 
+            (at 13.97 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" 
+            (id 3) 
+            (at 13.97 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Val" "330u/6.3V" 
+            (id 4) 
+            (at 13.97 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "MPN" "T520B337M006ATE040" 
+            (id 5) 
+            (at 13.97 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "KEMET" 
+            (id 6) 
+            (at 13.97 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 7) 
+            (at 13.97 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 8) 
+            (at 13.97 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Voltage" "6.3V" 
+            (id 9) 
+            (at 13.97 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_keywords" "SMT, CAPACITOR, PASSIVE, POLARIZED, TANTALUM" 
+            (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Tantalum Polymer Capacitor, KO-CAP®, 330 µF, ± 20%, 6.3 V, B, 0.04 ohm, 1411 [3528 Metric]" 
+            (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
     (symbol "R_12k_0402" 
         (extends "R_template_name_0402") 
         (property "Reference" "R" 
@@ -16139,8 +15834,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "12k resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -16300,8 +16001,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "5k11 resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 5.11 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -16425,7 +16132,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:DHVQFN-14_1EP_2.5x3mm" 
+        (property "Footprint" "sodimm-ddr5-tester-footprints:DHVQFN-14-1EP_2.5x3mm" 
             (id 2) 
             (at 31.75 -5.08 0) 
             (effects 
@@ -18227,7 +17934,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Manufacturer" "FTDI" 
+        (property "Manufacturer" "FTDI Chip" 
             (id 4) 
             (at 55.88 -12.7 0) 
             (effects 
@@ -18259,8 +17966,14 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "USB Bridge, USB to UART,FIFO USB 2.0 FIFO Interface 56-VQFN (8x8)" 
+        (property "ki_keywords" "SMT, INTERFACE, IC, CONTROLLER, USB, UART, I2C, SPI, JTAG" 
             (id 8) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Interface Bridges, USB to UART, MPSSE, 1.62 V, 1.98 V, VQFN, 56 Pins, -40 °C" 
+            (id 9) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -19038,7 +18751,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Manufacturer" "Microchip" 
+        (property "Manufacturer" "Microchip Technology" 
             (id 5) 
             (at 38.1 -15.24 0) 
             (effects 
@@ -19062,13 +18775,13 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_keywords" "I2C Current Shunt Energy Monitor" 
+        (property "ki_keywords" "MONITOR, VOLTAGE" 
             (id 8) 
             (at 0 0 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "ki_description" "Multi-Channel DC Power/Energy Monitor with Accumulator, VQFN-16" 
+        (property "ki_description" "Current/Voltage Monitor Regulator High-Side 16-VQFN (3x3)" 
             (id 9) 
             (at 0 0 0) 
             (effects 
@@ -19274,6 +18987,79 @@
                         (font 
                             (size 1.27 1.27)))) 
                 (number "9" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V2_MGTAVTT" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR?" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V2_MGTAVTT" 
+            (id 1) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V2_MGTAVTT_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V2_MGTAVTT_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V2_MGTAVTT" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -19592,7 +19378,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Manufacturer" "Yaego" 
+        (property "Manufacturer" "YAGEO" 
             (id 5) 
             (at 20.32 -22.86 0) 
             (effects 
@@ -19631,8 +19417,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "0R01 resistor in 1206 package with unspecified tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 0.01 ohm, ± 1%, 500 mW, 1206 [3216 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -20313,6 +20105,175 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "+1V0_MGTAVCC" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR?" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V0_MGTAVCC" 
+            (id 1) 
+            (at 0 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V0_MGTAVCC_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V0_MGTAVCC_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V0_MGTAVCC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V8" 
+        (power) 
+        (pin_numbers hide) 
+        (pin_names hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 15.24 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Value" "+1V8" 
+            (id 1) 
+            (at 15.24 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 4) 
+            (at 15.24 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 5) 
+            (at 15.24 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "+1V8_1_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) 
+                (name "+1V8" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "Net-Tie_2" 
         (pin_numbers hide) 
         (pin_names hide) 
@@ -20609,6 +20570,152 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide))) 
+    (symbol "+1V1" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V1" 
+            (id 1) 
+            (at 0 3.556 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V1_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V1_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "+1V0" 
+        (power) 
+        (pin_names 
+            (offset 0)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "#PWR" 
+            (id 0) 
+            (at 0 -3.81 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "+1V0" 
+            (id 1) 
+            (at 0 3.556 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)))) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "+1V0_0_1" 
+            (polyline 
+                (pts 
+                    (xy -0.762 1.27) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 0) 
+                    (xy 0 2.54)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 0 2.54) 
+                    (xy 0.762 1.27)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "+1V0_1_1" 
+            (pin power_in line 
+                (at 0 0 90) 
+                (length 0) hide 
+                (name "+1V0" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "C_1u_0402" 
         (extends "C_template_name_0402") 
         (property "Reference" "C" 
@@ -20635,7 +20742,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" " " 
+        (property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC" 
             (id 3) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -20697,8 +20804,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" " " 
+        (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC" 
             (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C" 
+            (id 12) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -22854,7 +22967,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Manufacturer" "Maxim Integrated" 
+        (property "Manufacturer" "Maxim Integrated Products" 
             (id 4) 
             (at 30.48 -12.7 0) 
             (effects 
@@ -22886,8 +22999,14 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "Supervisory Circuits 4-Pin uP Voltage Monitors with Manual Reset Input" 
+        (property "ki_keywords" "SMT, PMIC, IC, VOLTAGE, MONITOR" 
             (id 8) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Voltage monitor" 
+            (id 9) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -22946,7 +23065,7 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "SlideSwitches:SW_CVS-08TB" 
+    (symbol "SW_CVS-08TB" 
         (pin_names hide) 
         (in_bom yes) 
         (on_board yes) 
@@ -23907,7 +24026,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" " " 
+        (property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN220" 
             (id 3) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -23923,7 +24042,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Manufacturer" "Yaego" 
+        (property "Manufacturer" "YAGEO" 
             (id 5) 
             (at 20.32 -20.32 0) 
             (effects 
@@ -23969,8 +24088,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" " " 
+        (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC" 
             (id 11) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, CC Series" 
+            (id 12) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -27342,8 +27467,14 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "Standard LEDs - SMD RGY 1616 SMD" 
+        (property "ki_keywords" "LED" 
             (id 9) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Green, Red, Yellow 570nm Green, 630nm Red, 590nm Yellow LED Indication - Discrete 2.1V Green, 1.95V Red, 2V Yellow 4-SMD, No Lead" 
+            (id 10) 
             (at 0 0 0) 
             (effects 
                 (font 
@@ -27615,11 +27746,8 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "Resistors0402:R_80R6_0402_EIA" 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
+    (symbol "R_80R6_0402_EIA" 
+        (extends "R_template_name_0402") 
         (property "Reference" "R" 
             (id 0) 
             (at 20.32 -5.08 0) 
@@ -27636,7 +27764,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric_EIA" 
+        (property "Footprint" "antmicro-footprints:R_0402_1005Metric_EIA" 
             (id 2) 
             (at 20.32 -15.24 0) 
             (effects 
@@ -27710,40 +27838,7 @@
             (at 0 0 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "R_80R6_0402_EIA_0_1" 
-            (rectangle 
-                (start 0.635 0.889) 
-                (end 4.445 -0.889) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "R_80R6_0402_EIA_1_1" 
-            (pin passive line 
-                (at 0 0 0) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 5.08 0 180) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
+                    (size 1.27 1.27)) hide))) 
     (symbol "TS5A3359_VSSOP" 
         (in_bom yes) 
         (on_board yes) 
@@ -28148,7 +28243,7 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/1/ONSM_S_A0009688870_1-2560458.pdf" 
+        (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/ONSM_S_A0009688870_1-2560458.pdf" 
             (id 3) 
             (at 33.02 -10.16 0) 
             (effects 
@@ -28188,13 +28283,13 @@
                     (size 1.27 1.27) 
                     (thickness 0.15)) 
                 (justify left bottom) hide)) 
-        (property "ki_keywords" "Translation - Voltage Levels LEVEL TRANSLATING I2" 
+        (property "ki_keywords" "SMT, LOGIC, IC, LEVEL-SHIFTER" 
             (id 8) 
             (at 0 0 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "ki_description" "Translation - Voltage Levels LEVEL TRANSLATING I2" 
+        (property "ki_description" "Buffer, ReDriver 2 Channel 8-MSOP" 
             (id 9) 
             (at 0 0 0) 
             (effects 
@@ -28379,8 +28474,14 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
-        (property "ki_description" "20k resistor in 0402 package with 1% tolerance" 
+        (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
             (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "SMD Chip Resistor, 20 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+            (id 11) 
             (at 0 0 0) 
             (effects 
                 (font 

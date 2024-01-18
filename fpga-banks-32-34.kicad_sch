@@ -5,78 +5,85 @@
     (paper "A3") 
     (title_block 
         (title "SO-DIMM DDR5 Tester") 
-        (date "2024-01-10") 
-        (rev "1.1.0") 
+        (date "2024-01-18") 
+        (rev "1.1.1") 
         (company "Antmicro Ltd.") 
         (comment 1 "www.antmicro.com") 
         (comment 2 "Antmicro Ltd")) 
     (lib_symbols 
-        (symbol "sodimm-ddr5-tester:+1V1" 
+        (symbol "sodimm-ddr5-tester:GND" 
             (power) 
-            (pin_names 
-                (offset 0)) 
+            (pin_numbers hide) 
+            (pin_names hide) 
             (in_bom yes) 
             (on_board yes) 
             (property "Reference" "#PWR" 
                 (id 0) 
-                (at 0 -3.81 0) 
+                (at 8.89 -2.54 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Value" "+1V1" 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Value" "GND" 
                 (id 1) 
-                (at 0 3.556 0) 
+                (at 8.89 -5.08 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)))) 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
             (property "Footprint" "" 
                 (id 2) 
-                (at 0 0 0) 
+                (at 8.89 -7.62 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
             (property "Datasheet" "" 
                 (id 3) 
-                (at 0 0 0) 
+                (at 8.89 -12.7 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "+1V1_0_1" 
-                (polyline 
-                    (pts 
-                        (xy -0.762 1.27) 
-                        (xy 0 2.54)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 4) 
+                (at 8.89 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 5) 
+                (at 8.89 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (symbol "GND_1_1" 
                 (polyline 
                     (pts 
                         (xy 0 0) 
-                        (xy 0 2.54)) 
+                        (xy 0 -1.27) 
+                        (xy 1.27 -1.27) 
+                        (xy 0 -2.54) 
+                        (xy -1.27 -1.27) 
+                        (xy 0 -1.27)) 
                     (stroke 
                         (width 0) 
                         (type default) 
                         (color 0 0 0 0)) 
                     (fill 
                         (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 0 2.54) 
-                        (xy 0.762 1.27)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "+1V1_1_1" 
                 (pin power_in line 
-                    (at 0 0 90) 
-                    (length 0) hide 
-                    (name "+1V1" 
+                    (at 0 0 270) 
+                    (length 0) 
+                    (name "GND" 
                         (effects 
                             (font 
                                 (size 1.27 1.27)))) 
@@ -217,481 +224,6 @@
                 (pin passive line 
                     (at 5.08 0 180) 
                     (length 2.032) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:GND" 
-            (power) 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "#PWR" 
-                (id 0) 
-                (at 8.89 -2.54 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Value" "GND" 
-                (id 1) 
-                (at 8.89 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "" 
-                (id 2) 
-                (at 8.89 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 8.89 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 4) 
-                (at 8.89 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 5) 
-                (at 8.89 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (symbol "GND_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 0 0) 
-                        (xy 0 -1.27) 
-                        (xy 1.27 -1.27) 
-                        (xy 0 -2.54) 
-                        (xy -1.27 -1.27) 
-                        (xy 0 -1.27)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (pin power_in line 
-                    (at 0 0 270) 
-                    (length 0) 
-                    (name "GND" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_0R_0402" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_0R_0402" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "ERJ2GE0R00X" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Panasonic" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "0R" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "~" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "Current" "1A" 
-                (id 10) 
-                (at 20.32 -30.48 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
-                (id 11) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
-                (id 12) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_0R_0402_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_0R_0402_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_1k_0402" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_1k_0402" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "CR0402-FX-1001GLF" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Bourns" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "1k" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "1%" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
-                (id 10) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
-                (id 11) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_1k_0402_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_1k_0402_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:R_80R6_0402_EIA" 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "R" 
-                (id 0) 
-                (at 20.32 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "R_80R6_0402_EIA" 
-                (id 1) 
-                (at 20.32 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric_EIA" 
-                (id 2) 
-                (at 20.32 -15.24 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
-                (id 3) 
-                (at 20.32 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "MC00625W0402180R6" 
-                (id 4) 
-                (at 20.32 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Multicomp Pro" 
-                (id 5) 
-                (at 20.32 -22.86 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 6) 
-                (at 20.32 -25.4 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 7) 
-                (at 20.32 -27.94 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Val" "80R6" 
-                (id 8) 
-                (at 20.32 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Tolerance" "1%" 
-                (id 9) 
-                (at 20.32 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
-                (id 10) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "SMD Chip Resistor, 80.6 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
-                (id 11) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "R_80R6_0402_EIA_0_1" 
-                (rectangle 
-                    (start 0.635 0.889) 
-                    (end 4.445 -0.889) 
-                    (stroke 
-                        (width 0.254) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "R_80R6_0402_EIA_1_1" 
-                (pin passive line 
-                    (at 0 0 0) 
-                    (length 0.635) 
-                    (name "~" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin passive line 
-                    (at 5.08 0 180) 
-                    (length 0.635) 
                     (name "~" 
                         (effects 
                             (font 
@@ -8514,6 +8046,474 @@
                             (font 
                                 (size 1.27 1.27)))) 
                     (number "T6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_0R_0402" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_0R_0402" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "ERJ2GE0R00X" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Panasonic" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "0R" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "~" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "Current" "1A" 
+                (id 10) 
+                (at 20.32 -30.48 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
+                (id 11) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+                (id 12) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_0R_0402_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_0R_0402_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_1k_0402" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_1k_0402" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "CR0402-FX-1001GLF" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Bourns" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "1k" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "1%" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
+                (id 10) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+                (id 11) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_1k_0402_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_1k_0402_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:R_80R6_0402_EIA" 
+            (pin_numbers hide) 
+            (pin_names hide) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at 20.32 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "R_80R6_0402_EIA" 
+                (id 1) 
+                (at 20.32 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric_EIA" 
+                (id 2) 
+                (at 20.32 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+                (id 3) 
+                (at 20.32 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "MC00625W0402180R6" 
+                (id 4) 
+                (at 20.32 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Multicomp Pro" 
+                (id 5) 
+                (at 20.32 -22.86 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 6) 
+                (at 20.32 -25.4 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 7) 
+                (at 20.32 -27.94 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Val" "80R6" 
+                (id 8) 
+                (at 20.32 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Tolerance" "1%" 
+                (id 9) 
+                (at 20.32 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" 
+                (id 10) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "SMD Chip Resistor, 80.6 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" 
+                (id 11) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "R_80R6_0402_EIA_0_1" 
+                (rectangle 
+                    (start 0.635 0.889) 
+                    (end 4.445 -0.889) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "R_80R6_0402_EIA_1_1" 
+                (pin passive line 
+                    (at 0 0 0) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 0.635) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:+1V1" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "+1V1" 
+                (id 1) 
+                (at 0 3.556 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "+1V1_0_1" 
+                (polyline 
+                    (pts 
+                        (xy -0.762 1.27) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 2.54) 
+                        (xy 0.762 1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "+1V1_1_1" 
+                (pin power_in line 
+                    (at 0 0 90) 
+                    (length 0) hide 
+                    (name "+1V1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
                         (effects 
                             (font 
                                 (size 1.27 1.27)))))))) 

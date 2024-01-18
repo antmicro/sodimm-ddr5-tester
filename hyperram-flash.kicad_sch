@@ -5,90 +5,85 @@
     (paper "A3") 
     (title_block 
         (title "SO-DIMM DDR5 Tester") 
-        (date "2024-01-10") 
-        (rev "1.1.0") 
+        (date "2024-01-18") 
+        (rev "1.1.1") 
         (company "Antmicro Ltd.") 
         (comment 1 "www.antmicro.com") 
         (comment 2 "Antmicro Ltd")) 
     (lib_symbols 
-        (symbol "sodimm-ddr5-tester:+3V3" 
+        (symbol "sodimm-ddr5-tester:GND" 
             (power) 
-            (pin_names 
-                (offset 0)) 
+            (pin_numbers hide) 
+            (pin_names hide) 
             (in_bom yes) 
             (on_board yes) 
             (property "Reference" "#PWR" 
                 (id 0) 
-                (at 0 -3.81 0) 
+                (at 8.89 -2.54 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Value" "+3V3" 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Value" "GND" 
                 (id 1) 
-                (at 0 3.556 0) 
+                (at 8.89 -5.08 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)))) 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
             (property "Footprint" "" 
                 (id 2) 
-                (at 0 0 0) 
+                (at 8.89 -7.62 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
             (property "Datasheet" "" 
                 (id 3) 
-                (at 0 0 0) 
+                (at 8.89 -12.7 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_keywords" "power-flag" 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
                 (id 4) 
-                (at 0 0 0) 
+                (at 8.89 -7.62 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
                 (id 5) 
-                (at 0 0 0) 
+                (at 8.89 -10.16 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "+3V3_0_1" 
-                (polyline 
-                    (pts 
-                        (xy -0.762 1.27) 
-                        (xy 0 2.54)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (symbol "GND_1_1" 
                 (polyline 
                     (pts 
                         (xy 0 0) 
-                        (xy 0 2.54)) 
+                        (xy 0 -1.27) 
+                        (xy 1.27 -1.27) 
+                        (xy 0 -2.54) 
+                        (xy -1.27 -1.27) 
+                        (xy 0 -1.27)) 
                     (stroke 
                         (width 0) 
                         (type default) 
                         (color 0 0 0 0)) 
                     (fill 
                         (type none))) 
-                (polyline 
-                    (pts 
-                        (xy 0 2.54) 
-                        (xy 0.762 1.27)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none)))) 
-            (symbol "+3V3_1_1" 
                 (pin power_in line 
-                    (at 0 0 90) 
-                    (length 0) hide 
-                    (name "+3V3" 
+                    (at 0 0 270) 
+                    (length 0) 
+                    (name "GND" 
                         (effects 
                             (font 
                                 (size 1.27 1.27)))) 
@@ -375,86 +370,6 @@
                             (font 
                                 (size 1.27 1.27)))) 
                     (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:GND" 
-            (power) 
-            (pin_numbers hide) 
-            (pin_names hide) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "#PWR" 
-                (id 0) 
-                (at 8.89 -2.54 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Value" "GND" 
-                (id 1) 
-                (at 8.89 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "" 
-                (id 2) 
-                (at 8.89 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 8.89 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 4) 
-                (at 8.89 -7.62 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 5) 
-                (at 8.89 -10.16 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (symbol "GND_1_1" 
-                (polyline 
-                    (pts 
-                        (xy 0 0) 
-                        (xy 0 -1.27) 
-                        (xy 1.27 -1.27) 
-                        (xy 0 -2.54) 
-                        (xy -1.27 -1.27) 
-                        (xy 0 -1.27)) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (pin power_in line 
-                    (at 0 0 270) 
-                    (length 0) 
-                    (name "GND" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "1" 
                         (effects 
                             (font 
                                 (size 1.27 1.27))))))) 
@@ -826,6 +741,194 @@
                             (font 
                                 (size 1.27 1.27)))) 
                     (number "E5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "sodimm-ddr5-tester:S25FL128SAGNFI000" 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "U" 
+                (id 0) 
+                (at 45.72 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Value" "S25FL128SAGNFI000" 
+                (id 1) 
+                (at 45.72 -5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom))) 
+            (property "Footprint" "sodimm-ddr5-tester-footprints:WSON-8_6x8x0.5mm_P1.27mm" 
+                (id 2) 
+                (at 45.72 -7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Datasheet" "https://www.farnell.com/datasheets/2309615.pdf" 
+                (id 3) 
+                (at 45.72 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "MPN" "S25FL128SAGNFI000" 
+                (id 4) 
+                (at 45.72 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Manufacturer" "Cypress Semiconductor" 
+                (id 5) 
+                (at 45.72 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "Author" "Antmicro" 
+                (id 6) 
+                (at 45.72 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "License" "Apache-2.0" 
+                (id 7) 
+                (at 45.72 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27) 
+                        (thickness 0.15)) 
+                    (justify left bottom) hide)) 
+            (property "ki_keywords" "28 Mbit (16 Mbyte)/256 Mbit (32 Mbyte), 3.0V SPI Flash Memory" 
+                (id 8) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "28 Mbit (16 Mbyte)/256 Mbit (32 Mbyte), 3.0V SPI Flash Memory" 
+                (id 9) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "S25FL128SAGNFI000_1_1" 
+                (rectangle 
+                    (start 2.54 0) 
+                    (end 17.78 -17.78) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (pin input line 
+                    (at 0 -15.24 0) 
+                    (length 2.54) 
+                    (name "~{CS}" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin bidirectional line 
+                    (at 0 -5.08 0) 
+                    (length 2.54) 
+                    (name "SO/IO1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin bidirectional line 
+                    (at 0 -7.62 0) 
+                    (length 2.54) 
+                    (name "~{WP}/IO2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin power_in line 
+                    (at 20.32 -15.24 180) 
+                    (length 2.54) 
+                    (name "V_{SS}" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin bidirectional line 
+                    (at 0 -2.54 0) 
+                    (length 2.54) 
+                    (name "SI/IO0" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at 0 -12.7 0) 
+                    (length 2.54) 
+                    (name "SCK" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin bidirectional line 
+                    (at 0 -10.16 0) 
+                    (length 2.54) 
+                    (name "~{HOLD}/IO3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin power_in line 
+                    (at 20.32 -2.54 180) 
+                    (length 2.54) 
+                    (name "V_{CC}" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin no_connect line 
+                    (at 17.78 -12.7 180) 
+                    (length 2.54) hide 
+                    (name "EP" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "9" 
                         (effects 
                             (font 
                                 (size 1.27 1.27))))))) 
@@ -1444,196 +1547,93 @@
                         (effects 
                             (font 
                                 (size 1.27 1.27))))))) 
-        (symbol "sodimm-ddr5-tester:S25FL128SAGNFI000" 
+        (symbol "sodimm-ddr5-tester:+3V3" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
             (in_bom yes) 
             (on_board yes) 
-            (property "Reference" "U" 
+            (property "Reference" "#PWR" 
                 (id 0) 
-                (at 45.72 -2.54 0) 
+                (at 0 -3.81 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Value" "S25FL128SAGNFI000" 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "+3V3" 
                 (id 1) 
-                (at 45.72 -5.08 0) 
+                (at 0 3.556 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom))) 
-            (property "Footprint" "sodimm-ddr5-tester-footprints:WSON-8_6x8x0.5mm_P1.27mm" 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
                 (id 2) 
-                (at 45.72 -7.62 0) 
+                (at 0 0 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Datasheet" "https://www.farnell.com/datasheets/2309615.pdf" 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
                 (id 3) 
-                (at 45.72 -10.16 0) 
+                (at 0 0 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "MPN" "S25FL128SAGNFI000" 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_keywords" "power-flag" 
                 (id 4) 
-                (at 45.72 -15.24 0) 
+                (at 0 0 0) 
                 (effects 
                     (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Manufacturer" "Cypress Semiconductor" 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" 
                 (id 5) 
-                (at 45.72 -12.7 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "Author" "Antmicro" 
-                (id 6) 
-                (at 45.72 -17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "License" "Apache-2.0" 
-                (id 7) 
-                (at 45.72 -20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27) 
-                        (thickness 0.15)) 
-                    (justify left bottom) hide)) 
-            (property "ki_keywords" "28 Mbit (16 Mbyte)/256 Mbit (32 Mbyte), 3.0V SPI Flash Memory" 
-                (id 8) 
                 (at 0 0 0) 
                 (effects 
                     (font 
                         (size 1.27 1.27)) hide)) 
-            (property "ki_description" "28 Mbit (16 Mbyte)/256 Mbit (32 Mbyte), 3.0V SPI Flash Memory" 
-                (id 9) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "S25FL128SAGNFI000_1_1" 
-                (rectangle 
-                    (start 2.54 0) 
-                    (end 17.78 -17.78) 
+            (symbol "+3V3_0_1" 
+                (polyline 
+                    (pts 
+                        (xy -0.762 1.27) 
+                        (xy 0 2.54)) 
                     (stroke 
-                        (width 0.254) 
+                        (width 0) 
                         (type default) 
                         (color 0 0 0 0)) 
                     (fill 
-                        (type background))) 
-                (pin input line 
-                    (at 0 -15.24 0) 
-                    (length 2.54) 
-                    (name "~{CS}" 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 2.54) 
+                        (xy 0.762 1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "+3V3_1_1" 
+                (pin power_in line 
+                    (at 0 0 90) 
+                    (length 0) hide 
+                    (name "+3V3" 
                         (effects 
                             (font 
                                 (size 1.27 1.27)))) 
                     (number "1" 
                         (effects 
                             (font 
-                                (size 1.27 1.27))))) 
-                (pin bidirectional line 
-                    (at 0 -5.08 0) 
-                    (length 2.54) 
-                    (name "SO/IO1" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin bidirectional line 
-                    (at 0 -7.62 0) 
-                    (length 2.54) 
-                    (name "~{WP}/IO2" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin power_in line 
-                    (at 20.32 -15.24 180) 
-                    (length 2.54) 
-                    (name "V_{SS}" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "4" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin bidirectional line 
-                    (at 0 -2.54 0) 
-                    (length 2.54) 
-                    (name "SI/IO0" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "5" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin input line 
-                    (at 0 -12.7 0) 
-                    (length 2.54) 
-                    (name "SCK" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "6" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin bidirectional line 
-                    (at 0 -10.16 0) 
-                    (length 2.54) 
-                    (name "~{HOLD}/IO3" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "7" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin power_in line 
-                    (at 20.32 -2.54 180) 
-                    (length 2.54) 
-                    (name "V_{CC}" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "8" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27))))) 
-                (pin no_connect line 
-                    (at 17.78 -12.7 180) 
-                    (length 2.54) hide 
-                    (name "EP" 
-                        (effects 
-                            (font 
-                                (size 1.27 1.27)))) 
-                    (number "9" 
-                        (effects 
-                            (font 
                                 (size 1.27 1.27)))))))) 
     (junction 
-        (at 220.98 218.44) 
+        (at 228.6 218.44) 
         (diameter 0) 
         (color 0 0 0 0) 
         (uuid 00585773-5c99-4e5a-8cbe-15bd115c804f)) 
@@ -1648,7 +1648,7 @@
         (color 0 0 0 0) 
         (uuid 1c6088ff-eeb4-4cb6-9fb8-81fd66c6c357)) 
     (junction 
-        (at 229.235 191.77) 
+        (at 236.855 191.77) 
         (diameter 0) 
         (color 0 0 0 0) 
         (uuid 4b9bceb4-25a6-48a6-b8fa-2c01c230fd58)) 
@@ -1658,7 +1658,7 @@
         (color 0 0 0 0) 
         (uuid 54ecbd85-4a9f-4268-81ea-ba24f71acac8)) 
     (junction 
-        (at 220.98 191.77) 
+        (at 228.6 191.77) 
         (diameter 0) 
         (color 0 0 0 0) 
         (uuid 6bbb0137-9663-4a23-bd55-fe01698658a5)) 
@@ -1668,7 +1668,7 @@
         (color 0 0 0 0) 
         (uuid 8b1ffd3f-543d-4ae6-86c5-d4b61ebc3416)) 
     (junction 
-        (at 257.81 215.9) 
+        (at 265.43 215.9) 
         (diameter 0) 
         (color 0 0 0 0) 
         (uuid 8b499dfb-ab71-411c-8107-1ba0ca3bb007)) 
@@ -1688,7 +1688,7 @@
         (color 0 0 0 0) 
         (uuid c2d66ac2-9bd4-4a5d-bb6f-6ad9bad916d0)) 
     (junction 
-        (at 237.49 210.82) 
+        (at 245.11 210.82) 
         (diameter 0) 
         (color 0 0 0 0) 
         (uuid cc308e48-92bf-4518-999e-c23708b68ac3)) 
@@ -1703,7 +1703,7 @@
         (color 0 0 0 0) 
         (uuid d160b961-dac6-4206-9a66-d17be4319f89)) 
     (junction 
-        (at 229.235 213.36) 
+        (at 236.855 213.36) 
         (diameter 0) 
         (color 0 0 0 0) 
         (uuid e7ad6c42-56c2-4295-8f83-5224dfd6b5c2)) 
@@ -1753,7 +1753,7 @@
             (color 0 0 0 0)) 
         (uuid 406620ef-2fd1-4b22-a6be-50d3ac385969)) 
     (bus_entry 
-        (at 269.875 213.36) 
+        (at 277.495 213.36) 
         (size 2.54 -2.54) 
         (stroke 
             (width 0) 
@@ -1761,7 +1761,7 @@
             (color 0 0 0 0)) 
         (uuid 6fd4c9c5-60e5-404a-a550-a19d8724706b)) 
     (bus_entry 
-        (at 269.875 218.44) 
+        (at 277.495 218.44) 
         (size 2.54 -2.54) 
         (stroke 
             (width 0) 
@@ -1785,7 +1785,7 @@
             (color 0 0 0 0)) 
         (uuid a2d1e76d-8721-4fdc-8872-277870a56ba3)) 
     (bus_entry 
-        (at 269.875 215.9) 
+        (at 277.495 215.9) 
         (size 2.54 -2.54) 
         (stroke 
             (width 0) 
@@ -1801,7 +1801,7 @@
             (color 0 0 0 0)) 
         (uuid aa105b43-0e8c-48cb-b5e8-cdb6381eb7eb)) 
     (bus_entry 
-        (at 269.875 208.28) 
+        (at 277.495 208.28) 
         (size 2.54 -2.54) 
         (stroke 
             (width 0) 
@@ -1833,7 +1833,7 @@
             (color 0 0 0 0)) 
         (uuid c0f5f36f-c639-4061-bcf8-e232d211b867)) 
     (bus_entry 
-        (at 269.875 210.82) 
+        (at 277.495 210.82) 
         (size 2.54 -2.54) 
         (stroke 
             (width 0) 
@@ -1849,7 +1849,7 @@
             (color 0 0 0 0)) 
         (uuid d85f74df-8692-4747-a62f-ca703f46a349)) 
     (bus_entry 
-        (at 269.875 205.74) 
+        (at 277.495 205.74) 
         (size 2.54 -2.54) 
         (stroke 
             (width 0) 
@@ -1866,8 +1866,8 @@
         (uuid ebff7259-ec98-4286-8ba5-67fe238f2222)) 
     (bus 
         (pts 
-            (xy 273.05 201.295) 
-            (xy 272.415 201.93)) 
+            (xy 280.67 201.295) 
+            (xy 280.035 201.93)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -1885,7 +1885,7 @@
     (wire 
         (pts 
             (xy 217.805 205.74) 
-            (xy 247.65 205.74)) 
+            (xy 255.27 205.74)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -1920,8 +1920,8 @@
         (uuid 0d2985f5-4861-4763-b2e9-1e617f726ddf)) 
     (bus 
         (pts 
-            (xy 272.415 205.74) 
-            (xy 272.415 208.28)) 
+            (xy 280.035 205.74) 
+            (xy 280.035 208.28)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -1929,8 +1929,8 @@
         (uuid 0fdb8a32-9724-4a3a-9c27-b23f90eb7a5a)) 
     (bus 
         (pts 
-            (xy 272.415 201.93) 
-            (xy 272.415 203.2)) 
+            (xy 280.035 201.93) 
+            (xy 280.035 203.2)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -1974,8 +1974,8 @@
         (uuid 1e52b3b7-87ed-4c59-92df-abac68c6cd8b)) 
     (wire 
         (pts 
-            (xy 220.98 189.865) 
-            (xy 220.98 191.77)) 
+            (xy 228.6 189.865) 
+            (xy 228.6 191.77)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2010,8 +2010,8 @@
         (uuid 24b2c3bf-2970-4081-9e3d-d049902201ab)) 
     (wire 
         (pts 
-            (xy 252.73 208.28) 
-            (xy 269.875 208.28)) 
+            (xy 260.35 208.28) 
+            (xy 277.495 208.28)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2019,8 +2019,8 @@
         (uuid 273bc5b3-5c3a-456a-b10d-eaa6199a4d99)) 
     (bus 
         (pts 
-            (xy 274.955 201.295) 
-            (xy 273.05 201.295)) 
+            (xy 282.575 201.295) 
+            (xy 280.67 201.295)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2037,8 +2037,8 @@
         (uuid 2a8e2a30-136f-498f-9769-6d3a4e334e64)) 
     (wire 
         (pts 
-            (xy 220.98 218.44) 
-            (xy 269.875 218.44)) 
+            (xy 228.6 218.44) 
+            (xy 277.495 218.44)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2055,8 +2055,8 @@
         (uuid 2f903f07-ff25-4b34-be09-d58ca87154f1)) 
     (wire 
         (pts 
-            (xy 237.49 200.025) 
-            (xy 237.49 210.82)) 
+            (xy 245.11 200.025) 
+            (xy 245.11 210.82)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2073,8 +2073,8 @@
         (uuid 2ffe29df-5741-460b-acf9-7957fc4ee8ff)) 
     (wire 
         (pts 
-            (xy 220.98 218.44) 
-            (xy 220.98 200.025)) 
+            (xy 228.6 218.44) 
+            (xy 228.6 200.025)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2100,8 +2100,8 @@
         (uuid 3c8a073f-1491-4493-a413-1708ebc1b4d1)) 
     (wire 
         (pts 
-            (xy 237.49 210.82) 
-            (xy 247.65 210.82)) 
+            (xy 245.11 210.82) 
+            (xy 255.27 210.82)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2118,8 +2118,8 @@
         (uuid 3e7e9c58-0258-4705-9525-ea534cd854e4)) 
     (wire 
         (pts 
-            (xy 229.235 213.36) 
-            (xy 247.65 213.36)) 
+            (xy 236.855 213.36) 
+            (xy 255.27 213.36)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2127,8 +2127,8 @@
         (uuid 41ebdec6-7e6a-457c-b276-d7f622971478)) 
     (wire 
         (pts 
-            (xy 257.81 215.9) 
-            (xy 269.875 215.9)) 
+            (xy 265.43 215.9) 
+            (xy 277.495 215.9)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2200,7 +2200,7 @@
     (wire 
         (pts 
             (xy 217.805 210.82) 
-            (xy 237.49 210.82)) 
+            (xy 245.11 210.82)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2226,8 +2226,8 @@
         (uuid 5e93879f-3e0a-4122-99f5-60d49373c24c)) 
     (wire 
         (pts 
-            (xy 220.98 191.77) 
-            (xy 229.235 191.77)) 
+            (xy 228.6 191.77) 
+            (xy 236.855 191.77)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2263,7 +2263,7 @@
     (wire 
         (pts 
             (xy 217.805 213.36) 
-            (xy 229.235 213.36)) 
+            (xy 236.855 213.36)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2289,8 +2289,8 @@
         (uuid 72a95826-eb8d-4a68-a3e5-09cf56b40388)) 
     (wire 
         (pts 
-            (xy 257.81 215.9) 
-            (xy 257.81 221.615)) 
+            (xy 265.43 215.9) 
+            (xy 265.43 221.615)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2298,8 +2298,8 @@
         (uuid 76b9dc5e-44ff-4c27-855e-1396a121077b)) 
     (wire 
         (pts 
-            (xy 252.73 213.36) 
-            (xy 269.875 213.36)) 
+            (xy 260.35 213.36) 
+            (xy 277.495 213.36)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2307,8 +2307,8 @@
         (uuid 76ccb86a-8b70-49c4-bd29-90fbc2697c52)) 
     (wire 
         (pts 
-            (xy 229.235 191.77) 
-            (xy 237.49 191.77)) 
+            (xy 236.855 191.77) 
+            (xy 245.11 191.77)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2335,7 +2335,7 @@
     (wire 
         (pts 
             (xy 217.805 208.28) 
-            (xy 247.65 208.28)) 
+            (xy 255.27 208.28)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2361,8 +2361,8 @@
         (uuid 7dc7e375-0ae5-4924-83d7-fa2a793ce4de)) 
     (wire 
         (pts 
-            (xy 252.73 210.82) 
-            (xy 269.875 210.82)) 
+            (xy 260.35 210.82) 
+            (xy 277.495 210.82)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2442,8 +2442,8 @@
         (uuid 99cf455c-e35a-4338-b834-0656bd04ca6c)) 
     (wire 
         (pts 
-            (xy 237.49 194.945) 
-            (xy 237.49 191.77)) 
+            (xy 245.11 194.945) 
+            (xy 245.11 191.77)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2469,8 +2469,8 @@
         (uuid 9fc4ff8f-7431-43e3-8558-3f890ee62d9e)) 
     (wire 
         (pts 
-            (xy 229.235 191.77) 
-            (xy 229.235 194.945)) 
+            (xy 236.855 191.77) 
+            (xy 236.855 194.945)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2496,8 +2496,8 @@
         (uuid a81ef480-190f-4cf9-835c-f2c06ab6e663)) 
     (bus 
         (pts 
-            (xy 272.415 213.36) 
-            (xy 272.415 215.9)) 
+            (xy 280.035 213.36) 
+            (xy 280.035 215.9)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2560,7 +2560,7 @@
     (wire 
         (pts 
             (xy 217.805 218.44) 
-            (xy 220.98 218.44)) 
+            (xy 228.6 218.44)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2586,8 +2586,8 @@
         (uuid c3c338fb-8380-4382-8348-5182981e750e)) 
     (bus 
         (pts 
-            (xy 272.415 203.2) 
-            (xy 272.415 205.74)) 
+            (xy 280.035 203.2) 
+            (xy 280.035 205.74)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2595,8 +2595,8 @@
         (uuid c9308f4e-501f-436e-9b0e-41b0f597e35d)) 
     (bus 
         (pts 
-            (xy 272.415 210.82) 
-            (xy 272.415 213.36)) 
+            (xy 280.035 210.82) 
+            (xy 280.035 213.36)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2604,8 +2604,8 @@
         (uuid ce717449-ff31-4f27-9e67-9febde3416b3)) 
     (bus 
         (pts 
-            (xy 272.415 208.28) 
-            (xy 272.415 210.82)) 
+            (xy 280.035 208.28) 
+            (xy 280.035 210.82)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2614,7 +2614,7 @@
     (wire 
         (pts 
             (xy 217.805 215.9) 
-            (xy 257.81 215.9)) 
+            (xy 265.43 215.9)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2622,8 +2622,8 @@
         (uuid d4842a1c-1474-4c44-b8f3-a1d61f81d3ef)) 
     (wire 
         (pts 
-            (xy 220.98 191.77) 
-            (xy 220.98 194.945)) 
+            (xy 228.6 191.77) 
+            (xy 228.6 194.945)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2631,8 +2631,8 @@
         (uuid d56d2e5c-401b-491c-85b3-7fb444093015)) 
     (wire 
         (pts 
-            (xy 252.73 205.74) 
-            (xy 269.875 205.74)) 
+            (xy 260.35 205.74) 
+            (xy 277.495 205.74)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2649,8 +2649,8 @@
         (uuid d8c5b730-a4b5-4223-933d-5032417ef36b)) 
     (wire 
         (pts 
-            (xy 229.235 213.36) 
-            (xy 229.235 200.025)) 
+            (xy 236.855 213.36) 
+            (xy 236.855 200.025)) 
         (stroke 
             (width 0) 
             (type default) 
@@ -2717,14 +2717,14 @@
             (justify left bottom)) 
         (uuid ae80f290-89db-435a-817d-a6b8f3f84a7d)) 
     (label "FLASH.IO3" 
-        (at 269.875 213.36 180) 
+        (at 277.495 213.36 180) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
             (justify right bottom)) 
         (uuid 016a4a3d-fc2f-4932-8801-b27ed5790ac3)) 
     (label "FLASH.IO1" 
-        (at 269.875 208.28 180) 
+        (at 277.495 208.28 180) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
@@ -2738,14 +2738,14 @@
             (justify left bottom)) 
         (uuid 08537357-227e-46c4-b107-926489fd4112)) 
     (label "FLASH.IO2" 
-        (at 269.875 210.82 180) 
+        (at 277.495 210.82 180) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
             (justify right bottom)) 
         (uuid 145a0f12-625b-4a94-93bc-83845334d955)) 
     (label "FLASH.~{CS}" 
-        (at 269.875 218.44 180) 
+        (at 277.495 218.44 180) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
@@ -2765,6 +2765,13 @@
                 (size 1.27 1.27)) 
             (justify left bottom)) 
         (uuid 38096178-da86-4b34-98ee-5451190e3883)) 
+    (label "IO3" 
+        (at 221.615 213.36 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 467ddc04-6e14-4ebc-8f40-9318cb5000e6)) 
     (label "HyperRAM.~{RESET}" 
         (at 172.72 57.15 0) 
         (effects 
@@ -2780,12 +2787,19 @@
             (justify left bottom)) 
         (uuid 6c31cf14-7df8-4fe5-96aa-1e89f403a7fd)) 
     (label "FLASH.IO0" 
-        (at 269.875 205.74 180) 
+        (at 277.495 205.74 180) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
             (justify right bottom)) 
         (uuid 6faf1706-6108-4f4f-9f52-970aebee9f38)) 
+    (label "IO1" 
+        (at 221.615 208.28 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 6fc010f8-17af-4ab2-8808-80ec04a6224c)) 
     (label "HyperRAM.DQ2" 
         (at 172.72 77.47 0) 
         (effects 
@@ -2821,6 +2835,13 @@
                 (size 1.27 1.27)) 
             (justify left bottom)) 
         (uuid ab537e46-17d3-45e6-9270-89e54ab075fd)) 
+    (label "IO0" 
+        (at 221.615 205.74 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid baa36fff-4782-4afb-97c2-9afd6ece4350)) 
     (label "HyperRAM.CK_P" 
         (at 172.72 64.77 0) 
         (effects 
@@ -2835,8 +2856,15 @@
                 (size 1.27 1.27)) 
             (justify left bottom)) 
         (uuid d61cbd76-f497-4e6e-abba-63863e357d53)) 
+    (label "IO2" 
+        (at 221.615 210.82 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid e4a9d81f-6398-48e0-8b47-fec2a54d9421)) 
     (label "FLASH.SCK" 
-        (at 269.875 215.9 180) 
+        (at 277.495 215.9 180) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
@@ -2851,7 +2879,7 @@
         (uuid fad8a5c1-2447-47b2-b289-ae54b71304d0)) 
     (hierarchical_label "FLASH{QSPI}" 
         (shape bidirectional) 
-        (at 274.955 201.295 0) 
+        (at 282.575 201.295 0) 
         (effects 
             (font 
                 (size 1.27 1.27)) 
@@ -3665,17 +3693,17 @@
             (uuid fb8fa21a-6436-4450-8117-ee82ff9bb5a0))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_22R_0402") 
-        (at 247.65 208.28 0) 
+        (at 255.27 208.28 0) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid 00eba4bb-f023-4197-a696-5cfc58c36c2b) 
         (property "Reference" "R7" 
             (id 0) 
-            (at 243.84 207.01 0)) 
+            (at 251.46 207.01 0)) 
         (property "Value" "R_22R_0402" 
             (id 1) 
-            (at 267.97 220.98 0) 
+            (at 275.59 220.98 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3683,7 +3711,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 267.97 223.52 0) 
+            (at 275.59 223.52 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3691,7 +3719,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 267.97 226.06 0) 
+            (at 275.59 226.06 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3699,7 +3727,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 267.97 231.14 0) 
+            (at 275.59 231.14 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3707,7 +3735,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-22R0GLF" 
             (id 5) 
-            (at 267.97 228.6 0) 
+            (at 275.59 228.6 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3715,14 +3743,14 @@
                 (justify left bottom) hide)) 
         (property "Val" "22R" 
             (id 6) 
-            (at 254.635 207.01 0) 
+            (at 262.255 207.01 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
                     (thickness 0.15)))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 267.97 233.68 0) 
+            (at 275.59 233.68 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3730,7 +3758,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 267.97 236.22 0) 
+            (at 275.59 236.22 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3738,7 +3766,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 267.97 218.44 0) 
+            (at 275.59 218.44 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -3749,17 +3777,17 @@
             (uuid f9a3d616-69b4-4ba4-9c39-069728ec7dbe))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_22R_0402") 
-        (at 247.65 210.82 0) 
+        (at 255.27 210.82 0) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid 21fd104c-e24e-4cb8-b26c-601e251c2e7e) 
         (property "Reference" "R8" 
             (id 0) 
-            (at 243.84 209.55 0)) 
+            (at 251.46 209.55 0)) 
         (property "Value" "R_22R_0402" 
             (id 1) 
-            (at 267.97 223.52 0) 
+            (at 275.59 223.52 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3767,7 +3795,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 267.97 226.06 0) 
+            (at 275.59 226.06 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3775,7 +3803,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 267.97 228.6 0) 
+            (at 275.59 228.6 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3783,7 +3811,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 267.97 233.68 0) 
+            (at 275.59 233.68 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3791,7 +3819,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-22R0GLF" 
             (id 5) 
-            (at 267.97 231.14 0) 
+            (at 275.59 231.14 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3799,14 +3827,14 @@
                 (justify left bottom) hide)) 
         (property "Val" "22R" 
             (id 6) 
-            (at 254.635 209.55 0) 
+            (at 262.255 209.55 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
                     (thickness 0.15)))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 267.97 236.22 0) 
+            (at 275.59 236.22 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3814,7 +3842,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 267.97 238.76 0) 
+            (at 275.59 238.76 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3822,7 +3850,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 267.97 220.98 0) 
+            (at 275.59 220.98 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -3833,7 +3861,7 @@
             (uuid 23c3ed54-6496-4a7e-8099-e2c90b7e616d))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_4k7_0402") 
-        (at 237.49 194.945 90) 
+        (at 245.11 194.945 90) 
         (mirror x) 
         (unit 1) 
         (in_bom yes) 
@@ -3841,14 +3869,14 @@
         (uuid 23152d2d-9701-4334-95cb-215c0d107a3b) 
         (property "Reference" "R5" 
             (id 0) 
-            (at 237.49 194.31 90) 
+            (at 245.11 194.31 90) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
                 (justify right))) 
         (property "Value" "R_4k7_0402" 
             (id 1) 
-            (at 250.19 215.265 0) 
+            (at 257.81 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3856,7 +3884,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 252.73 215.265 0) 
+            (at 260.35 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3864,7 +3892,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 255.27 215.265 0) 
+            (at 262.89 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3872,7 +3900,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 260.35 215.265 0) 
+            (at 267.97 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3880,7 +3908,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-4701GLF" 
             (id 5) 
-            (at 257.81 215.265 0) 
+            (at 265.43 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3888,7 +3916,7 @@
                 (justify left bottom) hide)) 
         (property "Val" "4k7" 
             (id 6) 
-            (at 239.395 199.39 90) 
+            (at 247.015 199.39 90) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3896,7 +3924,7 @@
                 (justify right))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 262.89 215.265 0) 
+            (at 270.51 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3904,7 +3932,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 265.43 215.265 0) 
+            (at 273.05 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3912,7 +3940,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 247.65 215.265 0) 
+            (at 255.27 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -3923,17 +3951,17 @@
             (uuid bd09549a-913c-4145-88aa-3cba3d4cd452))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_22R_0402") 
-        (at 247.65 213.36 0) 
+        (at 255.27 213.36 0) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid 2a2b0c0c-ff64-4cf5-9902-8b2c033d9229) 
         (property "Reference" "R9" 
             (id 0) 
-            (at 243.84 212.09 0)) 
+            (at 251.46 212.09 0)) 
         (property "Value" "R_22R_0402" 
             (id 1) 
-            (at 267.97 226.06 0) 
+            (at 275.59 226.06 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3941,7 +3969,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 267.97 228.6 0) 
+            (at 275.59 228.6 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3949,7 +3977,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 267.97 231.14 0) 
+            (at 275.59 231.14 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3957,7 +3985,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 267.97 236.22 0) 
+            (at 275.59 236.22 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3965,7 +3993,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-22R0GLF" 
             (id 5) 
-            (at 267.97 233.68 0) 
+            (at 275.59 233.68 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3973,14 +4001,14 @@
                 (justify left bottom) hide)) 
         (property "Val" "22R" 
             (id 6) 
-            (at 254.635 212.09 0) 
+            (at 262.255 212.09 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
                     (thickness 0.15)))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 267.97 238.76 0) 
+            (at 275.59 238.76 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3988,7 +4016,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 267.97 241.3 0) 
+            (at 275.59 241.3 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -3996,7 +4024,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 267.97 223.52 0) 
+            (at 275.59 223.52 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -4105,7 +4133,7 @@
             (uuid 89a7163a-a64e-43d2-9f76-2e79f092a097))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:GND") 
-        (at 257.81 226.695 0) 
+        (at 265.43 226.695 0) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
@@ -4113,28 +4141,28 @@
         (uuid 5b8e5c6c-6dba-4b9c-a145-9bfb7341e75d) 
         (property "Reference" "#PWR0172" 
             (id 0) 
-            (at 257.81 233.045 0) 
+            (at 265.43 233.045 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
         (property "Value" "GND" 
             (id 1) 
-            (at 257.81 231.14 0)) 
+            (at 265.43 231.14 0)) 
         (property "Footprint" "" 
             (id 2) 
-            (at 257.81 226.695 0) 
+            (at 265.43 226.695 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
         (property "Datasheet" "" 
             (id 3) 
-            (at 257.81 226.695 0) 
+            (at 265.43 226.695 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
         (property "Author" "Antmicro" 
             (id 4) 
-            (at 266.7 234.315 0) 
+            (at 274.32 234.315 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4142,7 +4170,7 @@
                 (justify left bottom) hide)) 
         (property "License" "Apache-2.0" 
             (id 5) 
-            (at 266.7 236.855 0) 
+            (at 274.32 236.855 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4152,21 +4180,21 @@
             (uuid 3e0222d4-cc0d-4806-91ce-a2343127e46b))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_2k2_0402") 
-        (at 220.98 194.945 270) 
+        (at 228.6 194.945 270) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid 8f6a15da-696f-4d6c-816e-98d1d412fa59) 
         (property "Reference" "R3" 
             (id 0) 
-            (at 220.98 194.3099 90) 
+            (at 228.6 194.3099 90) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
                 (justify left))) 
         (property "Value" "R_2k2_0402" 
             (id 1) 
-            (at 208.28 215.265 0) 
+            (at 215.9 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4174,7 +4202,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 205.74 215.265 0) 
+            (at 213.36 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4182,7 +4210,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 203.2 215.265 0) 
+            (at 210.82 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4190,7 +4218,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 198.12 215.265 0) 
+            (at 205.74 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4198,7 +4226,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-2201GLF" 
             (id 5) 
-            (at 200.66 215.265 0) 
+            (at 208.28 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4206,7 +4234,7 @@
                 (justify left bottom) hide)) 
         (property "Val" "2k2" 
             (id 6) 
-            (at 222.885 199.3899 90) 
+            (at 230.505 199.3899 90) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4214,7 +4242,7 @@
                 (justify left))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 195.58 215.265 0) 
+            (at 203.2 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4222,7 +4250,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 193.04 215.265 0) 
+            (at 200.66 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4230,7 +4258,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 210.82 215.265 0) 
+            (at 218.44 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -4241,7 +4269,7 @@
             (uuid 41051849-82d2-435e-af1f-b4c429c21105))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_4k7_0402") 
-        (at 229.235 194.945 90) 
+        (at 236.855 194.945 90) 
         (mirror x) 
         (unit 1) 
         (in_bom yes) 
@@ -4249,14 +4277,14 @@
         (uuid a47ba05b-eb44-4a9c-a906-0ddd2f5206aa) 
         (property "Reference" "R4" 
             (id 0) 
-            (at 229.235 194.3099 90) 
+            (at 236.855 194.3099 90) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
                 (justify right))) 
         (property "Value" "R_4k7_0402" 
             (id 1) 
-            (at 241.935 215.265 0) 
+            (at 249.555 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4264,7 +4292,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 244.475 215.265 0) 
+            (at 252.095 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4272,7 +4300,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 247.015 215.265 0) 
+            (at 254.635 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4280,7 +4308,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 252.095 215.265 0) 
+            (at 259.715 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4288,7 +4316,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-4701GLF" 
             (id 5) 
-            (at 249.555 215.265 0) 
+            (at 257.175 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4296,7 +4324,7 @@
                 (justify left bottom) hide)) 
         (property "Val" "4k7" 
             (id 6) 
-            (at 231.14 199.3899 90) 
+            (at 238.76 199.3899 90) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4304,7 +4332,7 @@
                 (justify right))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 254.635 215.265 0) 
+            (at 262.255 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4312,7 +4340,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 257.175 215.265 0) 
+            (at 264.795 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4320,7 +4348,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 239.395 215.265 0) 
+            (at 247.015 215.265 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -4331,29 +4359,29 @@
             (uuid da103a7e-8fdb-4993-b31e-6878fae4d055))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:+3V3") 
-        (at 220.98 189.865 0) 
+        (at 228.6 189.865 0) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid aaeec52d-998d-4b97-8972-4e723f5ffef4) 
         (property "Reference" "#PWR0173" 
             (id 0) 
-            (at 220.98 193.675 0) 
+            (at 228.6 193.675 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
         (property "Value" "+3V3" 
             (id 1) 
-            (at 220.98 186.055 0)) 
+            (at 228.6 186.055 0)) 
         (property "Footprint" "" 
             (id 2) 
-            (at 220.98 189.865 0) 
+            (at 228.6 189.865 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
         (property "Datasheet" "" 
             (id 3) 
-            (at 220.98 189.865 0) 
+            (at 228.6 189.865 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
@@ -4361,17 +4389,17 @@
             (uuid 4c8064de-2666-455e-9f86-39a01cc30958))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_22R_0402") 
-        (at 247.65 205.74 0) 
+        (at 255.27 205.74 0) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid b1949a5e-e906-463d-a88b-290fe27018fd) 
         (property "Reference" "R6" 
             (id 0) 
-            (at 243.84 204.47 0)) 
+            (at 251.46 204.47 0)) 
         (property "Value" "R_22R_0402" 
             (id 1) 
-            (at 267.97 218.44 0) 
+            (at 275.59 218.44 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4379,7 +4407,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 267.97 220.98 0) 
+            (at 275.59 220.98 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4387,7 +4415,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 267.97 223.52 0) 
+            (at 275.59 223.52 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4395,7 +4423,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 267.97 228.6 0) 
+            (at 275.59 228.6 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4403,7 +4431,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-22R0GLF" 
             (id 5) 
-            (at 267.97 226.06 0) 
+            (at 275.59 226.06 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4411,14 +4439,14 @@
                 (justify left bottom) hide)) 
         (property "Val" "22R" 
             (id 6) 
-            (at 254.635 204.47 0) 
+            (at 262.255 204.47 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
                     (thickness 0.15)))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 267.97 231.14 0) 
+            (at 275.59 231.14 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4426,7 +4454,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 267.97 233.68 0) 
+            (at 275.59 233.68 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4434,7 +4462,7 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 267.97 215.9 0) 
+            (at 275.59 215.9 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
@@ -4631,21 +4659,21 @@
             (uuid 9715733b-6047-4233-bd84-3e4e0a292e38))) 
     (symbol 
         (lib_id "sodimm-ddr5-tester:R_100R_0402") 
-        (at 257.81 221.615 270) 
+        (at 265.43 221.615 270) 
         (unit 1) 
         (in_bom yes) 
         (on_board yes) 
         (uuid e6e6417a-c7a7-40c4-b358-60e0ace7ec4a) 
         (property "Reference" "R10" 
             (id 0) 
-            (at 260.35 222.885 90) 
+            (at 267.97 222.885 90) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
                 (justify left))) 
         (property "Value" "R_100R_0402" 
             (id 1) 
-            (at 245.11 241.935 0) 
+            (at 252.73 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4653,7 +4681,7 @@
                 (justify left bottom) hide)) 
         (property "Footprint" "sodimm-ddr5-tester-footprints:R_0402_1005Metric" 
             (id 2) 
-            (at 242.57 241.935 0) 
+            (at 250.19 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4661,7 +4689,7 @@
                 (justify left bottom) hide)) 
         (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
             (id 3) 
-            (at 240.03 241.935 0) 
+            (at 247.65 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4669,7 +4697,7 @@
                 (justify left bottom) hide)) 
         (property "Manufacturer" "Bourns" 
             (id 4) 
-            (at 234.95 241.935 0) 
+            (at 242.57 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4677,7 +4705,7 @@
                 (justify left bottom) hide)) 
         (property "MPN" "CR0402-FX-1000GLF" 
             (id 5) 
-            (at 237.49 241.935 0) 
+            (at 245.11 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4685,7 +4713,7 @@
                 (justify left bottom) hide)) 
         (property "Val" "100R" 
             (id 6) 
-            (at 260.35 226.0599 90) 
+            (at 267.97 226.0599 90) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4693,7 +4721,7 @@
                 (justify left))) 
         (property "License" "Apache-2.0" 
             (id 7) 
-            (at 232.41 241.935 0) 
+            (at 240.03 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4701,7 +4729,7 @@
                 (justify left bottom) hide)) 
         (property "Author" "Antmicro" 
             (id 8) 
-            (at 229.87 241.935 0) 
+            (at 237.49 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27) 
@@ -4709,14 +4737,14 @@
                 (justify left bottom) hide)) 
         (property "Tolerance" "1%" 
             (id 9) 
-            (at 247.65 241.935 0) 
+            (at 255.27 241.935 0) 
             (effects 
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom) hide)) 
         (property "DNP" "DNP" 
             (id 10) 
-            (at 257.81 224.155 0)) 
+            (at 265.43 224.155 0)) 
         (pin "1" 
             (uuid 4aeea375-8c22-4842-b4e1-8f6d642e865f)) 
         (pin "2" 
