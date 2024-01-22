@@ -13,7 +13,7 @@
   )
 
   (lib_symbols
-    (symbol "power:+3V3" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "sodimm-ddr5-tester:+3V3" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 15.24 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
@@ -3620,7 +3620,7 @@
     (uuid a9d1046e-1130-40f2-b396-5c8096b919ac)
   )
 
-  (symbol (lib_id "power:+3V3") (at 189.865 81.915 0) (unit 1)
+  (symbol (lib_id "sodimm-ddr5-tester:+3V3") (at 189.865 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6597ce3c-2ba0-4e48-b369-734b36db3334)
     (property "Reference" "#PWR0425" (id 0) (at 189.865 85.725 0)
