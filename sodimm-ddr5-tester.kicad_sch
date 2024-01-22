@@ -17,17 +17,17 @@
       (property "Reference" "H" (id 0) (at 17.78 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "Heatsink_960-27-12-D-AB-0" (id 1) (at 17.78 -5.08 0)
+      (property "Value" "Heatsink_960-27-12-D-AB-0" (id 1) (at 17.78 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Footprint" "sodimm-ddr5-tester-footprints:Heatsink_960-27-12-D-AB-0" (id 2) (at 17.78 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wakefield%20Thermal%20PDFs/960_Series.pdf" (id 3) (at 17.78 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "MPN" "960-27-12-D-AB-0" (id 4) (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Footprint" "sodimm-ddr5-tester-footprints:Heatsink_960-27-12-D-AB-0" (id 2) (at 17.78 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wakefield%20Thermal%20PDFs/960_Series.pdf" (id 3) (at 17.78 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "960-27-12-D-AB-0" (id 4) (at 17.78 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Manufacturer" "Wakefield-Vette" (id 5) (at 17.78 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -126,17 +126,17 @@
     )
   )
 
-  (bus_alias "QSPI" (members "IO[0..3]" "~{CS}" "SCK"))
-  (bus_alias "DDR5" (members "DQ[0..31]" "CA[0..12]" "~{DM[0..3]}" "CB[0..3]" "DQS0_P" "DQS0_N" "DQS1_P" "DQS1_N" "DQS2_P" "DQS2_N" "DQS3_P" "DQS3_N" "DQS4_P" "DQS4_N" "CK0_P" "CK0_N" "CK1_P" "CK1_N" "~{CS0}" "~{CS1}" "~{ALERT}" "~{RESET}" "PWR_GOOD" "PWR_EN"))
-  (bus_alias "JTAG" (members "TDO" "TMS" "TCK" "RST" "TDI"))
-  (bus_alias "PCIe_x4" (members "TXD0_P" "TXD0_N" "TXD1_P" "TXD1_N" "TXD2_P" "TXD2_N" "TXD3_P" "TXD3_N" "RXD0_P" "RXD0_N" "RXD1_P" "RXD1_N" "RXD2_P" "RXD2_N" "RXD3_P" "RXD3_N" "CLK_P" "CLK_N"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "RGMII" (members "~{RESET}" "~{INT}" "MDC" "MDIO" "TX_CTL" "TXD[0..3]" "TXC" "RX_CTL" "RXD[0..3]" "RXC" "REF_CLK"))
-  (bus_alias "SDIO" (members "DAT[0..3]" "CMD" "CLK" "CD"))
-  (bus_alias "I^{2}C" (members "SDA" "SCL"))
-  (bus_alias "TMDS" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N"))
-  (bus_alias "HyperBus" (members "~{CS}" "CK_P" "CK_N" "RWDS" "DQ[0..7]" "~{RESET}"))
   (bus_alias "USB" (members "D+"))
+  (bus_alias "I^{2}C" (members "SDA" "SCL"))
+  (bus_alias "SDIO" (members "DAT[0..3]" "CMD" "CLK" "CD"))
+  (bus_alias "RGMII" (members "~{RESET}" "~{INT}" "MDC" "MDIO" "TX_CTL" "TXD[0..3]" "TXC" "RX_CTL" "RXD[0..3]" "RXC" "REF_CLK"))
+  (bus_alias "TMDS" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N"))
+  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "PCIe_x4" (members "TXD0_P" "TXD0_N" "TXD1_P" "TXD1_N" "TXD2_P" "TXD2_N" "TXD3_P" "TXD3_N" "RXD0_P" "RXD0_N" "RXD1_P" "RXD1_N" "RXD2_P" "RXD2_N" "RXD3_P" "RXD3_N" "CLK_P" "CLK_N"))
+  (bus_alias "HyperBus" (members "~{CS}" "CK_P" "CK_N" "RWDS" "DQ[0..7]" "~{RESET}"))
+  (bus_alias "JTAG" (members "TDO" "TMS" "TCK" "RST" "TDI"))
+  (bus_alias "DDR5" (members "DQ[0..31]" "CA[0..12]" "~{DM[0..3]}" "CB[0..3]" "DQS0_P" "DQS0_N" "DQS1_P" "DQS1_N" "DQS2_P" "DQS2_N" "DQS3_P" "DQS3_N" "DQS4_P" "DQS4_N" "CK0_P" "CK0_N" "CK1_P" "CK1_N" "~{CS0}" "~{CS1}" "~{ALERT}" "~{RESET}" "PWR_GOOD" "PWR_EN"))
+  (bus_alias "QSPI" (members "IO[0..3]" "~{CS}" "SCK"))
   (junction (at 142.875 118.745) (diameter 0) (color 0 0 0 0)
     (uuid d115bdc1-a66c-4bfc-ab2e-beff5c576b12)
   )
@@ -2584,7 +2584,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "Heatsink_960-27-12-D-AB-0" (id 1) (at 260.35 266.1706 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left) hide)
     )
     (property "Footprint" "sodimm-ddr5-tester-footprints:Heatsink_960-27-12-D-AB-0" (id 2) (at 271.78 269.875 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -2593,7 +2593,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "960-27-12-D-AB-0" (id 4) (at 271.78 274.955 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
     (property "Manufacturer" "Wakefield-Vette" (id 5) (at 271.78 277.495 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -3028,6 +3028,57 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/75d3cf27-92b2-4d51-a047-93be17b62034"
       (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/3f0d6799-172b-44a7-b59e-98d6f5f3049b/adb9c039-ca0e-4bf5-ac9d-fcee4a1e8732"
+      (reference "#FLG0107") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e240eeea-be8a-4736-b415-db6627c3e732/9ecb6b5f-4370-441c-862b-f0c90547f0e8"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/e240eeea-be8a-4736-b415-db6627c3e732/c5b48f2f-8b03-4cc5-924a-2c1d24ea2cf3"
+      (reference "#FLG0109") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/0b93678b-8534-4036-b77e-e2c4c6ba386f"
+      (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/70d5ad13-41f6-4381-8272-b3aa9c6ec360"
+      (reference "#FLG0111") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/61655259-7adc-4f95-8226-25de06235bf8"
+      (reference "#FLG0112") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/d4db5ea1-854f-4d6f-a199-2a4f48b8ad13"
+      (reference "#FLG0113") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/d1416488-9086-40cf-abbb-b5440b21c1fd"
+      (reference "#FLG0114") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/c69065e0-12b9-4a5a-bd58-64e41288ba82"
+      (reference "#FLG0115") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/768a1744-9d49-4c6a-847e-d7a9aeb5b622"
+      (reference "#FLG0116") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/e54d4c55-8587-4ded-b318-bfb2655c48e2"
+      (reference "#FLG0117") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/e3e0e81b-a044-4cfc-a3c3-e18e75461c37"
+      (reference "#FLG0118") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000600295c1/cb95cc67-4a2b-44c9-8702-17e3780421d2"
+      (reference "#FLG0119") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/2ce60f30-7a62-46a0-8e50-59930566462d"
+      (reference "#FLG0120") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/80808661-a336-45c9-a9f9-67f63b075c44"
+      (reference "#FLG0121") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/3d75a72e-dd42-4f09-b6bf-61aa573c082f"
+      (reference "#FLG0122") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/45c85bad-9f1d-4bcc-926d-0bcc2c2cf02b"
+      (reference "#FLG0123") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/c197ef75-7ae9-4130-af91-09a4b7530e51"
       (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
@@ -3522,7 +3573,7 @@
       (reference "#PWR0188") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/cbb4bd2f-5696-4ecb-a207-1bafff671684"
-      (reference "#PWR0189") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0189") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/41b87e89-2d56-4bb7-9d1b-bd2d38e68fcf"
       (reference "#PWR0190") (unit 1) (value "+1V0") (footprint "")
@@ -3531,7 +3582,7 @@
       (reference "#PWR0191") (unit 1) (value "+3V3_AON") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/e73ab025-0233-406f-b02b-ea89d8ad0297"
-      (reference "#PWR0192") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0192") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/75cf2efd-170c-4974-95cd-c1a85c6d6341"
       (reference "#PWR0193") (unit 1) (value "+3V3_AON") (footprint "")
@@ -3549,7 +3600,7 @@
       (reference "#PWR0197") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/c67ea77e-0950-49fc-b2bd-52d40c923629"
-      (reference "#PWR0198") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0198") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061827943/089193fe-b2ed-46b8-a617-db4c00416227"
       (reference "#PWR0199") (unit 1) (value "+3V3") (footprint "")
@@ -3668,7 +3719,7 @@
     (path "/34ebf93d-6b28-4c40-a799-aace59d6d135/2111f668-150b-4714-8da9-2fc50d7f2a52"
       (reference "#PWR0237") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/e240eeea-be8a-4736-b415-db6627c3e732/ab79894e-c186-47d1-95c4-93a0fc0f6905"
+    (path "/e240eeea-be8a-4736-b415-db6627c3e732/edad7628-7568-4194-bcf5-d8ac6eb1f9ca"
       (reference "#PWR0238") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f28"
@@ -5058,7 +5109,7 @@
       (reference "J8") (unit 1) (value "JST_SH_1x4_BM04B-SRSS-TB-LF-SN") (footprint "sodimm-ddr5-tester-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN")
     )
     (path "/fea793c3-bc28-42ef-95e7-45c2f3eee090/cd1dcb8a-4e15-409a-9ffa-e6d294d4664d"
-      (reference "J9") (unit 1) (value "Edge_Conn_Bus_PCIe_x4") (footprint "sodimm-ddr5-tester-footprints:Edge_Conn_Bus_PCIexpress_x4")
+      (reference "J9") (unit 1) (value "Edge_Conn_Bus_PCIe_x4") (footprint "antmicro-footprints:Edge_Conn_Bus_PCIexpress_x4")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e3e99055-6fc1-4be4-ae3b-c17db36deb94"
       (reference "L1") (unit 1) (value "L_1u5_17A_Bourns-SRP6050CA") (footprint "sodimm-ddr5-tester-footprints:L_Bourns-SRP6050CA")
@@ -5940,7 +5991,7 @@
       (reference "U26") (unit 1) (value "MAX812REUS+T") (footprint "sodimm-ddr5-tester-footprints:SOT-143-4")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/69f7fb59-bd38-4d28-9167-9fa0d828896f"
-      (reference "U27") (unit 1) (value "MP8869S") (footprint "sodimm-ddr5-tester-footprints:MPS_QFN-14_MP8869S")
+      (reference "U27") (unit 1) (value "MP8869S") (footprint "antmicro-footprints:MPS_QFN-14_MP8869S")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fde86c82-17f3-4c5e-8473-2b243fcdd29f"
       (reference "U28") (unit 1) (value "XC6230H001ER-G") (footprint "sodimm-ddr5-tester-footprints:Torex_USP-6C")
