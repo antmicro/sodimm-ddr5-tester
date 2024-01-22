@@ -173,17 +173,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|2209800|1816100|b1c471ed-204d-4864-8e6c-50aba54ec046|9d1072f5-6641-4687-a5b0-5ffa9a4c3c67",
-      "multiple_net_names|2787650|1435100|f4f2921c-f264-4617-ada5-723d98327a04|48c47e4a-9043-44aa-8f66-05a0f578580a",
-      "multiple_net_names|2787650|1460500|a77a15b7-ac11-4f82-9854-2d58f5e39e74|7c6b8af7-ff80-4da5-a51b-0b7e1b15f296",
-      "multiple_net_names|2787650|1498600|af8d8a98-4022-4c9e-9ed5-9a4cd2b9737c|b616f215-bd38-4784-aea3-8c15bf67dbf6",
-      "multiple_net_names|2787650|1524000|3cc334d1-9c76-4707-8ee2-0274ffa2c2a0|f0abe543-35f8-46f8-b782-ad4515540ea8",
-      "multiple_net_names|2787650|1562100|4900b152-131e-459c-819a-28f75c09acb1|fb932c63-40ce-4929-8eab-d6af2291d419",
-      "multiple_net_names|2787650|1587500|b3ff84ad-0229-435d-8793-64e19f21ca87|c8dff798-1cb1-40b9-be30-24d25fe17689",
-      "multiple_net_names|2787650|1625600|7d8c91a4-7362-488a-9828-9f8e8d5a4f17|4f10d7f1-7d07-4f7b-a993-e336edb512c9",
-      "multiple_net_names|2787650|1651000|7b3c471d-02cf-4d72-9565-0d2987950b8d|4e97f508-d0fd-4c8f-9e1d-ef98ba155f16"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
