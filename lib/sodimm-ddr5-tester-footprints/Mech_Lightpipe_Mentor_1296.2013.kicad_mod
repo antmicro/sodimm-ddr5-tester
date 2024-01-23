@@ -1,7 +1,7 @@
 (footprint "Mech_Lightpipe_Mentor_1296.2013" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (attr through_hole)
+  (attr exclude_from_pos_files)
   (fp_text reference "REF**" (at 0 -0.5 90 unlocked) (layer "F.SilkS")
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp e1927ba6-cc0d-45d9-9ef3-0da9512fe1c0)
