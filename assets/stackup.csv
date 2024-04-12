@@ -1,26 +1,26 @@
 Name;Type;Material;Thickness[mm];Constant
 F.Mask;Top Solder Mask;;0.01;
-F.Cu;copper;;0.018;
-dielectric 1;prepreg;1080(69%)+106(74%)S1000-2MB;0.14;3.9
+F.Cu;copper;;0.035;
+dielectric 1;prepreg;PR1080;0.07;3.92
 In1.Cu;copper;;0.018;
-dielectric 2;core;FR4;0.1;4.3
+dielectric 2;core;Isola 370HR;0.1;4.04
 In2.Cu;copper;;0.018;
-dielectric 3;prepreg;1080(69%)+106(74%)S1000-2MB;0.14;3.9
+dielectric 3;prepreg;PR1080;0.07;3.92
 In3.Cu;copper;;0.018;
-dielectric 4;core;FR4;0.1;4.3
+dielectric 4;core;Isola 370HR;0.1;4.04
 In4.Cu;copper;;0.018;
-dielectric 5;prepreg;1080(69%)+106(74%)S1000-2MB;0.14;3.9
+dielectric 5;prepreg;PR1080;0.07;3.92
 In5.Cu;copper;;0.018;
-dielectric 6;core;FR4;0.1;4.3
+dielectric 6;core;Isola 370HR;0.1;4.04
 In6.Cu;copper;;0.018;
-dielectric 7;prepreg;1080(69%)+106(74%)S1000-2MB;0.14;3.9
+dielectric 7;prepreg;PR1080;0.07;3.92
 In7.Cu;copper;;0.018;
-dielectric 8;core;FR4;0.1;4.3
+dielectric 8;core;Isola 370HR;0.1;4.04
 In8.Cu;copper;;0.018;
-dielectric 9;prepreg;1080(69%)+106(74%)S1000-2MB;0.14;3.9
+dielectric 9;prepreg;PR1080;0.07;3.92
 In9.Cu;copper;;0.018;
-dielectric 10;core;FR4;0.1;4.3
+dielectric 10;core;Isola 370HR;0.1;4.04
 In10.Cu;copper;;0.018;
-dielectric 11;prepreg;1080(69%)+106(74%)S1000-2MB;0.14;3.9
-B.Cu;copper;;0.018;
+dielectric 11;prepreg;PR1080;0.07;3.92
+B.Cu;copper;;0.035;
 B.Mask;Bottom Solder Mask;;0.01;
