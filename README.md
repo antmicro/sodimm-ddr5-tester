@@ -9,16 +9,18 @@ Copyright (c) 2023-2024 [Antmicro](https://antmicro.com)
 ## Overview
 
 This project contains open hardware KiCad design files for an experimental platform built around the Xilinx Kintex-7 FPGA, which can be used to interface with SO-DIMM DDR5 RAM modules.
+It is also possible to use the platform with single LPDDR5 memories by using custom adapters named [LPDDR5 testbeds](https://github.com/antmicro/lpddr5-testbed).
 
+The SO-DIMM DDR5 Tester can be used with the open source [Rowhammer Tester](https://github.com/antmicro/rowhammer-tester) suite.
+ 
 ## Project structure
 
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
 * `img` - contains graphics for this README
-* `doc` - contains pdf schematics
-* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
+* `doc` - contains PDF schematics
+* `assets` - contains visual assets for showcasing this design on the [Open Hardware Portal](https://openhardware.antmicro.com)
 
 ## Key features
 
