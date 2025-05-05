@@ -1,1654 +1,2952 @@
 {
   "nets": [
     {
-      "name": "/DDR5 SODIMM/B.DQ3",
-      "length": "37.089",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ3/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ3/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ3/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ3/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ3/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ20",
-      "length": "40.355",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ20/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ20/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ20/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ20/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ20/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ9",
-      "length": "58.711",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ9/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ9/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ9/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ9/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ9/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ14",
-      "length": "58.040",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ14/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ14/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ14/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ14/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ14/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.CA1",
-      "length": "34.040",
-      "width": "0.100",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.CA1/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.CA1/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.CA1/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.CA1/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.CA1/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ2",
-      "length": "34.033",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ2/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ2/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ2/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ2/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ2/top_view.png"
-    },
-    {
-      "name": [
-        "/FPGA MGT Interface/GTX_TX2_P",
-        "/FPGA MGT Interface/GTX_TX2_N"
-      ],
-      "length": [
-        "26.599",
-        "26.768"
-      ],
-      "width": [
-        "0.220",
-        "0.220"
-      ],
-      "impedance": 85,
-      "diff": true,
-      "charts": {
-        "impedance": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/Z_1.png",
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/Z_3.png"
-        ],
-        "smith": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/S_11_smith.png",
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/S_33_smith.png"
-        ],
-        "s-param": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/S_x1.png",
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/S_x3.png"
-        ],
-        "s-param_and_smith": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/s_param_and_smith_1.png",
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/s_param_and_smith_3.png"
-        ],
-        "diff_delay": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/diff_delay.png"
-        ],
-        "diff_impedance": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/Z_diff.png"
-        ],
-        "diff_s-param": [
-          "./FPGA_MGT_Interface_GTX_TX2_PN/results/SDD_Diff.png"
-        ]
-      },
-      "image": "./FPGA_MGT_Interface_GTX_TX2_PN/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ7",
-      "length": "33.947",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ7/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ7/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ7/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ7/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ7/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ21",
-      "length": "53.477",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ21/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ21/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ21/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ21/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ21/top_view.png"
-    },
-    {
-      "name": "/Ethernet/ETH.TXD1",
-      "length": "51.744",
-      "width": "0.100",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./Ethernet_ETH.TXD1/results/Z_1.png"
-        ],
-        "smith": [
-          "./Ethernet_ETH.TXD1/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./Ethernet_ETH.TXD1/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./Ethernet_ETH.TXD1/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./Ethernet_ETH.TXD1/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ29",
-      "length": "59.090",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ29/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ29/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ29/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ29/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ29/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ13",
-      "length": "38.780",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ13/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ13/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ13/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ13/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ13/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ4",
-      "length": "62.426",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ4/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ4/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ4/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ4/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ4/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ25",
-      "length": "37.805",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ25/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ25/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ25/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ25/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ25/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ29",
-      "length": "36.702",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ29/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ29/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ29/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ29/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ29/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ30",
-      "length": "35.360",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ30/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ30/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ30/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ30/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ30/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ19",
-      "length": "40.759",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ19/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ19/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ19/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ19/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ19/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ16",
-      "length": "50.743",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ16/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ16/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ16/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ16/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ16/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ24",
-      "length": "34.796",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ24/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ24/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ24/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ24/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ24/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ15",
-      "length": "54.998",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ15/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ15/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ15/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ15/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ15/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ1",
-      "length": "36.711",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ1/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ1/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ1/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ1/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ1/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ31",
-      "length": "60.054",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ31/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ31/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ31/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ31/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ31/top_view.png"
-    },
-    {
-      "name": "/Ethernet/ETH.TXD2",
-      "length": "56.120",
-      "width": "0.100",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./Ethernet_ETH.TXD2/results/Z_1.png"
-        ],
-        "smith": [
-          "./Ethernet_ETH.TXD2/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./Ethernet_ETH.TXD2/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./Ethernet_ETH.TXD2/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./Ethernet_ETH.TXD2/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.CB2",
-      "length": "44.714",
-      "width": "0.148",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.CB2/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.CB2/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.CB2/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.CB2/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.CB2/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ24",
-      "length": "56.458",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ24/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ24/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ24/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ24/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ24/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ25",
-      "length": 54073807.10390586,
-      "width": 148000,
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ25/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ25/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ25/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ25/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ25/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ23",
-      "length": "41.295",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ23/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ23/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ23/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ23/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ23/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ14",
-      "length": "39.902",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ14/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ14/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ14/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ14/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ14/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ31",
-      "length": "36.643",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ31/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ31/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ31/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ31/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ31/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ18",
-      "length": "53.935",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ18/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ18/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ18/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ18/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ18/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ26",
-      "length": "56.296",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ26/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ26/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ26/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ26/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ26/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ20",
-      "length": "53.797",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ20/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ20/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ20/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ20/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ20/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ30",
-      "length": "59.105",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ30/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ30/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ30/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ30/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ30/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ28",
-      "length": "37.802",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ28/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ28/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ28/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ28/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ28/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.CB1",
-      "length": "32.590",
-      "width": "0.148",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.CB1/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.CB1/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.CB1/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.CB1/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.CB1/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ22",
-      "length": "43.503",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ22/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ22/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ22/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ22/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ22/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ13",
-      "length": "54.668",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ13/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ13/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ13/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ13/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ13/top_view.png"
-    },
-    {
-      "name": "/FPGA bank 12/HyperRAM.DQ1",
-      "length": 31518085.726935007,
-      "width": 100000,
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./FPGA_bank_12_HyperRAM.DQ1/results/Z_1.png"
-        ],
-        "smith": [
-          "./FPGA_bank_12_HyperRAM.DQ1/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./FPGA_bank_12_HyperRAM.DQ1/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./FPGA_bank_12_HyperRAM.DQ1/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./FPGA_bank_12_HyperRAM.DQ1/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ21",
-      "length": "42.280",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ21/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ21/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ21/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ21/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ21/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ15",
-      "length": "39.900",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ15/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ15/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ15/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ15/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ15/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ27",
-      "length": 55775736.34836238,
-      "width": 148000,
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ27/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ27/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ27/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ27/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ27/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ3",
-      "length": "58.465",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ3/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ3/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ3/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ3/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ3/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ6",
-      "length": "34.048",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ6/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ6/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ6/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ6/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ6/top_view.png"
-    },
-    {
-      "name": "/FPGA bank 12/HyperRAM.DQ0",
-      "length": 30680055.684914242,
-      "width": 100000,
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./FPGA_bank_12_HyperRAM.DQ0/results/Z_1.png"
-        ],
-        "smith": [
-          "./FPGA_bank_12_HyperRAM.DQ0/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./FPGA_bank_12_HyperRAM.DQ0/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./FPGA_bank_12_HyperRAM.DQ0/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./FPGA_bank_12_HyperRAM.DQ0/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ8",
-      "length": "40.550",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ8/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ8/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ8/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ8/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ8/top_view.png"
-    },
-    {
-      "name": "/Ethernet/ETH.TXD3",
-      "length": "57.827",
-      "width": "0.100",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./Ethernet_ETH.TXD3/results/Z_1.png"
-        ],
-        "smith": [
-          "./Ethernet_ETH.TXD3/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./Ethernet_ETH.TXD3/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./Ethernet_ETH.TXD3/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./Ethernet_ETH.TXD3/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ17",
-      "length": "52.710",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ17/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ17/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ17/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ17/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ17/top_view.png"
-    },
-    {
-      "name": "/HyperRAM + QSPI Flash/IO3",
-      "length": "7.155",
-      "width": "0.256",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./HyperRAM_+_QSPI_Flash_IO3/results/Z_1.png"
-        ],
-        "smith": [
-          "./HyperRAM_+_QSPI_Flash_IO3/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./HyperRAM_+_QSPI_Flash_IO3/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./HyperRAM_+_QSPI_Flash_IO3/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./HyperRAM_+_QSPI_Flash_IO3/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.CA3",
-      "length": "31.571",
-      "width": "0.100",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.CA3/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.CA3/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.CA3/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.CA3/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.CA3/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.~{CS0}",
-      "length": "28.810",
-      "width": "0.100",
-      "impedance": 50,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.~{CS0}/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.~{CS0}/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.~{CS0}/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.~{CS0}/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.~{CS0}/top_view.png"
-    },
-    {
       "name": "/DDR5 SODIMM/A.DQ5",
       "length": "60.904",
       "width": "0.148",
-      "impedance": 40,
+      "impedance": 40.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.DQ5/results/Z_1.png"
+          "./DDR5_SODIMM_A.DQ5/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.DQ5/results/S_11_smith.png"
+          "./DDR5_SODIMM_A.DQ5/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.DQ5/results/S_x1.png"
+          "./DDR5_SODIMM_A.DQ5/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ5/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_A.DQ5/s_param_and_smith_1.png"
         ]
       },
       "image": "./DDR5_SODIMM_A.DQ5/top_view.png"
     },
     {
-      "name": "/DDR5 SODIMM/A.DQ26",
-      "length": "34.442",
+      "name": "/DDR5 SODIMM/A.DQ30",
+      "length": "35.360",
       "width": "0.148",
-      "impedance": 40,
+      "impedance": 40.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.DQ26/results/Z_1.png"
+          "./DDR5_SODIMM_A.DQ30/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.DQ26/results/S_11_smith.png"
+          "./DDR5_SODIMM_A.DQ30/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.DQ26/results/S_x1.png"
+          "./DDR5_SODIMM_A.DQ30/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ26/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_A.DQ30/s_param_and_smith_1.png"
         ]
       },
-      "image": "./DDR5_SODIMM_A.DQ26/top_view.png"
+      "image": "./DDR5_SODIMM_A.DQ30/top_view.png"
     },
     {
-      "name": "/DDR5 SODIMM/B.DQ5",
-      "length": "32.746",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ5/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ5/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ5/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ5/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ5/top_view.png"
-    },
-    {
-      "name": [
-        "/FPGA MGT Interface/GTX_TX0_P",
-        "/FPGA MGT Interface/GTX_TX0_N"
-      ],
-      "length": [
-        "41.780",
-        "41.789"
-      ],
-      "width": [
-        "0.220",
-        "0.220"
-      ],
-      "impedance": 85,
-      "diff": true,
-      "charts": {
-        "impedance": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/Z_1.png",
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/Z_3.png"
-        ],
-        "smith": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/S_11_smith.png",
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/S_33_smith.png"
-        ],
-        "s-param": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/S_x1.png",
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/S_x3.png"
-        ],
-        "s-param_and_smith": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/s_param_and_smith_1.png",
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/s_param_and_smith_3.png"
-        ],
-        "diff_delay": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/diff_delay.png"
-        ],
-        "diff_impedance": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/Z_diff.png"
-        ],
-        "diff_s-param": [
-          "./FPGA_MGT_Interface_GTX_TX0_PN/results/SDD_Diff.png"
-        ]
-      },
-      "image": "./FPGA_MGT_Interface_GTX_TX0_PN/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ10",
-      "length": "53.789",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ10/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ10/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ10/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ10/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ10/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.CA0",
-      "length": "34.257",
+      "name": "/DDR5 SODIMM/A.CA6",
+      "length": "39.004",
       "width": "0.100",
-      "impedance": 50,
+      "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.CA0/results/Z_1.png"
+          "./DDR5_SODIMM_A.CA6/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.CA0/results/S_11_smith.png"
+          "./DDR5_SODIMM_A.CA6/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.CA0/results/S_x1.png"
+          "./DDR5_SODIMM_A.CA6/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.CA0/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_A.CA6/s_param_and_smith_1.png"
         ]
       },
-      "image": "./DDR5_SODIMM_A.CA0/top_view.png"
+      "image": "./DDR5_SODIMM_A.CA6/top_view.png"
     },
     {
-      "name": "/DDR5 SODIMM/A.DQ17",
-      "length": "43.583",
-      "width": "0.148",
-      "impedance": 40,
+      "name": "/DDR5 SODIMM/B.CA1",
+      "length": "42.236",
+      "width": "0.100",
+      "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.DQ17/results/Z_1.png"
+          "./DDR5_SODIMM_B.CA1/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.DQ17/results/S_11_smith.png"
+          "./DDR5_SODIMM_B.CA1/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.DQ17/results/S_x1.png"
+          "./DDR5_SODIMM_B.CA1/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ17/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_B.CA1/s_param_and_smith_1.png"
         ]
       },
-      "image": "./DDR5_SODIMM_A.DQ17/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ11",
-      "length": "39.714",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ11/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ11/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ11/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ11/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ11/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ19",
-      "length": "50.493",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ19/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ19/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ19/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ19/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ19/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ9",
-      "length": "41.100",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ9/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ9/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ9/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ9/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ9/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ23",
-      "length": "55.503",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ23/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ23/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ23/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ23/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ23/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ28",
-      "length": "59.088",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ28/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ28/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ28/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ28/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ28/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ22",
-      "length": "54.490",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ22/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ22/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ22/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ22/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ22/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ16",
-      "length": "43.408",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ16/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ16/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ16/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ16/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ16/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ12",
-      "length": "55.413",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ12/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ12/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ12/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ12/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ12/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ18",
-      "length": "40.657",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ18/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ18/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ18/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ18/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ18/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/A.DQ8",
-      "length": "56.031",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_A.DQ8/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_A.DQ8/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_A.DQ8/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ8/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_A.DQ8/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ12",
-      "length": "38.409",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ12/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ12/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ12/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ12/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ12/top_view.png"
-    },
-    {
-      "name": "/DDR5 SODIMM/B.DQ10",
-      "length": "43.319",
-      "width": "0.148",
-      "impedance": 40,
-      "diff": false,
-      "charts": {
-        "impedance": [
-          "./DDR5_SODIMM_B.DQ10/results/Z_1.png"
-        ],
-        "smith": [
-          "./DDR5_SODIMM_B.DQ10/results/S_11_smith.png"
-        ],
-        "s-param": [
-          "./DDR5_SODIMM_B.DQ10/results/S_x1.png"
-        ],
-        "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ10/results/s_param_and_smith_1.png"
-        ]
-      },
-      "image": "./DDR5_SODIMM_B.DQ10/top_view.png"
+      "image": "./DDR5_SODIMM_B.CA1/top_view.png"
     },
     {
       "name": "/DDR5 SODIMM/A.DQ27",
       "length": "31.393",
       "width": "0.148",
-      "impedance": 40,
+      "impedance": 40.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.DQ27/results/Z_1.png"
+          "./DDR5_SODIMM_A.DQ27/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.DQ27/results/S_11_smith.png"
+          "./DDR5_SODIMM_A.DQ27/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.DQ27/results/S_x1.png"
+          "./DDR5_SODIMM_A.DQ27/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ27/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_A.DQ27/s_param_and_smith_1.png"
         ]
       },
       "image": "./DDR5_SODIMM_A.DQ27/top_view.png"
     },
     {
-      "name": "/DDR5 SODIMM/A.DQ2",
-      "length": 57154437.516788125,
-      "width": 148000,
-      "impedance": 40,
+      "name": [
+        "/DDR5 SODIMM/B.DQS1_P",
+        "/DDR5 SODIMM/B.DQS1_N"
+      ],
+      "length": [
+        "40.758",
+        "41.137"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQS1_Diff/Z_1.png",
+          "./DDR5_SODIMM_B.DQS1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQS1_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_B.DQS1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQS1_Diff/S_x1.png",
+          "./DDR5_SODIMM_B.DQS1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_B.DQS1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_B.DQS1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_B.DQS1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQS1_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_B.DQS1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQS1_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CB2",
+      "length": "39.842",
+      "width": "0.148",
+      "impedance": 50.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.DQ2/results/Z_1.png"
+          "./DDR5_SODIMM_B.CB2/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.DQ2/results/S_11_smith.png"
+          "./DDR5_SODIMM_B.CB2/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.DQ2/results/S_x1.png"
+          "./DDR5_SODIMM_B.CB2/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ2/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_B.CB2/s_param_and_smith_1.png"
         ]
       },
-      "image": "./DDR5_SODIMM_A.DQ2/top_view.png"
+      "image": "./DDR5_SODIMM_B.CB2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA9",
+      "length": "37.745",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA9/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA9/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA9/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA9/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA9/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA5",
+      "length": "39.223",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA5/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA5/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA5/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA5/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA5/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA11",
+      "length": "38.178",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA11/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA11/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA11/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA11/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA11/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/A.DQS2_P",
+        "/DDR5 SODIMM/A.DQS2_N"
+      ],
+      "length": [
+        "44.733",
+        "45.147"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQS2_Diff/Z_1.png",
+          "./DDR5_SODIMM_A.DQS2_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQS2_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_A.DQS2_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQS2_Diff/S_x1.png",
+          "./DDR5_SODIMM_A.DQS2_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_A.DQS2_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_A.DQS2_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_A.DQS2_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQS2_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_A.DQS2_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQS2_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ27",
+      "length": "55.776",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ27/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ27/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ27/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ27/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ27/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/B.DQS3_P",
+        "/DDR5 SODIMM/B.DQS3_N"
+      ],
+      "length": [
+        "55.048",
+        "55.259"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQS3_Diff/Z_1.png",
+          "./DDR5_SODIMM_B.DQS3_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQS3_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_B.DQS3_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQS3_Diff/S_x1.png",
+          "./DDR5_SODIMM_B.DQS3_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_B.DQS3_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_B.DQS3_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_B.DQS3_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQS3_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_B.DQS3_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQS3_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ13",
+      "length": "54.668",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ13/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ13/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ13/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ13/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ13/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ16",
+      "length": "50.743",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ16/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ16/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ16/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ16/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ16/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA12",
+      "length": "46.080",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA12/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA12/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA12/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA12/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA12/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA8",
+      "length": "36.208",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA8/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA8/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA8/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA8/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA8/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ28",
+      "length": "37.802",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ28/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ28/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ28/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ28/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ28/top_view.png"
     },
     {
       "name": "/DDR5 SODIMM/A.DQ7",
       "length": "63.531",
       "width": "0.148",
-      "impedance": 40,
+      "impedance": 40.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_A.DQ7/results/Z_1.png"
+          "./DDR5_SODIMM_A.DQ7/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_A.DQ7/results/S_11_smith.png"
+          "./DDR5_SODIMM_A.DQ7/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_A.DQ7/results/S_x1.png"
+          "./DDR5_SODIMM_A.DQ7/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_A.DQ7/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_A.DQ7/s_param_and_smith_1.png"
         ]
       },
       "image": "./DDR5_SODIMM_A.DQ7/top_view.png"
     },
     {
-      "name": "/DDR5 SODIMM/B.DQ4",
-      "length": "33.083",
+      "name": "/DDR5 SODIMM/B.DQ30",
+      "length": "59.105",
       "width": "0.148",
-      "impedance": 40,
+      "impedance": 40.0,
       "diff": false,
       "charts": {
         "impedance": [
-          "./DDR5_SODIMM_B.DQ4/results/Z_1.png"
+          "./DDR5_SODIMM_B.DQ30/Z_1.png"
         ],
         "smith": [
-          "./DDR5_SODIMM_B.DQ4/results/S_11_smith.png"
+          "./DDR5_SODIMM_B.DQ30/S_11_smith.png"
         ],
         "s-param": [
-          "./DDR5_SODIMM_B.DQ4/results/S_x1.png"
+          "./DDR5_SODIMM_B.DQ30/S_x1.png"
         ],
         "s-param_and_smith": [
-          "./DDR5_SODIMM_B.DQ4/results/s_param_and_smith_1.png"
+          "./DDR5_SODIMM_B.DQ30/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ30/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.~{CS0}",
+      "length": "35.725",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.negCS0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.negCS0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.negCS0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.negCS0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.negCS0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ3",
+      "length": "37.089",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ31",
+      "length": "60.054",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ31/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ31/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ31/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ31/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ31/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ29",
+      "length": "59.090",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ29/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ29/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ29/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ29/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ29/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ0",
+      "length": "37.631",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.~{CS0}",
+      "length": "28.810",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.negCS0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.negCS0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.negCS0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.negCS0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.negCS0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CB2",
+      "length": "44.714",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CB2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CB2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CB2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CB2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CB2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ2",
+      "length": "57.154",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.~{DM1}",
+      "length": "53.077",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.negDM1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.negDM1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.negDM1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.negDM1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.negDM1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ28",
+      "length": "59.088",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ28/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ28/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ28/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ28/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ28/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA6",
+      "length": "43.724",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA6/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA6/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA6/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA6/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA6/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ26",
+      "length": "56.296",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ26/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ26/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ26/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ26/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ26/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ5",
+      "length": "32.746",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ5/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ5/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ5/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ5/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ5/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA2",
+      "length": "36.977",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA2/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/A.DQS4_P",
+        "/DDR5 SODIMM/A.DQS4_N"
+      ],
+      "length": [
+        "34.037",
+        "34.215"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQS4_Diff/Z_1.png",
+          "./DDR5_SODIMM_A.DQS4_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQS4_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_A.DQS4_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQS4_Diff/S_x1.png",
+          "./DDR5_SODIMM_A.DQS4_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_A.DQS4_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_A.DQS4_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_A.DQS4_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQS4_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_A.DQS4_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQS4_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.~{DM0}",
+      "length": "57.967",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.negDM0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.negDM0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.negDM0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.negDM0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.negDM0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.~{DM0}",
+      "length": "33.338",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.negDM0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.negDM0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.negDM0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.negDM0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.negDM0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ10",
+      "length": "43.319",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ10/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ10/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ10/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ10/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ10/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ16",
+      "length": "43.408",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ16/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ16/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ16/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ16/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ16/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA0",
+      "length": "43.948",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ8",
+      "length": "56.031",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ8/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ8/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ8/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ8/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ8/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ24",
+      "length": "56.458",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ24/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ24/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ24/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ24/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ24/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA8",
+      "length": "40.880",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA8/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA8/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA8/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA8/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA8/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ19",
+      "length": "40.759",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ19/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ19/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ19/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ19/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ19/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.~{DM2}",
+      "length": "52.109",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.negDM2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.negDM2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.negDM2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.negDM2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.negDM2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CB1",
+      "length": "41.306",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CB1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CB1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CB1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CB1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CB1/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/B.DQS0_P",
+        "/DDR5 SODIMM/B.DQS0_N"
+      ],
+      "length": [
+        "35.815",
+        "36.235"
+      ],
+      "width": [
+        "0.100",
+        "0.100"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQS0_Diff/Z_1.png",
+          "./DDR5_SODIMM_B.DQS0_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQS0_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_B.DQS0_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQS0_Diff/S_x1.png",
+          "./DDR5_SODIMM_B.DQS0_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_B.DQS0_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_B.DQS0_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_B.DQS0_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQS0_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_B.DQS0_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQS0_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ6",
+      "length": "34.048",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ6/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ6/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ6/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ6/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ6/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ8",
+      "length": "40.550",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ8/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ8/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ8/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ8/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ8/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/A.CK1_P",
+        "/DDR5 SODIMM/A.CK1_N"
+      ],
+      "length": [
+        "34.376",
+        "34.747"
+      ],
+      "width": [
+        "0.100",
+        "0.100"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CK1_Diff/Z_1.png",
+          "./DDR5_SODIMM_A.CK1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CK1_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_A.CK1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CK1_Diff/S_x1.png",
+          "./DDR5_SODIMM_A.CK1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_A.CK1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_A.CK1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_A.CK1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CK1_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_A.CK1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CK1_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA12",
+      "length": "36.671",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA12/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA12/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA12/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA12/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA12/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ18",
+      "length": "40.657",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ18/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ18/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ18/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ18/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ18/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ9",
+      "length": "41.100",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ9/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ9/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ9/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ9/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ9/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/B.CK0_P",
+        "/DDR5 SODIMM/B.CK0_N"
+      ],
+      "length": [
+        "42.312",
+        "41.855"
+      ],
+      "width": [
+        "0.100",
+        "0.100"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CK0_Diff/Z_1.png",
+          "./DDR5_SODIMM_B.CK0_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CK0_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_B.CK0_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CK0_Diff/S_x1.png",
+          "./DDR5_SODIMM_B.CK0_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_B.CK0_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_B.CK0_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_B.CK0_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CK0_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_B.CK0_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CK0_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ23",
+      "length": "55.503",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ23/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ23/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ23/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ23/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ23/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA10",
+      "length": "36.704",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA10/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA10/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA10/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA10/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA10/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/A.DQS0_P",
+        "/DDR5 SODIMM/A.DQS0_N"
+      ],
+      "length": [
+        "59.555",
+        "59.549"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQS0_Diff/Z_1.png",
+          "./DDR5_SODIMM_A.DQS0_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQS0_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_A.DQS0_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQS0_Diff/S_x1.png",
+          "./DDR5_SODIMM_A.DQS0_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_A.DQS0_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_A.DQS0_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_A.DQS0_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQS0_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_A.DQS0_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQS0_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ26",
+      "length": "34.442",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ26/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ26/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ26/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ26/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ26/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.~{DM3}",
+      "length": "55.023",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.negDM3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.negDM3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.negDM3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.negDM3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.negDM3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ15",
+      "length": "39.900",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ15/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ15/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ15/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ15/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ15/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ4",
+      "length": "62.426",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ4/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ4/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ4/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ4/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ4/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/B.DQS2_P",
+        "/DDR5 SODIMM/B.DQS2_N"
+      ],
+      "length": [
+        "50.767",
+        "50.368"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQS2_Diff/Z_1.png",
+          "./DDR5_SODIMM_B.DQS2_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQS2_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_B.DQS2_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQS2_Diff/S_x1.png",
+          "./DDR5_SODIMM_B.DQS2_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_B.DQS2_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_B.DQS2_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_B.DQS2_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQS2_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_B.DQS2_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQS2_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ6",
+      "length": "60.119",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ6/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ6/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ6/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ6/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ6/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA0",
+      "length": "34.257",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ23",
+      "length": "41.295",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ23/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ23/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ23/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ23/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ23/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ13",
+      "length": "38.780",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ13/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ13/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ13/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ13/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ13/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ3",
+      "length": "58.465",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ14",
+      "length": "39.902",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ14/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ14/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ14/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ14/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ14/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ11",
+      "length": "39.714",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ11/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ11/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ11/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ11/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ11/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.~{CS1}",
+      "length": "21.742",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.negCS1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.negCS1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.negCS1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.negCS1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.negCS1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.~{DM2}",
+      "length": "46.692",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.negDM2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.negDM2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.negDM2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.negDM2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.negDM2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ25",
+      "length": "37.805",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ25/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ25/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ25/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ25/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ25/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA9",
+      "length": "41.456",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA9/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA9/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA9/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA9/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA9/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ12",
+      "length": "55.413",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ12/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ12/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ12/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ12/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ12/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ25",
+      "length": "54.074",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ25/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ25/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ25/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ25/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ25/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA2",
+      "length": "44.877",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ2",
+      "length": "34.033",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ2/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ2/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ2/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ2/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ2/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ11",
+      "length": "54.367",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ11/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ11/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ11/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ11/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ11/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CB3",
+      "length": "49.146",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CB3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CB3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CB3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CB3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CB3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CB0",
+      "length": "38.505",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CB0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CB0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CB0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CB0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CB0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA4",
+      "length": "41.865",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA4/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA4/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA4/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA4/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA4/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA3",
+      "length": "31.571",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ22",
+      "length": "54.490",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ22/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ22/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ22/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ22/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ22/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA1",
+      "length": "34.040",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA1/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/A.CK0_P",
+        "/DDR5 SODIMM/A.CK0_N"
+      ],
+      "length": [
+        "35.386",
+        "35.751"
+      ],
+      "width": [
+        "0.100",
+        "0.100"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CK0_Diff/Z_1.png",
+          "./DDR5_SODIMM_A.CK0_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CK0_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_A.CK0_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CK0_Diff/S_x1.png",
+          "./DDR5_SODIMM_A.CK0_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_A.CK0_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_A.CK0_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_A.CK0_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CK0_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_A.CK0_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CK0_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ21",
+      "length": "53.477",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ21/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ21/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ21/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ21/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ21/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/B.CK1_P",
+        "/DDR5 SODIMM/B.CK1_N"
+      ],
+      "length": [
+        "37.025",
+        "36.445"
+      ],
+      "width": [
+        "0.100",
+        "0.100"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CK1_Diff/Z_1.png",
+          "./DDR5_SODIMM_B.CK1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CK1_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_B.CK1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CK1_Diff/S_x1.png",
+          "./DDR5_SODIMM_B.CK1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_B.CK1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_B.CK1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_B.CK1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CK1_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_B.CK1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CK1_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ21",
+      "length": "42.280",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ21/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ21/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ21/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ21/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ21/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ10",
+      "length": "53.789",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ10/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ10/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ10/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ10/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ10/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ19",
+      "length": "50.493",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ19/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ19/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ19/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ19/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ19/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CB3",
+      "length": "45.494",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CB3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CB3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CB3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CB3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CB3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.~{DM1}",
+      "length": "39.023",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.negDM1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.negDM1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.negDM1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.negDM1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.negDM1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ18",
+      "length": "53.935",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ18/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ18/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ18/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ18/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ18/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ15",
+      "length": "54.998",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ15/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ15/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ15/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ15/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ15/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA4",
+      "length": "36.139",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA4/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA4/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA4/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA4/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA4/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ17",
+      "length": "43.583",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ17/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ17/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ17/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ17/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ17/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA7",
+      "length": "39.578",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA7/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA7/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA7/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA7/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA7/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ17",
+      "length": "52.710",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ17/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ17/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ17/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ17/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ17/top_view.png"
+    },
+    {
+      "name": [
+        "/DDR5 SODIMM/A.DQS1_P",
+        "/DDR5 SODIMM/A.DQS1_N"
+      ],
+      "length": [
+        "53.220",
+        "53.514"
+      ],
+      "width": [
+        "0.130",
+        "0.130"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQS1_Diff/Z_1.png",
+          "./DDR5_SODIMM_A.DQS1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQS1_Diff/S_11_smith.png",
+          "./DDR5_SODIMM_A.DQS1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQS1_Diff/S_x1.png",
+          "./DDR5_SODIMM_A.DQS1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./DDR5_SODIMM_A.DQS1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./DDR5_SODIMM_A.DQS1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./DDR5_SODIMM_A.DQS1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQS1_Diff/s_param_and_smith_1.png",
+          "./DDR5_SODIMM_A.DQS1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQS1_Diff/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CB0",
+      "length": "41.828",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CB0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CB0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CB0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CB0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CB0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ14",
+      "length": "58.040",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ14/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ14/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ14/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ14/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ14/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA10",
+      "length": "47.020",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA10/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA10/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA10/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA10/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA10/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.~{CS1}",
+      "length": "34.044",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.negCS1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.negCS1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.negCS1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.negCS1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.negCS1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA5",
+      "length": "41.035",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA5/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA5/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA5/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA5/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA5/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ20",
+      "length": "53.797",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ20/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ20/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ20/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ20/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ20/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ20",
+      "length": "40.355",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ20/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ20/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ20/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ20/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ20/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA11",
+      "length": "43.494",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA11/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA11/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA11/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA11/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA11/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ4",
+      "length": "33.083",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ4/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ4/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ4/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ4/s_param_and_smith_1.png"
         ]
       },
       "image": "./DDR5_SODIMM_B.DQ4/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ9",
+      "length": "58.711",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ9/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ9/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ9/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ9/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ9/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ12",
+      "length": "38.409",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ12/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ12/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ12/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ12/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ12/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ24",
+      "length": "34.796",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ24/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ24/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ24/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ24/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ24/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ1",
+      "length": "57.502",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.~{DM3}",
+      "length": "31.659",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.negDM3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.negDM3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.negDM3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.negDM3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.negDM3/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ1",
+      "length": "36.711",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.DQ7",
+      "length": "33.947",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.DQ7/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.DQ7/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.DQ7/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.DQ7/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.DQ7/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ29",
+      "length": "36.702",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ29/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ29/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ29/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ29/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ29/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ0",
+      "length": "63.414",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ0/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ0/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ0/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ0/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ0/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ22",
+      "length": "43.503",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ22/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ22/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ22/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ22/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ22/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CB1",
+      "length": "32.590",
+      "width": "0.148",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CB1/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CB1/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CB1/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CB1/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CB1/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.CA7",
+      "length": "35.417",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.CA7/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.CA7/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.CA7/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.CA7/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.CA7/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/A.DQ31",
+      "length": "36.643",
+      "width": "0.148",
+      "impedance": 40.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_A.DQ31/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_A.DQ31/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_A.DQ31/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_A.DQ31/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_A.DQ31/top_view.png"
+    },
+    {
+      "name": "/DDR5 SODIMM/B.CA3",
+      "length": "45.588",
+      "width": "0.100",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./DDR5_SODIMM_B.CA3/Z_1.png"
+        ],
+        "smith": [
+          "./DDR5_SODIMM_B.CA3/S_11_smith.png"
+        ],
+        "s-param": [
+          "./DDR5_SODIMM_B.CA3/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./DDR5_SODIMM_B.CA3/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./DDR5_SODIMM_B.CA3/top_view.png"
     }
   ]
 }
