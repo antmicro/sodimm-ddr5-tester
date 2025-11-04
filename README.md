@@ -1,6 +1,6 @@
 # SO-DIMM DDR5 Tester
 
-Copyright (c) 2023-2024 [Antmicro](https://antmicro.com)
+Copyright (c) 2023-2025 [Antmicro](https://antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/sodimm-ddr5-tester/)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/sodimm-ddr5-tester/?tab=features)
@@ -20,7 +20,6 @@ The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
 * `doc` - contains PDF schematics
-* `assets` - contains visual assets for showcasing this design on the [Open Hardware Portal](https://openhardware.antmicro.com)
 
 ## Key features
 
