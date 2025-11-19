@@ -34,6 +34,7 @@ The remaining files are stored in the following directories:
 * 16 MBytes S25FL128S QSPI FLASH memory
 * IS66WVH16M8DBLL HyperRAM
 * External 7-15V DC power input
+* 140x102 mm mechanical outline
 
 ## License
 
