@@ -7485,7 +7485,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS138PW"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115"
 			(pin_names
 				(offset 0)
 			)
@@ -7502,7 +7502,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BSS138PW"
+			(property "Value" "BSS138PW,115"
 				(at 22.86 -8.89 0)
 				(effects
 					(font
@@ -7510,6 +7510,7 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "antmicro-footprints:SC70-3"
@@ -7535,15 +7536,16 @@
 				)
 			)
 			(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-				(at 0 0 0)
+				(at 22.86 -26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MPN" "BSS138PW"
+			(property "MPN" "BSS138PW,115"
 				(at 22.86 -16.51 0)
 				(effects
 					(font
@@ -7551,7 +7553,6 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Nexperia"
@@ -7596,7 +7597,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138PW_1_1"
+			(symbol "BSS138PW,115_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
@@ -7797,7 +7798,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
@@ -10098,7 +10099,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 216.535) (xy 67.31 238.125)
+			(xy 67.31 217.17) (xy 67.31 238.76)
 		)
 		(stroke
 			(width 0)
@@ -10648,7 +10649,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 250.825) (xy 104.14 230.505)
+			(xy 104.14 251.46) (xy 104.14 231.14)
 		)
 		(stroke
 			(width 0)
@@ -11108,7 +11109,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 217.805) (xy 104.14 216.535)
+			(xy 104.14 218.44) (xy 104.14 217.17)
 		)
 		(stroke
 			(width 0)
@@ -11275,6 +11276,16 @@
 			(type default)
 		)
 		(uuid "4c3608b0-ac2c-4281-b17a-ffec96c6dbe5")
+	)
+	(wire
+		(pts
+			(xy 58.42 227.33) (xy 96.52 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d228b6c-e2dc-45c4-b6b4-1f8963a1387a")
 	)
 	(wire
 		(pts
@@ -11645,16 +11656,6 @@
 			(type default)
 		)
 		(uuid "684d3ecd-47b5-4fee-b582-72a51fc342c1")
-	)
-	(wire
-		(pts
-			(xy 58.42 226.695) (xy 96.52 226.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c6326b-2546-46eb-883c-6e0da64e621c")
 	)
 	(bus
 		(pts
@@ -12058,7 +12059,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 207.01) (xy 86.36 211.455)
+			(xy 86.36 207.01) (xy 86.36 212.09)
 		)
 		(stroke
 			(width 0)
@@ -12218,7 +12219,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 240.665) (xy 86.36 250.825)
+			(xy 86.36 241.3) (xy 86.36 251.46)
 		)
 		(stroke
 			(width 0)
@@ -12388,7 +12389,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 203.2) (xy 104.14 211.455)
+			(xy 104.14 203.2) (xy 104.14 212.09)
 		)
 		(stroke
 			(width 0)
@@ -12438,7 +12439,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 211.455) (xy 67.31 210.82)
+			(xy 67.31 212.09) (xy 67.31 210.82)
 		)
 		(stroke
 			(width 0)
@@ -13236,16 +13237,6 @@
 		)
 		(uuid "cdbf44b7-7977-4eda-a16a-9e7a1e5980d3")
 	)
-	(wire
-		(pts
-			(xy 58.42 236.855) (xy 78.74 236.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6daf61-4e51-418e-9bf6-90dd3d6f8ef5")
-	)
 	(bus
 		(pts
 			(xy 215.9 143.51) (xy 215.9 146.05)
@@ -13398,7 +13389,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 216.535) (xy 86.36 227.965)
+			(xy 86.36 217.17) (xy 86.36 228.6)
 		)
 		(stroke
 			(width 0)
@@ -13708,7 +13699,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 247.015) (xy 59.69 247.015)
+			(xy 58.42 247.65) (xy 59.69 247.65)
 		)
 		(stroke
 			(width 0)
@@ -13905,6 +13896,16 @@
 			(type default)
 		)
 		(uuid "f597bb37-f3e3-462d-a968-b096393b29e1")
+	)
+	(wire
+		(pts
+			(xy 58.42 237.49) (xy 78.74 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d076e8-3026-4d40-922c-e355e8a7c000")
 	)
 	(bus
 		(pts
@@ -17769,7 +17770,7 @@
 	)
 	(global_label "HOT_SWAP_YELLOW"
 		(shape input)
-		(at 58.42 247.015 180)
+		(at 58.42 247.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17779,7 +17780,7 @@
 		)
 		(uuid "138a0611-27c9-4f3b-97a8-b155209802cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.4368 246.9356 0)
+			(at 38.4368 247.5706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17791,7 @@
 	)
 	(global_label "HOT_SWAP_GREEN"
 		(shape input)
-		(at 58.42 236.855 180)
+		(at 58.42 237.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17800,7 +17801,7 @@
 		)
 		(uuid "483a78af-ec93-45c8-afbf-19ab7d3e8a47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3439 236.7756 0)
+			(at 39.3439 237.4106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17811,7 +17812,7 @@
 	)
 	(global_label "HOT_SWAP_RED"
 		(shape input)
-		(at 58.42 226.695 180)
+		(at 58.42 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17821,7 +17822,7 @@
 		)
 		(uuid "50c43e32-264e-482b-bd5b-d1ddb5ab86f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8234 226.6156 0)
+			(at 41.8234 227.2506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18024,7 +18025,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_330R_0402")
-		(at 104.14 211.455 270)
+		(at 104.14 212.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18033,7 +18034,7 @@
 		(fields_autoplaced yes)
 		(uuid "07322a2a-dad3-4429-a6f8-1963bad97aa2")
 		(property "Reference" "R63"
-			(at 106.68 212.725 90)
+			(at 106.68 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18042,7 +18043,7 @@
 			)
 		)
 		(property "Value" "R_330R_0402"
-			(at 91.44 231.775 0)
+			(at 91.44 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18053,7 +18054,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 88.9 231.775 0)
+			(at 88.9 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18064,7 +18065,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 86.36 231.775 0)
+			(at 86.36 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18075,7 +18076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 211.455 0)
+			(at 104.14 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18083,7 +18084,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 81.28 231.775 0)
+			(at 81.28 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18094,7 +18095,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-3300GLF"
-			(at 83.82 231.775 0)
+			(at 83.82 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18105,7 +18106,7 @@
 			)
 		)
 		(property "Val" "330R"
-			(at 106.68 215.8999 90)
+			(at 106.68 216.5349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18116,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 78.74 231.775 0)
+			(at 78.74 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18126,7 +18127,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 76.2 231.775 0)
+			(at 76.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18137,7 +18138,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 93.98 231.775 0)
+			(at 93.98 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18261,7 +18262,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0eb125d9-58e2-423e-a978-aaec6f9760ea")
 		(property "Reference" "#PWR049"
 			(at 361.95 231.14 0)
@@ -18273,7 +18273,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.49 226.06 0)
+			(at 360.426 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18736,7 +18736,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26c69a47-851b-4a5e-ad89-6d3ca8a03e60")
 		(property "Reference" "#PWR034"
 			(at 271.78 142.875 0)
@@ -18748,7 +18747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 137.795 0)
+			(at 270.002 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18831,7 +18830,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b913597-548e-4f72-971d-8a519b621597")
 		(property "Reference" "#PWR0211"
 			(at 164.465 241.3 0)
@@ -18843,7 +18841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 236.22 0)
+			(at 162.56 239.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19224,7 +19222,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "377ed363-0df1-4e13-a8b9-4c71b00934e7")
 		(property "Reference" "#PWR039"
 			(at 359.41 144.78 0)
@@ -19236,7 +19233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 139.7 0)
+			(at 357.632 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,6 +19452,129 @@
 			(project "sodimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
+		(at 59.69 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d6f7a1f-16e4-4860-9e67-b61320659dde")
+		(property "Reference" "Q9"
+			(at 69.85 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138PW,115"
+			(at 82.55 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SC70-3"
+			(at 82.55 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
+			(at 82.55 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
+			(at 82.55 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138PW,115"
+			(at 69.85 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 82.55 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 82.55 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 82.55 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "61ddb81e-a838-446e-9930-3000d1933076")
+		)
+		(pin "2"
+			(uuid "9459dae6-1753-4666-b484-4bb8ab2ed91b")
+		)
+		(pin "1"
+			(uuid "c018b0f4-a430-4d5f-a30d-5dffacd23727")
+		)
+		(instances
+			(project "sodimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -20145,7 +20265,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_330R_0402")
-		(at 86.36 211.455 270)
+		(at 86.36 212.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20154,7 +20274,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a205626-8fa5-4b8c-b91a-7af623d88e03")
 		(property "Reference" "R62"
-			(at 88.9 212.725 90)
+			(at 88.9 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20163,7 +20283,7 @@
 			)
 		)
 		(property "Value" "R_330R_0402"
-			(at 73.66 231.775 0)
+			(at 73.66 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20174,7 +20294,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 71.12 231.775 0)
+			(at 71.12 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20185,7 +20305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 68.58 231.775 0)
+			(at 68.58 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20196,7 +20316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 211.455 0)
+			(at 86.36 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20204,7 +20324,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 63.5 231.775 0)
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20215,7 +20335,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-3300GLF"
-			(at 66.04 231.775 0)
+			(at 66.04 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20226,7 +20346,7 @@
 			)
 		)
 		(property "Val" "330R"
-			(at 88.9 215.8999 90)
+			(at 88.9 216.5349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20236,7 +20356,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 60.96 231.775 0)
+			(at 60.96 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20247,7 +20367,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 58.42 231.775 0)
+			(at 58.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20258,7 +20378,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 76.2 231.775 0)
+			(at 76.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20432,7 +20552,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_330R_0402")
-		(at 67.31 211.455 270)
+		(at 67.31 212.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20441,7 +20561,7 @@
 		(fields_autoplaced yes)
 		(uuid "6323bd9c-62cd-4286-8748-3dc495138ee6")
 		(property "Reference" "R61"
-			(at 69.85 212.725 90)
+			(at 69.85 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20450,7 +20570,7 @@
 			)
 		)
 		(property "Value" "R_330R_0402"
-			(at 54.61 231.775 0)
+			(at 54.61 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20461,7 +20581,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 52.07 231.775 0)
+			(at 52.07 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20472,7 +20592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 49.53 231.775 0)
+			(at 49.53 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20483,7 +20603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 211.455 0)
+			(at 67.31 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20491,7 +20611,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 44.45 231.775 0)
+			(at 44.45 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20502,7 +20622,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-3300GLF"
-			(at 46.99 231.775 0)
+			(at 46.99 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20513,7 +20633,7 @@
 			)
 		)
 		(property "Val" "330R"
-			(at 69.85 215.8999 90)
+			(at 69.85 216.5349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20523,7 +20643,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 41.91 231.775 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20534,7 +20654,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 39.37 231.775 0)
+			(at 39.37 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20545,7 +20665,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 57.15 231.775 0)
+			(at 57.15 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20571,16 +20691,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 67.31 250.825 0)
+		(at 67.31 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6356348f-c927-4efb-8132-a21553e3a0e1")
 		(property "Reference" "#PWR0201"
-			(at 67.31 257.175 0)
+			(at 67.31 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20589,7 +20708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 252.095 0)
+			(at 65.532 255.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20599,7 +20718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 258.445 0)
+			(at 76.2 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 263.525 0)
+			(at 76.2 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20621,7 +20740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 266.065 0)
+			(at 76.2 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20631,7 +20750,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 76.2 258.445 0)
+			(at 76.2 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20642,7 +20761,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 76.2 260.985 0)
+			(at 76.2 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20807,6 +20926,129 @@
 			(project "sodimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
+		(at 96.52 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66d9a6b5-316b-4e47-8eb7-e75c35862ee0")
+		(property "Reference" "Q11"
+			(at 106.68 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138PW,115"
+			(at 119.38 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SC70-3"
+			(at 119.38 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
+			(at 119.38 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
+			(at 119.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138PW,115"
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 119.38 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 119.38 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 119.38 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c9b64df1-e57f-4e93-bd9d-cb752f22456a")
+		)
+		(pin "2"
+			(uuid "f8a62e29-ee28-4a57-9c8d-24e163cf1962")
+		)
+		(pin "1"
+			(uuid "2c82c8f4-bc24-49a9-8da5-19d71aa13015")
+		)
+		(instances
+			(project "sodimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -21720,7 +21962,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ecc9d70-c4f5-424b-83b3-8334a4a261dd")
 		(property "Reference" "#PWR040"
 			(at 364.49 144.78 0)
@@ -21732,7 +21973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 367.03 139.7 0)
+			(at 362.712 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21815,7 +22056,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71dbab5a-de59-4e31-9b6f-e2e455a3d0be")
 		(property "Reference" "#PWR033"
 			(at 266.065 142.875 0)
@@ -21827,7 +22067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 137.795 0)
+			(at 263.652 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21903,138 +22143,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
-		(at 78.74 236.855 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7694d42b-3d0c-4680-899c-b39338b47f0b")
-		(property "Reference" "Q10"
-			(at 90.17 233.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138PW"
-			(at 90.17 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SC70-3"
-			(at 101.6 248.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
-			(at 101.6 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 236.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSS138PW"
-			(at 101.6 253.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 101.6 255.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 101.6 258.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 101.6 260.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7db906a3-51df-43d4-a800-5bd5f8e83114")
-		)
-		(pin "2"
-			(uuid "ea7cde3d-f8e6-4d80-ae80-ce39da95c118")
-		)
-		(pin "3"
-			(uuid "ec24348c-02d1-4dce-bd30-9bf63087d1cc")
-		)
-		(instances
-			(project "sodimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
-		(at 86.36 250.825 0)
+		(at 86.36 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7758aaa7-84d5-4505-b27b-15793a2c404c")
 		(property "Reference" "#PWR0203"
-			(at 86.36 257.175 0)
+			(at 86.36 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22043,7 +22161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 252.095 0)
+			(at 84.582 255.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22053,7 +22171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 258.445 0)
+			(at 95.25 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22064,7 +22182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 263.525 0)
+			(at 95.25 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22075,7 +22193,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 266.065 0)
+			(at 95.25 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22085,7 +22203,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 95.25 258.445 0)
+			(at 95.25 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22096,7 +22214,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 95.25 260.985 0)
+			(at 95.25 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22940,7 +23058,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99aafaec-9810-4964-9ce6-8c258983a7e2")
 		(property "Reference" "#PWR047"
 			(at 351.155 231.14 0)
@@ -22952,7 +23069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 353.06 226.06 0)
+			(at 348.996 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23249,7 +23366,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae5879e5-faa2-4925-ab99-684b9e0c4422")
 		(property "Reference" "#PWR045"
 			(at 340.995 231.14 0)
@@ -23261,7 +23377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 226.06 0)
+			(at 338.836 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,6 +23447,129 @@
 			(project "sodimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
+		(at 78.74 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b50d56b9-7e57-47e2-83b6-6512f7734fb7")
+		(property "Reference" "Q10"
+			(at 88.9 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138PW,115"
+			(at 101.6 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SC70-3"
+			(at 101.6 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
+			(at 101.6 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
+			(at 101.6 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138PW,115"
+			(at 88.9 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 101.6 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 101.6 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 101.6 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "56bc40bc-ae37-4294-a4cc-f22faf909072")
+		)
+		(pin "2"
+			(uuid "8a409706-67c8-4f25-9fe0-bce9d5d5ba9e")
+		)
+		(pin "1"
+			(uuid "dd3debe2-edef-46a4-9f70-f2c5754e820c")
+		)
+		(instances
+			(project "sodimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -23470,127 +23709,6 @@
 			(project "sodimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
 					(reference "R78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
-		(at 59.69 247.015 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5a9c421-cdcf-4846-8dc8-6a2135379b43")
-		(property "Reference" "Q9"
-			(at 71.12 243.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138PW"
-			(at 71.12 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SC70-3"
-			(at 82.55 258.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
-			(at 82.55 260.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSS138PW"
-			(at 82.55 263.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 82.55 266.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 82.55 268.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 82.55 271.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "493d37ce-464b-49cb-947c-03ec0edfa87c")
-		)
-		(pin "2"
-			(uuid "536dde00-5a74-4961-99bd-b582798ba44d")
-		)
-		(pin "3"
-			(uuid "1ef7ee7d-1462-4171-9bbb-3c675e015552")
-		)
-		(instances
-			(project "sodimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -24826,126 +24944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
-		(at 96.52 226.695 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca16705b-9552-4a15-aa2b-1e8c21637379")
-		(property "Reference" "Q11"
-			(at 107.95 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138PW"
-			(at 107.95 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SC70-3"
-			(at 119.38 238.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
-			(at 119.38 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 226.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSS138PW"
-			(at 119.38 243.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 119.38 245.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 119.38 248.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 119.38 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c4e16f5-86ba-472a-b1fa-f175feff2eaa")
-		)
-		(pin "2"
-			(uuid "97381682-33b1-4b84-8df4-1e82773eb578")
-		)
-		(pin "3"
-			(uuid "d3856127-c596-4ff8-8551-cf7648cd0f6e")
-		)
-		(instances
-			(project "sodimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061827943"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroMemoryConnectorsPCCardSockets:Bus_DDR5_SODIMM_Amphenol_10161033-002RHLF_CUSTOM_2xDetectPin")
 		(at 59.69 46.99 0)
 		(unit 1)
@@ -25854,7 +25852,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da1d373b-23fa-4c60-94ed-401058847cb4")
 		(property "Reference" "#PWR0275"
 			(at 269.875 235.585 0)
@@ -25866,7 +25863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 230.505 0)
+			(at 268.224 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26401,16 +26398,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 104.14 250.825 0)
+		(at 104.14 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5cbbc6d-afa6-40d0-8033-df1d79bb347f")
 		(property "Reference" "#PWR0205"
-			(at 104.14 257.175 0)
+			(at 104.14 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26419,7 +26415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 252.095 0)
+			(at 102.362 255.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26429,7 +26425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 258.445 0)
+			(at 113.03 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26440,7 +26436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 263.525 0)
+			(at 113.03 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26451,7 +26447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 266.065 0)
+			(at 113.03 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26461,7 +26457,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 113.03 258.445 0)
+			(at 113.03 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26472,7 +26468,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 113.03 260.985 0)
+			(at 113.03 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26503,7 +26499,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e64e063b-9dd6-4bcc-b524-c6f0c4d56767")
 		(property "Reference" "#PWR0214"
 			(at 284.48 97.155 0)
@@ -26515,7 +26510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 92.075 0)
+			(at 282.448 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26748,7 +26743,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edf8d664-64a7-42b6-88cd-54fff0261828")
 		(property "Reference" "#PWR038"
 			(at 353.695 144.78 0)
@@ -26760,7 +26754,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 139.7 0)
+			(at 351.282 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
