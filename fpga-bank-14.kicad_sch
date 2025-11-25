@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SO-DIMM DDR5 Tester")
-		(date "2024-04-23")
-		(rev "1.2.0")
+		(date "2025-11-25")
+		(rev "1.3.0")
 		(comment 1 "www.antmicro.com")
 		(comment 2 "Antmicro Ltd")
 	)
