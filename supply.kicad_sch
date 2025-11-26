@@ -56084,9 +56084,9 @@
 		(at 285.75 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb47273-0fd6-49d4-ac3c-fb4352e2461d")
 		(property "Reference" "C193"
