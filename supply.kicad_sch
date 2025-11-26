@@ -24570,6 +24570,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 276.86) (xy 290.83 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8c436f-3ce7-4875-9172-fe5262afc915")
+	)
+	(wire
+		(pts
 			(xy 304.8 163.195) (xy 294.005 163.195)
 		)
 		(stroke
@@ -29010,7 +29020,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 274.32) (xy 287.02 274.32)
+			(xy 278.13 274.32) (xy 290.83 274.32)
 		)
 		(stroke
 			(width 0)
@@ -33800,6 +33810,16 @@
 			(justify right bottom)
 		)
 		(uuid "a58716d8-18c0-4617-8d46-08f75386580f")
+	)
+	(label "QDCDC2_SCL"
+		(at 278.13 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5b14915-cc66-4568-af7c-2ecb9ae3d5ac")
 	)
 	(label "PG2"
 		(at 294.64 259.08 0)
@@ -49412,7 +49432,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_1mm_SMD")
-		(at 287.02 274.32 0)
+		(at 290.83 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49420,7 +49440,7 @@
 		(dnp no)
 		(uuid "6dc1fdc9-f3e5-4ae0-9bf5-98371af486d1")
 		(property "Reference" "TP59"
-			(at 293.878 274.32 0)
+			(at 297.688 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49428,7 +49448,7 @@
 			)
 		)
 		(property "Value" "TP_1mm_SMD"
-			(at 302.26 281.94 0)
+			(at 306.07 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49439,7 +49459,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
-			(at 302.26 284.48 0)
+			(at 306.07 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49450,7 +49470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 287.02 0)
+			(at 306.07 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49461,7 +49481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 274.32 0)
+			(at 290.83 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49469,7 +49489,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 287.02 274.32 0)
+			(at 290.83 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49478,7 +49498,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 287.02 274.32 0)
+			(at 290.83 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49487,7 +49507,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 302.26 289.56 0)
+			(at 306.07 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49498,7 +49518,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 302.26 292.1 0)
+			(at 306.07 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60615,6 +60635,116 @@
 			(project "sodimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c"
 					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_1mm_SMD")
+		(at 290.83 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be6a8485-2235-40c4-9148-f8894e8519a8")
+		(property "Reference" "TP71"
+			(at 297.688 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 306.07 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+			(at 306.07 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 290.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 290.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 306.07 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 306.07 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2119615b-57ba-4a21-bac3-b86e2cd4cf0c")
+		)
+		(instances
+			(project "sodimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c"
+					(reference "TP71")
 					(unit 1)
 				)
 			)
