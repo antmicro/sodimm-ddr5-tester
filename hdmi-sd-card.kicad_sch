@@ -7041,6 +7041,124 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroDiodesRectifiersSingle:BAT54-02V-G3-08")
+		(at 191.77 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3548121a-a359-406c-9ebb-e56c44b94b67")
+		(property "Reference" "D14"
+			(at 195.834 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BAT54-02V-G3-08"
+			(at 213.36 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 213.36 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85633/bat5402v.pdf"
+			(at 213.36 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 800 mV, 600 mA, 125 °C"
+			(at 213.36 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT54-02V-G3-08"
+			(at 194.056 210.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 213.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 213.36 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 213.36 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d6bd864-b1e4-47d4-ba4d-aa84a4566f5a")
+		)
+		(pin "1"
+			(uuid "84824f85-ee89-4c84-b7d8-55752845091d")
+		)
+		(instances
+			(project "sodimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/59a8849d-b77a-4f79-b7ae-cd57b3cb4d28"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_1mm_SMD")
 		(at 201.93 206.375 90)
 		(unit 1)
@@ -8548,7 +8666,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77a50c43-c6eb-40dc-a9e6-a1df2d855003")
 		(property "Reference" "#FLG02"
 			(at 189.23 205.105 0)
@@ -8560,7 +8677,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 189.23 203.2 0)
+			(at 188.722 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,121 +10733,6 @@
 			(project "sodimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/59a8849d-b77a-4f79-b7ae-cd57b3cb4d28"
 					(reference "#PWR0228")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroDiodesRectifiersSingle:BAT54-02V-G3-08")
-		(at 191.77 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8d9566e-a791-4689-8172-0f4dde97f8a1")
-		(property "Reference" "D14"
-			(at 195.58 203.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54-02V-G3-08"
-			(at 194.945 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-523"
-			(at 213.36 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/bat5402v-2897987.pdf"
-			(at 213.36 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BAT54-02V-G3-08"
-			(at 213.36 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 213.36 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 213.36 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 213.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "600372be-9b14-420a-a858-64b00b262a04")
-		)
-		(pin "2"
-			(uuid "3a0a1cea-c397-4324-9a45-1b373366525f")
-		)
-		(instances
-			(project "sodimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/59a8849d-b77a-4f79-b7ae-cd57b3cb4d28"
-					(reference "D14")
 					(unit 1)
 				)
 			)
